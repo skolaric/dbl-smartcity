@@ -1,0 +1,18 @@
+#charts {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #333;
+  height: 100vh;
+  min-width: 700px;
+  display: grid;
+}
+
+.chart {
+  display: grid;
+  place-items: center center;
+  height: 48vh;
+  background-color: white;
+  margin: 10px;
+}

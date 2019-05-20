@@ -1,0 +1,42 @@
+.customNavigation a{
+  background-color: rgba(237, 28, 36, 0.5);
+}
+.customNavigation a:hover {
+  background-color: #ed1c24 !important;
+}
+
+#offcanvas-toggler > i:hover {
+  color: #fff;
+}
+.offcanvas-menu {
+  background-color: rgba(242, 242, 242, 1.0);
+}
+
+
+::selection{
+  background: rgba(237,28,36,.7);
+  color: #fff;
+} 
+
+::-moz-selection{
+  background: rgba(237,28,36,.7);
+  color: #fff;
+}
+
+.megamenu-parent>li>a:hover,
+.megamenu-parent li.active >a,
+.dropdown-items li>a:hover,
+.megamenu-parent .dropdown-inner li.active >a{
+  color: #ed1c24;
+}
+
+.has-child:hover >a,
+.dropdown-inner .has-child:hover >a{
+  color: #ed1c24;
+}
+
+.vertical-tabs .tab-btns > li.active > a,
+.vertical-tabs .tab-btns > li:hover > a {
+  background-color: #ed1c24;
+}
+
