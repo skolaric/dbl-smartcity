@@ -1,0 +1,195 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family:	Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#cesiumContainer {
+  width: 100%;
+  height: 100vh; /* height: 100%; */
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family:	Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#detailsPanel {
+  position: absolute; 
+  bottom: 0;
+  /* width: 400px; */
+  /* height: 100px; */
+  left:0; 
+  z-index: 10;
+  background-color: #cccccc;
+  display: inline-block;
+  font-family:	Arial, Helvetica, sans-serif;
+  font-size: xx-small;  
+  vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1;
+    font-weight: 700;
+    margin: 20px 0 10px 0
+}
+h1,
+h2,
+h3 {
+    font-size: 18px
+}
+h4,
+h5,
+h6 {
+    font-size: 16px
+}
+p {
+    margin: 0 0 10px 0
+}
+a {
+    color: inherit;
+    text-decoration: underline
+}
+a.button,
+input[type=text],
+select,
+span.button {
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-transform: none;
+    text-indent: 0;
+    font-weight: 700;
+    vertical-align: middle;
+    line-height: 20px;
+    display: block;
+    height: 40px;
+    width: 100%;
+    padding: 10px
+}
+a.button,
+span.button {
+    background: #4bd963;
+    color: #fff!important;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none
+}
+/* input[type=checkbox] { */
+  /* transform: scale(2.5); */
+/* } */
+input[type=text],
+select {
+    background: #fff;
+    border: 1px solid #ccc
+}
+.mm-divider.button {
+    text-indent: 0!important;
+    padding: 20px 20px 40px 20px!important
+}
+pre {
+    font-size: 12px;
+    width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch
+}
+nav:not(.mm-menu) {
+    display: none
+}
+.content,
+.footer {
+    text-align: center
+}
+.footer {
+    background: #777;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 0 50px
+}
+body .mh-head {
+    background: #4bb5ef;
+    color: #fff
+}
+body .mh-text {
+    font-size: 16px;
+    font-weight: 700
+}
+.mh-head .hamburger-inner,
+.mh-head .hamburger-inner::after,
+.mh-head .hamburger-inner::before {
+    background: #fff
+}
+.content {
+    /* background: url(../images/menu-arrow32.png) 30px 25px no-repeat transparent; */
+    /* padding: 150px 50px 0 50px; */
+    box-sizing: border-box;
+    position: relative
+}
+.content+.content {
+    background: 0 0
+}
+.content+.content:last-child {
+    padding-bottom: 150px
+}
+.content.scroll-down,
+.content.scroll-down~.content {
+    padding-top: 100px;
+    min-height: calc(100vh - 50px)
+}
+.content.scroll-down:not(:last-child),
+.content.scroll-down~.content:not(:last-child) {
+    background: url(../img/arrow-down.png) center 70% no-repeat transparent
+}
+html.mm-opened.mm-effect-zoom-menu body {
+    background: #f3f3f3
+}
+html.mm-opened.mm-effect-zoom-menu.mm-theme-dark body {
+    background: #333
+}
+html.mm-opened.mm-effect-zoom-menu.mm-theme-black body {
+    background: #000
+}
+html.mm-opened.mm-effect-zoom-menu.mm-theme-white body {
+    background: #fff
+}
+html.mm-opened.mm-effect-zoom-menu .mm-page {
+    background-color: #fff
+}
+.mm-menu:not(.mm-offcanvas) {
+    z-index: 10
+}
+.mm-menu:not(.mm-offcanvas)+#page {
+    display: none
+}
+.mm-menu li .fa {
+    /* margin: 0 20px 0 5px; */
+    font-size: 16px;
+    width: 12px;
+    text-align: center
+}
+.mm-tileview li[class*=mm-tile] .fa {
+    margin: 0;
+    line-height: 0
+}
+.mm-tileview li[class*=mm-tile] .fa+span {
+    display: none
+}
+.mm-menu .buttonbar-item:after {
+    content: none!important;
+    display: none!important
+}

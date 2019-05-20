@@ -1,0 +1,2109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+  <title>DBL SmartCity</title>
+
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="/css/charts.css" />
+
+  <!-- Cesium 1.41 -->
+  <link href="libs/Cesium/Cesium-1.41/Build/Cesium/Widgets/widgets.css" rel="stylesheet" media="screen">
+	<script src="libs/Cesium/Cesium-1.41/Build/Cesium/Cesium.js"></script>
+	
+	<!-- Cesium 1.57 -->
+  <!-- <link href="libs/Cesium/Cesium-1.57/Build/Cesium/Widgets/widgets.css" rel="stylesheet" media="screen" />   -->
+  <!-- <script src="libs/Cesium/Cesium-1.57/Build/Cesium/Cesium.js"></script> -->
+
+  <!-- Include jQuery.mmenu .css files -->
+  <link type="text/css" href="libs/jquery.mmenu/jquery.mmenu.all.css" rel="stylesheet" />
+
+  <!-- Include jQuery and the jQuery.mmenu .js files -->
+  <script type="text/javascript" src="libs/jquery.mmenu/jquery.min.js"></script>
+  <script type="text/javascript" src="libs/jquery.mmenu/jquery.mmenu.all.js"></script>
+
+  <!-- https://refreshless.com/nouislider/ -->
+  <link href="libs/noUiSlider.11.0.3/nouislider.min.css" rel="stylesheet">
+  <script src="libs/noUiSlider.11.0.3/nouislider.min.js"></script>
+  
+	<!-- Chart.js, http://www.chartjs.org -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+	<script src="chartjs_utils.js"></script> 
+
+  <!-- Plotly charting control -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <!-- media queries -->
+  <link href="media-query.css" rel="stylesheet">
+
+  <script>
+    function updateMenuPanelOpacity(value) {
+      console.log("new slider value: " + value);
+      $("#menu").css("opacity", value / 100.0);
+    }
+  </script>
+
+
+  <!-- Fire the plugin onDocumentReady -->
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $("#menu").mmenu({
+        offCanvas: {
+          position: "left",
+          zposition: "front"
+        },
+        navbars: {
+          content: ["prev", "title", "close"]
+        },
+        navbar: {
+          add: false,
+          title: "DBL SmartCity"
+        },
+        searchfield: {
+          panel: true
+        }
+      });
+
+      $('input#remove').on('click', function () {
+        var c = confirm('Remove this app?');
+
+        if (c) {
+          var api = $("#menu").data("mmenu");
+          api.closeAllPanels();
+
+          var value = $(this).attr('data-value');
+
+          $('#menu li#' + value).addClass('hide');
+          $('#menu li[data-option="' + value + '"]').removeClass('hide');
+        }
+      });
+
+      $('li[data-option]').on('click', function () {
+        var c = confirm('Install this app?');
+
+        if (c) {
+          var option = $(this).attr('data-option');
+
+          $('#menu li#' + option).removeClass('hide');
+          $(this).addClass('hide');
+
+          var api = $("#menu").data("mmenu");
+          api.closeAllPanels();
+        }
+      });
+    });
+  </script>
+
+  <link rel="stylesheet" href="menu_panel.css">
+</head>
+
+<body>
+
+  <div class="page">
+    <a id="menu_button" href="#menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </a>
+
+    <div class="content">
+      <div id="cesiumContainer">
+        <div id="detailsPanel">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The menu -->
+  <nav id="menu">
+    <ul>
+
+
+      <li id="bookmarks-menu-option">
+
+        <span>
+          <img src="./images/BookmarksIcon32.png" style="vertical-align: middle;" />
+          &nbsp;
+          <span style="vertical-align: middle;">Bookmarks</span>
+        </span>
+
+        <ul>
+
+          <style>
+            #myInput {
+              background-image: url('images/search-icon20.png');
+              /* Add a search icon to input */
+              background-position: 10px 12px;
+              /* Position the search icon */
+              background-repeat: no-repeat;
+              /* Do not repeat the icon image */
+              width: 100%;
+              /* Full-width */
+              /* font-size: 16px; */
+              /* Increase font-size */
+              color: #eeeeee;
+              padding: 12px 20px 12px 40px;
+              /* Add some padding */
+              border: 1px solid #ddd;
+              /* Add a grey border */
+              margin-bottom: 12px;
+              /* Add some space below the input */
+            }
+
+            ::placeholder {
+              /* Chrome, Firefox, Opera, Safari 10.1+ */
+              color: lightgray;
+              opacity: 1;
+              /* Firefox */
+            }
+
+            :-ms-input-placeholder {
+              /* Internet Explorer 10-11 */
+              color: lightgray;
+            }
+
+            ::-ms-input-placeholder {
+              /* Microsoft Edge */
+              color: lightgray;
+            }
+
+            #myUL {
+              /* Remove default list styling */
+              list-style-type: none;
+              padding: 0;
+              margin: 0;
+            }
+
+            #myUL li a {
+              border: 1px solid #ddd;
+              /* Add a border to all links */
+              margin-top: -1px;
+              /* Prevent double borders */
+              background-color: #f6f6f6;
+              /* Grey background color */
+              padding: 12px;
+              /* Add some padding */
+              text-decoration: none;
+              /* Remove default text underline */
+              /* font-size: 18px;  */
+              /* Increase the font-size */
+              color: black;
+              /* Add a black text color */
+              display: block;
+              /* Make it into a block element to fill the whole list */
+            }
+
+            #myUL li a:hover:not(.header) {
+              background-color: #eee;
+              /* Add a hover effect to all links, except for headers */
+            }
+          </style>
+
+          <script>
+            function myFunction() {
+              // Declare variables
+              var input, filter, ul, li, a, i;
+              input = document.getElementById('myInput');
+              filter = input.value.toUpperCase();
+              ul = document.getElementById("myUL");
+              li = ul.getElementsByTagName('li');
+
+              // Loop through all list items, and hide those who don't match the search query
+              for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+                } else {
+                  li[i].style.display = "none";
+                }
+              }
+            }
+          </script>
+
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="filter bookmarks...">
+
+          <ul id="myUL">
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink0a">Atlanta, downtown-midtown stretch</a></li>
+
+            <li>
+              <a href="#" title="Bookmark" id="bookmarkLink1">
+                <img src="images/iconGoldStar24.png" width="24" height="24" alt="Good link"
+                  style="vertical-align: middle;">
+                Downtown Atlanta (south view at 45°)
+              </a>
+            </li>
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink2Shenzen1">Shenzen (zoomed out)</a></li>
+            <li><a href="#" title="Bookmark" id="bookmarkLink2Shenzen2">Shenzen (Changlingpi)</a></li>
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink2">Downtown Atlanta (south view, horizon visible)</a></li>
+
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink2a">Downtown Atlanta (view towards NW, horizon visible)</a>
+            </li>
+
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink9">Buckhead (north view)</a></li>
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink10">Buckhead (south view, towards downtown)</a></li>
+
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink3">GT Tech Tower and Hinman, view towards midtown</a></li>
+
+            <li>
+              <a href="#" title="Bookmark" id="bookmarkLink4">
+                <img src="images/iconGoldStar24.png" width="24" height="24" alt="Good link"
+                  style="vertical-align: middle;">
+                GT campus (south view, at 45°)
+              </a>
+            </li>
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink4a1">GT campus (south view, horizon visible)</a></li>
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink4a">GT campus (east view)</a></li>
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink5">Caddell Building at height 11m (east view)</a></li>
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink6">Caddell Building at eye height</a></li>
+
+
+
+            <li><a href="#" title="Bookmark" id="bookmarkLink8">Skyhouse South (Midtown)</a></li>
+
+          </ul>
+
+          <div class="gui-controls">
+
+            <p style="text-align:right;">
+              <input type="button" id="remove" value="Remove this app" data-value="bookmarks-menu-option" />
+            </p>
+          </div>
+
+        </ul>
+      </li>
+
+
+
+      <li id="imagery-menu-option">
+
+        <span>
+          <img src="./images/surfaceIcon32x32.png" style="vertical-align: middle;" />
+          &nbsp;
+          <span style="vertical-align: middle;">Surface Imagery</span>
+        </span>
+
+        <ul>
+
+          <div class="gui-controls">
+
+            <style>
+              label>input {
+                /* HIDE RADIO */
+                visibility: hidden;
+                /* Makes input not-clickable */
+                position: absolute;
+                /* Remove input from document flow */
+              }
+
+              label>input+img {
+                /* IMAGE STYLES */
+                cursor: pointer;
+                border: 2px solid transparent;
+              }
+
+              label>input:checked+img {
+                /* (RADIO CHECKED) IMAGE STYLES */
+                border: 2px solid #0000ff;
+              }
+            </style>
+
+            <label>
+              <b>Mapbox Streets</b><br>
+              <input type="radio" name="surfaceImageryRadioBtn" id="surfaceImageryRadioBtn_MapboxStreets" checked>
+              <img src="./images/surface-imagery/MapboxStreets400-4.png" width="100%" />
+            </label>
+            <br><br>
+
+            <label>
+              <b>OpenStreetMap</b><br>
+              <input type="radio" name="surfaceImageryRadioBtn" id="surfaceImageryRadioBtn_OpenStreetMap">
+              <img src="./images/surface-imagery/OpenStreetMap400-3a.png" width="100%" />
+            </label>
+            <br><br>
+
+            <label>
+              <b>ArcGIS MapServer</b><br>
+              <input type="radio" name="surfaceImageryRadioBtn" id="surfaceImageryRadioBtn_ArcGisMapServer">
+              <img src="./images/surface-imagery/ArcGIS-MapServer400-4.png" width="100%" />
+            </label>
+            <br><br>
+
+            <label>
+              <b>Natural Earth II</b><br>
+              <input type="radio" name="surfaceImageryRadioBtn" id="surfaceImageryRadioBtn_NaturalEarthII">
+              <img src="./images/surface-imagery/NaturalEarthII-2.png" width="100%" />
+            </label>
+            <br><br>
+
+
+            <p style="text-align:right;"><input type="button" id="remove" value="Remove this app"
+                data-value="imagery-menu-option" /></p>
+
+          </div>
+
+        </ul>
+      </li>
+
+
+
+      <li id="buildings-menu-option">
+
+        <span>
+          <img src="./images/buildingsIcon32x32.png" style="vertical-align: middle;" />
+          &nbsp;
+          <span style="vertical-align: middle;">Buildings</span>
+        </span>
+
+        <ul>
+
+          <style>
+            #myUL2 {
+              /* Remove default list styling */
+              list-style-type: none;
+              padding: 0;
+              /* margin: 5px; */
+              padding: 15px;
+            }
+
+            #myUL2 li {
+              border: 1px solid #ddd;
+              /* Add a border to all links */
+              margin-top: -1px;
+              /* Prevent double borders */
+              background-color: #f6f6f6;
+              /* Grey background color */
+              padding: 20px;
+              /* Add some padding */
+              text-decoration: none;
+              /* Remove default text underline */
+              /* font-size: 18px;  */
+              /* Increase the font-size */
+              color: black;
+              /* Add a black text color */
+              display: block;
+              /* Make it into a block element to fill the whole list */
+            }
+
+            #myUL2 li a:hover:not(.header) {
+              background-color: #eee;
+              /* Add a hover effect to all links, except for headers */
+            }
+          </style>
+
+          <ul id="myUL2">
+
+            <li>
+              <label class="switch" style="vertical-align: middle;">
+                <input type="checkbox" id="enable3dTilesetCheckbox" checked>
+                <span class="slider round"></span>
+              </label>
+              Buildings
+            </li>
+
+            <li>
+              Hide buildings with height less than: <b><span class="example-val"
+                  id="slider-value-min-height"></span></b>
+              <br><br>
+              <div id="sliderBuildingHeightOfAtLeast"></div>
+              <br><br>
+
+              <script>
+                // https://refreshless.com/nouislider/
+                var minHeightSlider = document.getElementById('sliderBuildingHeightOfAtLeast');
+
+                noUiSlider.create(minHeightSlider, {
+                  start: [0],
+                  snap: false,
+                  connect: true,
+                  range: {
+                    'min': 0,
+                    '60%': [20],
+                    'max': 200
+                  },
+                  pips: {
+                    mode: 'positions',
+                    values: [0, 25, 50, 75, 100],
+                    density: 4
+                  }
+                });
+              </script>
+
+            </li>
+
+          </ul>
+
+
+
+
+
+          <style>
+            #myUL8371 {
+              /* Remove default list styling */
+              list-style-type: none;
+              padding: 0;
+              /* margin: 5px; */
+              padding: 15px;
+            }
+
+            #myUL8371 li {
+              border: 1px solid #ddd;
+              /* Add a border to all links */
+              margin-top: -1px;
+              /* Prevent double borders */
+              background-color: #f6f6f6;
+              /* Grey background color */
+              padding: 20px;
+              /* Add some padding */
+              text-decoration: none;
+              /* Remove default text underline */
+              /* font-size: 18px;  */
+              /* Increase the font-size */
+              color: black;
+              /* Add a black text color */
+              display: block;
+              /* Make it into a block element to fill the whole list */
+            }
+
+            #myUL8371 li a:hover:not(.header) {
+              background-color: #eee;
+              /* Add a hover effect to all links, except for headers */
+            }
+          </style>
+
+          <ul id="myUL8371">
+            <b>Visual styles for buildings:</b><br>
+
+
+            <li>
+              <style>
+                label>input {
+                  /* HIDE RADIO */
+                  visibility: hidden;
+                  /* Makes input not-clickable */
+                  position: absolute;
+                  /* Remove input from document flow */
+                }
+
+                label>input+img {
+                  /* IMAGE STYLES */
+                  cursor: pointer;
+                  border: 2px solid transparent;
+                }
+
+                label>input:checked+img {
+                  /* (RADIO CHECKED) IMAGE STYLES */
+                  border: 2px solid #0000ff;
+                }
+              </style>
+
+              <label>
+                Style 1 'blue to red' (based on building height)<br>
+                <input type="radio" name="radioBtn_colorRamp" id="radioBtn_colorRamp_buildingHeight_01" checked>
+                <img style="width:100%;" src="./images/buildings/colorRamp_buildingHeight_01a.png" />
+              </label>
+              <br><br>
+
+              <label>
+                Style 2 'white to red' (based on building height)<br>
+                <input type="radio" name="radioBtn_colorRamp" id="radioBtn_colorRamp_buildingHeight_02">
+                <img style="width:100%;" src="./images/buildings/colorRamp_buildingHeight_02a.png" />
+              </label>
+              <br><br>
+
+              <label>
+                Style 3 'turquoise' (based on building height)<br>
+                <input type="radio" name="radioBtn_colorRamp" id="radioBtn_colorRamp_buildingHeight_03">
+                <img style="width:100%;" src="./images/buildings/colorRamp_buildingHeight_03a.png" />
+              </label>
+
+            </li>
+
+
+          </ul>
+
+
+
+          <div class="gui-controls">
+
+            <br><br>
+            <p style="text-align:right;">
+              <input type="button" id="remove" value="Remove this app" data-value="buildings-menu-option" />
+            </p>
+
+          </div>
+
+        </ul>
+      </li>
+
+
+
+
+
+
+
+
+
+      <li id="transit-menu-option">
+
+        <span>
+          <img src="./images/busIcon32x32a.png" style="vertical-align: middle;" />
+          &nbsp;
+          <span style="vertical-align: middle;">Transit (MARTA)</span>
+        </span>
+
+        <ul>
+
+          <style>
+            #myUL3b {
+              /* Remove default list styling */
+              list-style-type: none;
+              padding: 0;
+              /* margin: 5px; */
+              padding: 15px;
+            }
+
+            #myUL3b li {
+              border: 1px solid #ddd;
+              /* Add a border to all links */
+              margin-top: -1px;
+              /* Prevent double borders */
+              background-color: #f6f6f6;
+              /* Grey background color */
+              padding: 10px;
+              /* Add some padding */
+              text-decoration: none;
+              /* Remove default text underline */
+              /* font-size: 18px;  */
+              /* Increase the font-size */
+              color: black;
+              /* Add a black text color */
+              display: block;
+              /* Make it into a block element to fill the whole list */
+            }
+
+            #myUL3a li a {
+              border: 1px solid #ddd;
+              /* Add a border to all links */
+              margin-top: -1px;
+              /* Prevent double borders */
+              background-color: #f6f6f6;
+              /* Grey background color */
+              padding: 12px;
+              /* Add some padding */
+              text-decoration: none;
+              /* Remove default text underline */
+              /* font-size: 18px;  */
+              /* Increase the font-size */
+              color: black;
+              /* Add a black text color */
+              display: block;
+              /* Make it into a block element to fill the whole list */
+            }
+
+            #myUL3b li a:hover:not(.header) {
+              background-color: #eee;
+              /* Add a hover effect to all links, except for headers */
+            }
+          </style>
+
+          <ul id="myUL3b">
+            <b>Zoom into MARTA coverage area:</b><br>
+
+            <li>
+              <a href="#" title="Bookmark" id="zoomIntoMARTAArea_link1">Entire area (south view)</a>
+            </li>
+
+            <li>
+              <a href="#" title="Bookmark" id="zoomIntoMARTAArea_link2">Entire area (top view)</a>
+            </li>
+
+            <li>
+              <a href="#" title="Bookmark" id="zoomIntoMARTAArea_link3">
+                <img src="images/iconGoldStar24.png" width="24" height="24" alt="Good link"
+                  style="vertical-align: middle;">
+                Wider downtown (top view)
+              </a>
+            </li>
+
+
+          </ul>
+
+
+
+
+          <style>
+            #myUL3a {
+              /* Remove default list styling */
+              list-style-type: none;
+              padding: 0;
+              /* margin: 5px; */
+              padding: 15px;
+            }
+
+            #myUL3a li {
+              border: 1px solid #ddd;
+              /* Add a border to all links */
+              margin-top: -1px;
+              /* Prevent double borders */
+              background-color: #f6f6f6;
+              /* Grey background color */
+              padding: 10px;
+              /* Add some padding */
+              text-decoration: none;
+              /* Remove default text underline */
+              /* font-size: 18px;  */
+              /* Increase the font-size */
+              color: black;
+              /* Add a black text color */
+              display: block;
+              /* Make it into a block element to fill the whole list */
+            }
+
+            #myUL3a li a {
+              border: 1px solid #ddd;
+              /* Add a border to all links */
+              margin-top: -1px;
+              /* Prevent double borders */
+              background-color: #f6f6f6;
+              /* Grey background color */
+              padding: 12px;
+              /* Add some padding */
+              text-decoration: none;
+              /* Remove default text underline */
+              /* font-size: 18px;  */
+              /* Increase the font-size */
+              color: black;
+              /* Add a black text color */
+              display: block;
+              /* Make it into a block element to fill the whole list */
+            }
+
+            #myUL3a li a:hover:not(.header) {
+              background-color: #eee;
+              /* Add a hover effect to all links, except for headers */
+            }
+          </style>
+
+          <ul id="myUL3a">
+            <b>Show:</b><br>
+
+            <li>
+              <label class="switch" style="vertical-align: middle;">
+                <input type="checkbox" id="toggleCheckbox_MARTA_allRoutes">
+                <span class="slider round"></span>
+              </label>
+              &nbsp;Transit routes
+            </li>
+
+            <li>
+              <label class="switch" style="vertical-align: middle;">
+                <input type="checkbox" id="toggleCheckbox_MARTA_vehicles_RT">
+                <span class="slider round"></span>
+              </label>
+              <span id="realTimeBusLocationsSwitchLabel">
+                &nbsp;Real-time bus locations
+              </span>
+            </li>
+
+            <li>
+              <label class="switch" style="vertical-align: middle;">
+                <input type="checkbox" id="toggleCheckbox_MARTA_showBusLabels">
+                <span class="slider round"></span>
+              </label>
+              &nbsp;Bus labels
+            </li>
+
+          </ul>
+
+
+
+
+
+
+
+
+
+
+          <style>
+            #myUL3 {
+              /* Remove default list styling */
+              list-style-type: none;
+              padding: 0;
+              /* margin: 5px; */
+              padding: 15px;
+            }
+
+            #myUL3 li {
+              border: 1px solid #ddd;
+              /* Add a border to all links */
+              margin-top: -1px;
+              /* Prevent double borders */
+              background-color: #f6f6f6;
+              /* Grey background color */
+              padding: 20px;
+              /* Add some padding */
+              text-decoration: none;
+              /* Remove default text underline */
+              /* font-size: 18px;  */
+              /* Increase the font-size */
+              color: black;
+              /* Add a black text color */
+              display: block;
+              /* Make it into a block element to fill the whole list */
+            }
+
+            #myUL3 li a:hover:not(.header) {
+              background-color: #eee;
+              /* Add a hover effect to all links, except for headers */
+            }
+          </style>
+
+
+          <div class="gui-controls">
+
+            <p style="text-align:right;">
+              <input type="button" id="remove" value="Remove this app" data-value="transit-menu-option" />
+            </p>
+
+          </div>
+
+        </ul>
+
+      </li>
+
+
+
+
+
+
+      <li id="gt-energy-modeling-menu-option" style="vertical-align: middle;" />
+
+      <span>
+        <img src="./images/energyIcon32x32.png" style="vertical-align: middle;" />
+        &nbsp;
+        <span style="vertical-align: middle;">GT Energy Modeling</span>
+      </span>
+
+      <ul>
+
+
+        <style>
+          #myUL650 {
+            /* Remove default list styling */
+            list-style-type: none;
+            padding: 0;
+            /* margin: 5px; */
+            padding: 15px;
+            padding-bottom: 30px;
+            /* add some vertical distance to the next section */
+          }
+
+          #myUL650 li {
+            border: 1px solid #ddd;
+            /* Add a border to all links */
+            margin-top: -1px;
+            /* Prevent double borders */
+            background-color: #f6f6f6;
+            /* Grey background color */
+            padding: 10px;
+            /* Add some padding */
+            text-decoration: none;
+            /* Remove default text underline */
+            /* font-size: 18px;  */
+            /* Increase the font-size */
+            color: black;
+            /* Add a black text color */
+            display: block;
+            /* Make it into a block element to fill the whole list */
+          }
+
+          #myUL650 li a:hover:not(.header) {
+            background-color: #eee;
+            /* Add a hover effect to all links, except for headers */
+          }
+        </style>
+
+        <ul id="myUL650">
+          <b>Zoom into:</b>
+          <li>
+            <a href="#" title="Bookmark" id="zoomIntoGTCampusAtl_Energy_link2">
+              <img src="images/iconGoldStar24.png" width="24" height="24" alt="Good link"
+                style="vertical-align: middle;">
+              GT campus
+            </a>
+          </li>
+
+          <li>
+            <a href="#" title="Bookmark" id="zoomIntoGTCampusAtl_Energy_link6">Caddell building</a>
+          </li>
+
+
+        </ul>
+
+
+
+
+
+
+        <style>
+          #myUL677 {
+            /* Remove default list styling */
+            list-style-type: none;
+            /* margin: 5px; */
+            margin-top: -10px;
+            padding: 15px;
+            margin-bottom: 15px;
+          }
+
+          #myUL677 li {
+            border: 1px solid #ddd;
+            /* Add a border to all links */
+            margin-top: -1px;
+            /* Prevent double borders */
+            background-color: #f6f6f6;
+            /* Grey background color */
+            padding: 10px;
+            /* Add some padding */
+            text-decoration: none;
+            /* Remove default text underline */
+            /* font-size: 18px;  */
+            /* Increase the font-size */
+            color: black;
+            /* Add a black text color */
+            display: block;
+            /* Make it into a block element to fill the whole list */
+          }
+
+          #myUL677 li a:hover:not(.header) {
+            background-color: #eee;
+            /* Add a hover effect to all links, except for headers */
+          }
+        </style>
+
+        <ul id="myUL677">
+          <b>Show thermal zones instead of buildings?</b><br>
+
+          <li>
+            <label class="switch" style="vertical-align: middle;">
+              <input type="checkbox" id="energy_showGTBuildings_thermalZones_Checkbox">
+              <span class="slider round"></span>
+            </label>
+            &nbsp;Yes, show thermal zones
+          </li>
+          <div style="text-align:left; font-style:italic; color:gray;">
+            <span>
+              Note: only Caddell's thermal zones currently available
+            </span>
+          </div>
+
+        </ul>
+
+
+
+
+
+
+
+        <style>
+          #myUL647 {
+            /* Remove default list styling */
+            list-style-type: none;
+            padding: 0;
+            /* margin: 5px; */
+            margin-top: -10px;
+            padding: 15px;
+          }
+
+          #myUL647 li {
+            border: 1px solid #ddd;
+            /* Add a border to all links */
+            margin-top: -1px;
+            /* Prevent double borders */
+            background-color: f6f6f6;
+            /* #f6f6f6 Grey background color #e7e7e7 */
+            padding: 10px;
+            /* Add some padding */
+            text-decoration: none;
+            /* Remove default text underline */
+            /* font-size: 18px;  */
+            /* Increase the font-size */
+            color: black;
+            /* Add a black text color */
+            display: block;
+            /* Make it into a block element to fill the whole list */
+          }
+        </style>
+
+        <ul id="myUL647">
+          <b>Selected building or zone:</b></br>
+
+          <li>
+            <span>
+              <div style="vertical-align:middle; display:table; width:100%;">
+                <div id="GTEnergySelectionScope"
+                  style="color:darkred; height:3.2em; margin:0 auto; font-weight:bold; font-size:120%; text-align:center; display:table-cell; vertical-align:middle;">
+                  Entire GT Campus <span style="font-weight:normal">(= no selection)</span>
+                </div>
+              </div>
+            </span>
+          </li>
+
+        </ul>
+
+
+
+        <style>
+          #myUL702 {
+            /* Remove default list styling */
+            list-style-type: none;
+            padding: 0;
+            /* margin: 5px; */
+            margin-top: -10px;
+            padding: 15px;
+          }
+
+          #myUL702 li {
+            border: 1px solid #ddd;
+            /* Add a border to all links */
+            margin-top: -1px;
+            /* Prevent double borders */
+            background-color: #f6f6f6;
+            /* Grey background color */
+            padding: 10px;
+            /* Add some padding */
+            text-decoration: none;
+            /* Remove default text underline */
+            /* font-size: 18px;  */
+            /* Increase the font-size */
+            color: black;
+            /* Add a black text color */
+            display: block;
+            /* Make it into a block element to fill the whole list */
+          }
+        </style>
+
+        <ul id="myUL702">
+          <b>Time interval for statistic:</b></br>
+
+          <li>
+
+            <style>
+              .timeIntervalType {
+                list-style-type: none;
+                margin: 0 0 0 0;
+                padding: 0;
+              }
+
+              .timeIntervalType li {
+                float: left;
+                margin: 0 5px 0 0;
+                width: 50px;
+                height: 15px;
+                position: relative;
+              }
+
+              .timeIntervalType label,
+              .timeIntervalType input {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+              }
+
+              .timeIntervalType input[type="radio"] {
+                opacity: 0.011;
+                z-index: 100;
+              }
+
+              .timeIntervalType input[type="radio"]:checked+label {
+                background: yellow;
+              }
+
+              .timeIntervalType label {
+                padding: 5px;
+                border: 1px solid #CCC;
+                cursor: pointer;
+                z-index: 90;
+              }
+
+              .timeIntervalType label:hover {
+                background: #DDD;
+              }
+            </style>
+
+
+            <span style="vertical-align:middle;">
+
+              <span style="float:left; vertical-align:middle;" id="pickTimeInterval_container">
+
+                <select id="pickTimeInterval" name="pickTimeInterval_container" style="width:6.5em;">
+                  <option value="year">Year</option>
+                  <option value="month">Month</option>
+                  <option value="day">Day</option>
+                </select>
+
+                <script>
+                  //pickTimeInterval = document.getElementById("pickTimeInterval");
+                  document.getElementById("pickTimeInterval").addEventListener("change", function () {
+                    energyGT_endUse_pieChart_config.data.datasets.forEach(function (dataset) {
+                      dataset.data = dataset.data.map(function () {
+                        return randomScalingFactor();
+                      });
+                    });
+                    window.myPie.update();
+
+                    var pickTimeInterval = document.getElementById("pickTimeInterval");
+                    var selectedValue = document.getElementById("pickTimeInterval").value;
+                    if (selectedValue == 'year') {
+                      timeIntervalYears_container.style.display = 'block';
+                      timeIntervalMonths_container.style.display = 'none';
+                      timeIntervalDays_container.style.display = 'none';
+                    }
+                    if (selectedValue == 'month') {
+                      timeIntervalYears_container.style.display = 'none';
+                      timeIntervalMonths_container.style.display = 'block';
+                      timeIntervalDays_container.style.display = 'none';
+                    }
+                    if (selectedValue == 'day') {
+                      timeIntervalYears_container.style.display = 'none';
+                      timeIntervalMonths_container.style.display = 'none';
+                      timeIntervalDays_container.style.display = 'block';
+                    }
+                  });
+                </script>
+              </span>
+
+              <span style="float:left; vertical-align:middle;" id="timeIntervalYears_container">
+                <select id="timeIntervalYears">
+                  <option value="2017">2017</option>
+                  <option value="2018" selected>2018</option>
+                </select>
+
+                <script>
+                  document.getElementById("timeIntervalYears").addEventListener("change", function () {
+                    energyGT_endUse_pieChart_config.data.datasets.forEach(function (dataset) {
+                      dataset.data = dataset.data.map(function () {
+                        return randomScalingFactor();
+                      });
+                    });
+                    window.myPie.update();
+                  });
+                </script>
+
+              </span>
+
+              <span style="display: none; float:left; vertical-align: middle;" id="timeIntervalMonths_container">
+                <select id="timeIntervalMonths">
+
+                  <option value="2017-01">January 2017</option>
+                  <option value="2017-02">February 2017</option>
+                  <option value="2017-03">March 2017</option>
+                  <option value="2017-04">April 2017</option>
+                  <option value="2017-05">May 2017</option>
+                  <option value="2017-06">June 2017</option>
+                  <option value="2017-07">July 2017</option>
+                  <option value="2017-08">August 2017</option>
+                  <option value="2017-09">September 2017</option>
+                  <option value="2017-10">October 2017</option>
+                  <option value="2017-11">November 2017</option>
+                  <option value="2017-12">December 2017</option>
+
+                  <option value="2018-01">January 2018</option>
+                  <option value="2018-02" selected>February 2018</option>
+                </select>
+
+                <script>
+                  document.getElementById("timeIntervalMonths_container").addEventListener("change", function () {
+                    energyGT_endUse_pieChart_config.data.datasets.forEach(function (dataset) {
+                      dataset.data = dataset.data.map(function () {
+                        return randomScalingFactor();
+                      });
+                    });
+                    window.myPie.update();
+                  });
+                </script>
+
+
+              </span>
+
+              <span style="display: none; float:left; vertical-align: middle;" id="timeIntervalDays_container">
+                <select id="timeIntervalDays">
+
+                  <option value="2018-01-01" selected>January 1, 2018</option>
+                  <option value="2018-01-02">January 2, 2018</option>
+                  <option value="2018-01-03">January 3, 2018</option>
+                  <option value="2018-01-04">January 4, 2018</option>
+                  <option value="2018-01-05">January 5, 2018</option>
+                  <option value="2018-01-06">January 6, 2018</option>
+                  <option value="2018-01-07">January 7, 2018</option>
+                  <option value="2018-01-08">January 8, 2018</option>
+                  <option value="2018-01-09">January 9, 2018</option>
+                  <option value="2018-01-10">January 10, 2018</option>
+                  <option value="2018-01-11">January 11, 2018</option>
+                  <option value="2018-01-12">January 12, 2018</option>
+                  <option value="2018-01-13">January 13, 2018</option>
+                  <option value="2018-01-14">January 14, 2018</option>
+                  <option value="2018-01-15">January 15, 2018</option>
+                  <option value="2018-01-16">January 16, 2018</option>
+                  <option value="2018-01-17">January 17, 2018</option>
+                  <option value="2018-01-18">January 18, 2018</option>
+
+                </select>
+
+                <script>
+                  document.getElementById("timeIntervalDays_container").addEventListener("change", function () {
+                    energyGT_endUse_pieChart_config.data.datasets.forEach(function (dataset) {
+                      dataset.data = dataset.data.map(function () {
+                        return randomScalingFactor();
+                      });
+                    });
+                    window.myPie.update();
+                  });
+                </script>
+
+              </span>
+
+
+            </span>
+            <br><br>
+
+          </li>
+
+
+        </ul>
+
+
+
+        <style>
+          #myUL655 {
+            /* Remove default list styling */
+            list-style-type: none;
+            padding: 0;
+            /* margin: 5px; */
+            margin-top: -10px;
+            padding: 15px;
+          }
+
+          #myUL655 li {
+            border: 1px solid #ddd;
+            /* Add a border to all links */
+            margin-top: -1px;
+            /* Prevent double borders */
+            background-color: #f6f6f6;
+            /* Grey background color */
+            padding: 10px;
+            /* Add some padding */
+            text-decoration: none;
+            /* Remove default text underline */
+            /* font-size: 18px;  */
+            /* Increase the font-size */
+            color: black;
+            /* Add a black text color */
+            display: block;
+            /* Make it into a block element to fill the whole list */
+          }
+
+          #myUL655 li a:hover:not(.header) {
+            background-color: #eee;
+            /* Add a hover effect to all links, except for headers */
+          }
+        </style>
+
+
+        <br>
+        <ul id="myUL655">
+          <b>Statistic:</b></br>
+
+          <li>
+
+            <div id="annualOverviewEndUseText"></div>
+            <div id="energyGT_chart_canvasHolder" style="height:400px">
+              <canvas id="chart-area" />
+            </div>
+
+            <button id="randomizeData" style="display: none;">Randomize Data</button>
+            <button id="addDataset" style="display: none;">Add Dataset</button>
+            <button id="removeDataset" style="display: none;">Remove Dataset</button>
+
+            <script>
+              var randomScalingFactor = function () {
+                return Math.round(Math.random() * 100);
+              };
+
+              var energyGT_endUse_pieChart_config = {
+                type: 'pie',
+                data: {
+                  datasets: [{
+                    data: [
+                      randomScalingFactor(),
+                      randomScalingFactor(),
+                      randomScalingFactor(),
+                      randomScalingFactor(),
+                      randomScalingFactor(),
+                      randomScalingFactor(),
+                      randomScalingFactor(),
+                      randomScalingFactor(),
+                    ],
+                    backgroundColor: [
+                      window.chartColors.InteriorEquipment,
+                      window.chartColors.Heating,
+                      window.chartColors.InteriorLighting,
+                      window.chartColors.Cooling,
+                      window.chartColors.Fans,
+                      window.chartColors.WaterSystems,
+                      window.chartColors.Pumps,
+                      window.chartColors.ExteriorLighting,
+                    ],
+                    label: 'Dataset 1'
+                  }],
+                  labels: [
+                    "Interior Equipment",
+                    "Heating",
+                    "Interior Lighting",
+                    "Cooling",
+                    "Fans",
+                    "Water Systems",
+                    "Pumps",
+                    "Exterior Lighting",
+                  ]
+                },
+                options: {
+                  responsive: true,
+                  maintainAspectRatio: false,
+                  responsiveAnimationDuration: 0,
+                  animation: {
+                    duration: 200,
+                  },
+                  legend: {
+                    display: true,
+                    position: 'bottom', // 'top', 'bottom', 'right', 'left',
+                    fullWidth: false,
+                  },
+                  layout: {
+                    padding: {
+                      left: 0,
+                      right: 0,
+                      top: 0,
+                      bottom: 0
+                    }
+                  },
+                  title: {
+                    display: true,
+                    text: 'Energy End Use (kWh)',
+                    position: 'top', // 'top', 'bottom', 'right', 'left',
+                  }
+                }
+              };
+
+              window.onload = function () {
+                var ctx = document.getElementById("chart-area").getContext("2d");
+                Chart.defaults.global.responsive = true;
+                //ctx.canvas.width = 400;
+                //ctx.canvas.height = 400;
+                window.myPie = new Chart(ctx, energyGT_endUse_pieChart_config);
+                console.log('pie chart created');
+              };
+
+              document.getElementById('randomizeData').addEventListener('click', function () {
+                energyGT_endUse_pieChart_config.data.datasets.forEach(function (dataset) {
+                  dataset.data = dataset.data.map(function () {
+                    return randomScalingFactor();
+                  });
+                });
+                window.myPie.update();
+              });
+
+              var colorNames = Object.keys(window.chartColors);
+              document.getElementById('addDataset').addEventListener('click', function () {
+                var newDataset = {
+                  backgroundColor: [],
+                  data: [],
+                  label: 'New dataset ' + energyGT_endUse_pieChart_config.data.datasets.length,
+                };
+
+                for (var index = 0; index < energyGT_endUse_pieChart_config.data.labels.length; ++index) {
+                  newDataset.data.push(randomScalingFactor());
+
+                  var colorName = colorNames[index % colorNames.length];;
+                  var newColor = window.chartColors[colorName];
+                  newDataset.backgroundColor.push(newColor);
+                }
+
+                energyGT_endUse_pieChart_config.data.datasets.push(newDataset);
+                window.myPie.update();
+              });
+
+              document.getElementById('removeDataset').addEventListener('click', function () {
+                energyGT_endUse_pieChart_config.data.datasets.splice(0, 1);
+                window.myPie.update();
+              });
+            </script>
+
+
+          </li>
+          <em>Note: simulated/placeholder data</em>
+
+        </ul>
+
+
+
+
+
+        <div class="gui-controls">
+
+
+
+          <p style="text-align:right;">
+            <input type="button" id="remove" value="Remove this app" data-value="gt-energy-modeling-menu-option" />
+          </p>
+
+        </div>
+
+
+      </ul>
+      </li>
+
+
+
+
+      <li id="gt-sensor-analytics-menu-option" style="vertical-align: middle;" />
+
+      <span>
+        <img src="./images/sensors/gt-sensor-analytics-32.png" style="vertical-align: middle;" />
+        &nbsp;
+        <span style="vertical-align: middle;">GT Sensor Data (Historical)</span>
+      </span>
+			
+			<ul>
+
+        <style>
+          #myUL6522 {
+            /* Remove default list styling */
+            list-style-type: none;
+            padding: 0;
+            /* margin: 5px; */
+            padding: 15px;
+            padding-bottom: 30px;
+            /* add some vertical distance to the next section */
+          }
+
+          #myUL6522 li {
+            border: 1px solid #ddd;
+            /* Add a border to all links */
+            margin-top: -1px;
+            /* Prevent double borders */
+            background-color: #f6f6f6;
+            /* Grey background color */
+            padding: 10px;
+            /* Add some padding */
+            text-decoration: none;
+            /* Remove default text underline */
+            /* font-size: 18px;  */
+            /* Increase the font-size */
+            color: black;
+            /* Add a black text color */
+            display: block;
+            /* Make it into a block element to fill the whole list */
+          }
+
+          #myUL6522 li a:hover:not(.header) {
+            background-color: #eee;
+            /* Add a hover effect to all links, except for headers */
+          }
+        </style>
+
+        <ul id="myUL6522">
+          <b>Zoom into:</b>
+          <li>
+            <a href="#" title="Bookmark" id="zoomIntoGTCampusAtl_Energy_link2_sensor">
+              <img src="images/iconGoldStar24.png" width="24" height="24" alt="Good link"
+                style="vertical-align: middle;">
+              GT campus
+            </a>
+          </li>
+
+          <li>
+            <a href="#" title="Bookmark" id="zoomIntoGTCampusAtl_Energy_link6_sensor">Caddell building</a>
+          </li>
+
+        </ul>
+				
+				
+				<style>
+					#myUL65229 {
+						/* Remove default list styling */
+						list-style-type: none;
+						padding: 0;
+						/* margin: 5px; */
+						padding: 15px;
+						padding-bottom: 30px;
+						/* add some vertical distance to the next section */
+					}
+
+					#myUL65229 li {
+						border: 1px solid #ddd;
+						/* Add a border to all links */
+						margin-top: -1px;
+						/* Prevent double borders */
+						background-color: #f6f6f6;
+						/* Grey background color */
+						padding: 0px;
+						/* Add some padding */
+						text-decoration: none;
+						/* Remove default text underline */
+						/* font-size: 18px;  */
+						/* Increase the font-size */
+						color: black;
+						/* Add a black text color */
+						display: block;
+						/* Make it into a block element to fill the whole list */
+					}
+
+					#myUL65229 li a:hover:not(.header) {
+						background-color: #eee;
+						/* Add a hover effect to all links, except for headers */
+					}
+				</style>
+
+				<ul id="myUL65229">
+				
+          <b>Selected building or zone:</b></br>
+
+          <li>
+            <span>
+              <div style="vertical-align:middle; display:table; width:100%;">
+                <div id="GTSensorDataSelectionScope"
+                  style="color:darkred; height:3.2em; margin:0 auto; font-weight:bold; font-size:120%; text-align:center; display:table-cell; vertical-align:middle;">
+                  Entire GT Campus <span style="font-weight:normal">(= no selection)</span>
+                </div>
+              </div>
+            </span>
+          </li>
+				
+					<b>Sensor data:</b>		
+					
+					<li>
+						
+						<div id="chart_sensorData_temperature">					
+						</div>
+					</li>
+
+					<!-- <li> -->
+						<!-- <p> -->
+						<!-- <em style="color:#a0a0a0;">Note. Buildings currently containing temperature data: Caddell, Pettit</em> -->
+						<!-- </p> -->
+					<!-- </li> -->
+
+				</ul>
+					
+			
+				
+        <div class="gui-controls">
+					
+          <p style="text-align:right;">
+            <input type="button" id="remove" value="Remove this app" data-value="gt-sensor-analytics-menu-option" />
+          </p>
+
+        </div>
+				
+				
+			</ul>
+			
+
+
+      <ul>
+      </ul>
+			
+      </li>
+
+
+
+
+
+
+
+
+      <li id="placeholder1-menu-option">
+
+        <span>
+          <!-- <img src="./images/SettingsIcon32x32.png" style="vertical-align: middle;" /> -->
+          &nbsp;
+          <span style="vertical-align: middle;"></span>
+        </span>
+
+      </li>
+
+
+
+
+
+
+
+
+
+
+      <li>
+
+        <span>
+          <img src="./images/AddAppsIcon32.png" style="vertical-align: middle;" />
+          &nbsp;
+          <span style="vertical-align: middle;">Apps</span>
+        </span>
+
+        <ul>
+
+          <li data-option="imagery-menu-option" class="hide style=" vertical-align: middle;" />
+          <span>
+            <img src="./images/surfaceIcon32x32.png" />
+            Surface Imagery
+          </span>
+      </li>
+
+
+      <li data-option="buildings-menu-option" class="hide">
+        <span>
+          <img src="./images/buildingsIcon32x32.png" style="vertical-align: middle;" />
+          Buildings
+        </span>
+      </li>
+
+      <li data-option="transit-menu-option" class="hide">
+        <span>
+          <img src="./images/busIcon32x32a.png" style="vertical-align: middle;" />
+          Transit
+        </span>
+      </li>
+
+      <li data-option="gt-energy-modeling-menu-option" class="hide">
+        <span>
+          <img src="./images/energyIcon32x32.png" style="vertical-align: middle;" />
+          GT Energy Modeling
+        </span>
+      </li>
+
+      <li data-option="gt-sensor-analytics-menu-option">
+        <span>
+          <img src="./images/sensors/gt-sensor-analytics-32.png" style="vertical-align: middle;" />
+          GT Sensor Data Analytics
+        </span>
+      </li>
+
+    </ul>
+    </li>
+
+
+
+
+
+    <li id="settings-menu-option">
+
+      <span>
+        <img src="./images/SettingsIcon32x32.png" style="vertical-align: middle;" />
+        &nbsp;
+        <span style="vertical-align: middle;">Settings</span>
+      </span>
+
+      <ul>
+
+        <style>
+          #myUL778 {
+            /* Remove default list styling */
+            list-style-type: none;
+            padding: 0;
+            /* margin: 5px; */
+            padding: 15px;
+          }
+
+          #myUL778 li {
+            border: 1px solid #ddd;
+            /* Add a border to all links */
+            margin-top: -1px;
+            /* Prevent double borders */
+            background-color: #f6f6f6;
+            /* Grey background color */
+            padding: 20px;
+            /* Add some padding */
+            text-decoration: none;
+            /* Remove default text underline */
+            /* font-size: 18px;  */
+            /* Increase the font-size */
+            color: black;
+            /* Add a black text color */
+            display: block;
+            /* Make it into a block element to fill the whole list */
+          }
+
+          #myUL778 li a:hover:not(.header) {
+            background-color: #eee;
+            /* Add a hover effect to all links, except for headers */
+          }
+        </style>
+
+        <ul id="myUL2">
+          <li>
+            This panel's opacity:
+            <br><br>
+            <div id="menuPanelOpacitySlider"></div>
+            <br><br>
+
+            <script>
+              // https://refreshless.com/nouislider/
+              var menuPanelOpacitySlider = document.getElementById('menuPanelOpacitySlider');
+
+              noUiSlider.create(menuPanelOpacitySlider, {
+                start: [80],
+                snap: false,
+                connect: true,
+                range: {
+                  'min': 60,
+                  'max': 100
+                },
+                pips: {
+                  mode: 'positions',
+                  values: [0, 25, 50, 75, 100],
+                  density: 4
+                }
+              });
+            </script>
+
+          </li>
+
+        </ul>
+
+
+      </ul>
+    </li>
+
+
+
+    <li id="help-menu-option">
+
+      <span>
+        <img src="./images/iconHelp32.png" style="vertical-align: middle;" />
+        &nbsp;
+        <span style="vertical-align: middle;">Help</span>
+      </span>
+
+      <ul>
+
+        <div class="gui-controls">
+
+          <h3>Mouse and Keyboard</h3>
+
+          <style>
+            .myHelpTable tr {
+              border: 1px solid #ddd;
+              /* Add a border to all links */
+              margin-top: -1px;
+              /* Prevent double borders */
+              background-color: #f6f6f6;
+              /* Grey background color */
+              padding: 10px;
+              /* Add some padding */
+              text-decoration: none;
+              /* Remove default text underline */
+              /* font-size: 18px;  */
+              /* Increase the font-size */
+              color: black;
+              /* Add a black text color */
+              display: block;
+              /* Make it into a block element to fill the whole list */
+            }
+          </style>
+
+          <table class="myHelpTable">
+
+            <tr>
+              <td width="60">
+                <img src="images/help/mouse1a.png" width="40" height="40" alt="">
+              </td>
+              <td>
+                PAN: left-click and drag
+              </td>
+            </tr>
+
+            <tr>
+              <td width="60">
+                <img src="images/help/mouse2a.png" width="40" height="40" alt="">
+              </td>
+              <td>
+                ZOOM: right-click and drag (or mouse-wheel)
+              </td>
+            </tr>
+
+            <tr>
+              <td width="60">
+                <img src="images/help/mouse3a.png" width="40" height="40" alt="">
+              </td>
+              <td>
+                ROTATE: middle-click and drag (or CTRL + left/right click + drag)
+              </td>
+            </tr>
+
+          </table>
+
+          <br>
+
+          <h3>Touch Screens</h3>
+
+          <table class="myHelpTable">
+
+            <tr>
+              <td width="60">
+                <img src="images/help/touch1a.png" width="50" height="50" alt="">
+              </td>
+              <td>
+                PAN: one-finger drag
+              </td>
+            </tr>
+
+            <tr>
+              <td width="60">
+                <img src="images/help/touch2a.png" width="50" height="50" alt="">
+              </td>
+              <td>
+                ZOOM: two-finger pinch
+              </td>
+            </tr>
+
+            <tr>
+              <td width="60">
+                <img src="images/help/touch3a.png" width="50" height="50" alt="">
+              </td>
+              <td>
+                TILT: two-finger drag
+              </td>
+            </tr>
+
+            <tr>
+              <td width="60">
+                <img src="images/help/touch4a.png" width="50" height="50" alt="">
+              </td>
+              <td>
+                ROTATE: two-finger drag (moving in opposite circular direction)
+              </td>
+            </tr>
+
+          </table>
+
+
+        </div>
+
+      </ul>
+    </li>
+
+
+
+
+
+
+
+    <li id="about-menu-option">
+
+      <span>
+        <img src="./images/iconAbout2-32.png" style="vertical-align: middle;" />
+        &nbsp;
+        <span style="vertical-align: middle;">About</span>
+      </span>
+
+      <ul>
+
+        <li>
+          <span>
+            DBL SmartCity
+          </span>
+
+          <ul>
+
+            <div class="gui-controls">
+
+              <h1>DBL SmartCity</h1>
+
+              <p>
+                An information processing platform developed at the <a href="https://www.dbl.gatech.edu"
+                  target="newWin2394823904">Digital Building Laboratory</a> (DBL), Georgia Institute of Technology. The
+                platform allows for storing, processing, integrating, retrieving, and visualizing of large and complex
+                sets of data collected from a variety of geo-located sources collocated within human settlements at
+                various scales, such as metropolitan areas, cities, towns, and suburban areas.
+              </p>
+
+              <p>
+                <img align="left" src="images/logos/georgiatechlogo-black124-129x60.png" width="129" height="60"
+                  alt="Georgia Tech">
+              </p>
+              <br><br><br><br>
+
+              <p>
+                <em>Keywords:</em>
+                SmartCity &bull;
+                Internet of Things (IoT) &bull;
+                Building Information Model (BIM) &bull;
+                Big Data
+              </p>
+
+            </div>
+
+          </ul>
+
+        </li>
+
+
+
+
+        <li>
+          <span>
+            Disclaimer
+          </span>
+
+          <ul>
+
+            <div class="gui-controls">
+
+              <h1>Disclaimer</h1>
+
+              <p>
+                This software is currently in the pre-alpha phase of software development.
+                It is hence provided "as is" and "with all faults", and suitable for testing and evaluation purposes
+                only.
+                DBL / Georgia Tech make no representations or warranties of any kind concerning the suitability,
+                inaccuracies, or use of the software.
+              </p>
+
+            </div>
+
+          </ul>
+
+        </li>
+
+
+
+        <li>
+          <span>
+            Credits
+          </span>
+
+          <ul>
+
+            <div class="gui-controls">
+
+              <h1>Platform/System Credits</h1>
+
+              <p>
+                <b>Principal Investigator</b><br>
+                Dennis Shelden, AIA PhD<br>
+                Director, Digital Building Laboratory<br>
+                Associate Professor, Georgia Tech
+              </p>
+
+              <p>
+                <b>Project Lead, System Architect and Developer</b><br>
+                Siniša Kolarić, PhD<br>
+                Postdoctoral Fellow, Digital Building Laboratory<br>
+                Georgia Tech
+              </p>
+
+
+              <!-- <p>&nbsp;</p> -->
+
+
+
+              <h1>Additional Credits</h1>
+
+              <p>
+                Many thanks to the following individuals whose efforts and specialized knowledge contributed to the
+                development of apps, and to the deployment of the platform.
+              </p>
+
+              <p>
+                <b>GT Energy Modeling App</b><br>
+
+                <p>
+                  Godfried L. Augenbroe<br>
+                  Director, High Performance Building Lab<br>
+                  Professor, Georgia Tech
+                </p>
+
+                <p>
+                  Yun Joon Jung<br>
+                  Research Assistant, High Performance Building Lab<br>
+                  PhD Student, Georgia Tech
+                </p>
+
+                <p>
+                  <b>GT Sensor Data Analytics App</b><br>
+
+                  <p>
+                    Steve Sywak<br>
+                    Director, Facilities Information Technology<br>
+                    Georgia Tech
+                  </p>
+
+                  Pardis Pishdad-Bozorgi, PhD<br>
+                  School of Building Construction<br>
+                  Assistant Professor, Georgia Tech
+                </p>
+
+
+                <p>
+                  Xinghua Gao<br>
+                  School of Building Construction<br>
+                  PhD Student, Georgia Tech
+                </p>
+
+
+                <p>
+                  <b>IT Infrastructure &amp; Support</b><br>
+
+                  <p>
+                    Perry Minyard<br>
+                    Director of Information Technology<br>
+                    College of Design, Georgia Tech<br>
+                  </p>
+
+            </div>
+
+          </ul>
+
+        </li>
+
+
+
+
+        <li>
+          <span>
+            Licensing
+          </span>
+
+          <ul>
+
+            <div class="gui-controls">
+
+
+              <h1>DBL SmartCity License</h1>
+
+              <p>
+                DBL SmartCity platform is licensed under the MIT license.
+              </p>
+
+
+
+
+              <h1>Third-Party Licenses</h1>
+
+              <p>
+                The following open-source specifications, technologies, databases, tools, and products have been used
+                for building the DBL SmartCity platform.
+              </p>
+
+              <p>
+                <b>Cesium.js</b><br>
+                A specification and an open-source JavaScript library for virtual 3D globes and maps,
+                published under Apache 2.0 License.
+              </p>
+
+              <p>
+                <b>jQuery</b><br>
+                A fast, small, and feature-rich JavaScript library,
+                published under MIT license.
+              </p>
+
+              <p>
+                <b>jQuery.mmenu</b><br>
+                A jQuery off-canvas menu plugin for use in websites and mobile apps,
+                published under a free-to-use license for non-profit usage.
+              </p>
+
+              <p>
+                <b>Node.js</b><br>
+                An open-source, server-side JavaScript runtime built on Chrome's V8 JavaScript engine,
+                published under the Node.js Project license.
+              </p>
+
+              <p>
+                <b>MySQL</b><br>
+                A relational database management system (RDBMS),
+                published under the GPL open-source license (commercial license also available).
+              </p>
+
+              <p>
+                <b>MongoDB</b><br>
+                A free, open-source, cross-platform, document-oriented NoSQL database management system,
+                published under a combination of the GNU Affero GPL license and Apache 2.0 license.
+              </p>
+
+              <p>
+                <b>OpenStreetMap</b><br>
+                A free, collaborative, and editable map of the world,
+                with its content published under the Open Database License (ODbL) license.
+              </p>
+
+              <p>
+                <b>Hadoop</b><br>
+                A software framework that allows for the distributed and scalable processing of large data sets across
+                clusters of computers.
+                Published under Apache License 2.0.
+              </p>
+
+              <p>
+                <b>Spark</b><br>
+                A fast and general engine for large-scale data processing.
+                Published under Apache License 2.0.
+              </p>
+
+
+            </div>
+
+          </ul>
+
+        </li>
+
+
+
+      </ul>
+    </li>
+
+
+
+
+    </ul>
+  </nav>
+
+
+  <script src="charts2.js"></script>
+
+  <script src="index.js"></script>
+
+  <script type='text/javascript'>
+    $(document).ready(function () {
+
+      $("#menu").css("opacity", 0.80); // set menu panel's default opacity
+
+      var api = $("#menu").data("mmenu");
+      api.open();
+				
+    });
+  </script>
+
+</body>
+
+</html>

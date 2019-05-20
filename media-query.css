@@ -1,0 +1,63 @@
+
+
+/* Device: desktop
+   Screen: 1281px and higher resolution desktops */
+
+@media (min-width: 1281px) 
+{  
+.mm-menu.mm-offcanvas{
+  width: 40% !important; 
+} 
+}
+
+/* Device: laptop, desktop
+   Screen: 1025px to 1280px */
+
+@media (min-width: 1025px) and (max-width: 1280px) 
+{  
+.mm-menu.mm-offcanvas {
+  width: 40% !important; 
+} 
+}
+
+/* Device: tablet, iPad (portrait)
+   Screen: 768px to 1024px         */
+
+@media (min-width: 768px) and (max-width: 1024px) 
+{  
+.mm-menu.mm-offcanvas {
+	width: 60% !important;
+} 
+}
+
+/* Device: tablet, iPad (landscape)
+   Screen: 768px to 1024px      */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) 
+{  
+.mm-menu.mm-offcanvas {
+	/* width: 60% !important; */
+  width: 40% !important; 
+} 
+}
+
+/* Device: low resolution tablet, mobile (landscape)
+   Screen: 481px to 767px    */
+
+@media (min-width: 481px) and (max-width: 767px) 
+{  
+.mm-menu.mm-offcanvas {
+	/* width: 60% !important; */
+  width: 40% !important; 
+} 
+}
+
+/* Device: most smartphone (portrait)
+   Screen: 320px to 479px    */
+
+@media (min-width: 320px) and (max-width: 480px) 
+{  
+.mm-menu.mm-offcanvas {
+	width: 60% !important;
+} 
+}
