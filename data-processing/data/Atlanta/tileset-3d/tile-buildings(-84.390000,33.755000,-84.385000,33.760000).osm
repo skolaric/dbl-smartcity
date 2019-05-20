@@ -1,0 +1,1612 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="Osmosis 0.47">
+  <bounds minlon="-84.39000" minlat="33.75500" maxlon="-84.38500" maxlat="33.76000" origin="http://www.openstreetmap.org/api/0.6"/>
+  <node id="496152627" version="2" timestamp="2017-10-29T15:44:35Z" uid="231017" user="swimdb" changeset="53345173" lat="33.7597819" lon="-84.3861847"/>
+  <node id="497187754" version="2" timestamp="2012-11-26T14:29:10Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7596565" lon="-84.3899346"/>
+  <node id="497187755" version="2" timestamp="2012-11-26T14:29:10Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7595266" lon="-84.3898008"/>
+  <node id="497187756" version="2" timestamp="2012-11-26T14:29:10Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7594918" lon="-84.389851"/>
+  <node id="497187757" version="2" timestamp="2012-11-26T14:29:10Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7592659" lon="-84.3897044"/>
+  <node id="534430852" version="2" timestamp="2014-04-01T14:45:34Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7562397" lon="-84.3862141"/>
+  <node id="534433754" version="3" timestamp="2016-06-13T14:44:47Z" uid="1519787" user="kdano" changeset="39994229" lat="33.758261" lon="-84.3894285"/>
+  <node id="534433756" version="3" timestamp="2016-06-13T14:44:47Z" uid="1519787" user="kdano" changeset="39994229" lat="33.7578415" lon="-84.3889946"/>
+  <node id="534433758" version="3" timestamp="2016-06-13T14:44:47Z" uid="1519787" user="kdano" changeset="39994229" lat="33.7582054" lon="-84.3884856"/>
+  <node id="534433759" version="3" timestamp="2016-06-13T14:44:47Z" uid="1519787" user="kdano" changeset="39994229" lat="33.7586249" lon="-84.3889194"/>
+  <node id="534448647" version="1" timestamp="2009-10-17T21:49:42Z" uid="28618" user="Jack Kittle" changeset="2878153" lat="33.7583734" lon="-84.3881241"/>
+  <node id="534448648" version="2" timestamp="2014-12-19T16:06:22Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7583685" lon="-84.3879821"/>
+  <node id="534448649" version="2" timestamp="2014-12-19T16:06:22Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7581778" lon="-84.387987"/>
+  <node id="534448650" version="3" timestamp="2014-12-19T16:06:22Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7581794" lon="-84.3880038"/>
+  <node id="534448651" version="2" timestamp="2014-12-19T16:06:22Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7579978" lon="-84.3879989"/>
+  <node id="534448652" version="2" timestamp="2014-12-19T16:06:22Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7579978" lon="-84.3880364"/>
+  <node id="534448653" version="2" timestamp="2014-12-19T16:06:22Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7583043" lon="-84.3883439"/>
+  <node id="534448655" version="2" timestamp="2014-12-19T16:06:22Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7583791" lon="-84.3883192"/>
+  <node id="534888002" version="3" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7587756" lon="-84.3874813"/>
+  <node id="534888004" version="3" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7587926" lon="-84.3869798"/>
+  <node id="534888007" version="3" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7585163" lon="-84.3868918"/>
+  <node id="534888011" version="3" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7585739" lon="-84.3874835"/>
+  <node id="537186325" version="2" timestamp="2016-06-13T14:44:47Z" uid="1519787" user="kdano" changeset="39994229" lat="33.758671" lon="-84.3887084"/>
+  <node id="537186330" version="2" timestamp="2016-06-13T14:44:47Z" uid="1519787" user="kdano" changeset="39994229" lat="33.758564" lon="-84.3888564"/>
+  <node id="537186347" version="2" timestamp="2010-01-30T10:11:03Z" uid="110263" user="werner2101" changeset="3749373" lat="33.7590046" lon="-84.3897307"/>
+  <node id="537186353" version="1" timestamp="2009-10-20T23:27:16Z" uid="28618" user="Jack Kittle" changeset="2908013" lat="33.7588252" lon="-84.389998"/>
+  <node id="537186360" version="1" timestamp="2009-10-20T23:27:17Z" uid="28618" user="Jack Kittle" changeset="2908013" lat="33.7586061" lon="-84.3897808"/>
+  <node id="537186365" version="1" timestamp="2009-10-20T23:27:17Z" uid="28618" user="Jack Kittle" changeset="2908013" lat="33.7588014" lon="-84.3894993"/>
+  <node id="537222220" version="2" timestamp="2015-09-13T02:24:28Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7596328" lon="-84.3889829"/>
+  <node id="537222230" version="2" timestamp="2015-09-13T02:24:28Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7595742" lon="-84.3890093"/>
+  <node id="537222236" version="2" timestamp="2015-09-13T02:24:28Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7594916" lon="-84.3890358"/>
+  <node id="537222243" version="2" timestamp="2015-09-13T02:24:29Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.759254" lon="-84.3890875"/>
+  <node id="537222249" version="1" timestamp="2009-10-21T00:04:55Z" uid="28618" user="Jack Kittle" changeset="2908103" lat="33.7592531" lon="-84.3887848"/>
+  <node id="537222255" version="1" timestamp="2009-10-21T00:04:55Z" uid="28618" user="Jack Kittle" changeset="2908103" lat="33.7592505" lon="-84.3883672"/>
+  <node id="537222263" version="2" timestamp="2015-09-13T02:24:29Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7592826" lon="-84.3877293"/>
+  <node id="537222283" version="2" timestamp="2015-09-13T02:24:29Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7596319" lon="-84.3877249"/>
+  <node id="537222290" version="2" timestamp="2015-09-13T02:24:29Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.759635" lon="-84.3882083"/>
+  <node id="537222296" version="2" timestamp="2015-09-13T02:24:29Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7596334" lon="-84.3888138"/>
+  <node id="2031312774" version="1" timestamp="2012-11-25T05:51:17Z" uid="55916" user="maxolasersquad" changeset="14023531" lat="33.7581946" lon="-84.3894469"/>
+  <node id="2031312777" version="2" timestamp="2012-11-25T22:27:52Z" uid="55916" user="maxolasersquad" changeset="14038130" lat="33.7580221" lon="-84.3896883"/>
+  <node id="2031312780" version="1" timestamp="2012-11-25T05:51:17Z" uid="55916" user="maxolasersquad" changeset="14023531" lat="33.7573269" lon="-84.389663"/>
+  <node id="2031312782" version="1" timestamp="2012-11-25T05:51:17Z" uid="55916" user="maxolasersquad" changeset="14023531" lat="33.757149" lon="-84.3899273"/>
+  <node id="2031312783" version="1" timestamp="2012-11-25T05:51:17Z" uid="55916" user="maxolasersquad" changeset="14023531" lat="33.7576562" lon="-84.389737"/>
+  <node id="2031312787" version="1" timestamp="2012-11-25T05:51:17Z" uid="55916" user="maxolasersquad" changeset="14023531" lat="33.7578935" lon="-84.389136"/>
+  <node id="2031312788" version="1" timestamp="2012-11-25T05:51:17Z" uid="55916" user="maxolasersquad" changeset="14023531" lat="33.7578318" lon="-84.3894914"/>
+  <node id="2031312790" version="1" timestamp="2012-11-25T05:51:17Z" uid="55916" user="maxolasersquad" changeset="14023531" lat="33.7577213" lon="-84.3893774"/>
+  <node id="2031312798" version="1" timestamp="2012-11-25T05:51:17Z" uid="55916" user="maxolasersquad" changeset="14023531" lat="33.7578466" lon="-84.3899339"/>
+  <node id="2034703544" version="1" timestamp="2012-11-26T14:06:27Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7583276" lon="-84.3896137"/>
+  <node id="2034703546" version="1" timestamp="2012-11-26T14:06:27Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7582463" lon="-84.3899799"/>
+  <node id="2034703548" version="1" timestamp="2012-11-26T14:06:27Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7582351" lon="-84.3899936"/>
+  <node id="2034703551" version="1" timestamp="2012-11-26T14:06:27Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7582674" lon="-84.3899808"/>
+  <node id="2034703554" version="1" timestamp="2012-11-26T14:06:27Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7581448" lon="-84.3898725"/>
+  <node id="2034703555" version="1" timestamp="2012-11-26T14:06:27Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7581517" lon="-84.3898626"/>
+  <node id="2034703556" version="1" timestamp="2012-11-26T14:06:27Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7583154" lon="-84.3899129"/>
+  <node id="2034703558" version="2" timestamp="2012-11-26T14:07:58Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.758538" lon="-84.3898269"/>
+  <node id="2034705544" version="1" timestamp="2012-11-26T14:07:58Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7584518" lon="-84.3899512"/>
+  <node id="2034726651" version="1" timestamp="2012-11-26T14:29:09Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7592896" lon="-84.3897004"/>
+  <node id="2034726653" version="1" timestamp="2012-11-26T14:29:09Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7593286" lon="-84.3897017"/>
+  <node id="2034726661" version="1" timestamp="2012-11-26T14:29:09Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7593109" lon="-84.3896986"/>
+  <node id="2034726665" version="1" timestamp="2012-11-26T14:29:09Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7593517" lon="-84.3897138"/>
+  <node id="2034726667" version="1" timestamp="2012-11-26T14:29:09Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7593719" lon="-84.3897284"/>
+  <node id="2034743076" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7580645" lon="-84.3884019"/>
+  <node id="2034743077" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7580411" lon="-84.3883222"/>
+  <node id="2034743078" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7576816" lon="-84.388813"/>
+  <node id="2034743079" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7574202" lon="-84.3885443"/>
+  <node id="2034743080" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7580469" lon="-84.3884267"/>
+  <node id="2034743081" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7580671" lon="-84.3884476"/>
+  <node id="2034743082" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7577767" lon="-84.3888042"/>
+  <node id="2034743083" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7577981" lon="-84.3888262"/>
+  <node id="2034743084" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7577654" lon="-84.3888201"/>
+  <node id="2034743085" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.757714" lon="-84.3887673"/>
+  <node id="2034743086" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7580182" lon="-84.3883544"/>
+  <node id="2034743087" version="2" timestamp="2012-11-26T14:38:51Z" uid="55916" user="maxolasersquad" changeset="14045180" lat="33.7577735" lon="-84.3880471"/>
+  <node id="2036492403" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7576741" lon="-84.3890181"/>
+  <node id="2036492404" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7568168" lon="-84.3889341"/>
+  <node id="2036492407" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7572115" lon="-84.3893445"/>
+  <node id="2036492409" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7572491" lon="-84.3885908"/>
+  <node id="2036492410" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7573533" lon="-84.3886064"/>
+  <node id="2036492411" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.757393" lon="-84.389086"/>
+  <node id="2036492413" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7573498" lon="-84.389484"/>
+  <node id="2036492414" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7573" lon="-84.3886002"/>
+  <node id="2036492415" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7576673" lon="-84.3889299"/>
+  <node id="2036492418" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7573333" lon="-84.3886345"/>
+  <node id="2036492419" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7576559" lon="-84.3889993"/>
+  <node id="2036492420" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7576729" lon="-84.3889754"/>
+  <node id="2036492421" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7565637" lon="-84.3886779"/>
+  <node id="2036492422" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.757651" lon="-84.3889528"/>
+  <node id="2036492423" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7568837" lon="-84.3882206"/>
+  <node id="2036492425" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7572823" lon="-84.3886251"/>
+  <node id="2036492426" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7571066" lon="-84.3887909"/>
+  <node id="2036492427" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7571379" lon="-84.3884862"/>
+  <node id="2036492429" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357" lat="33.7575273" lon="-84.3892243"/>
+  <node id="2475185756" version="2" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7594142" lon="-84.3874701"/>
+  <node id="2475185757" version="2" timestamp="2017-10-29T16:15:00Z" uid="231017" user="swimdb" changeset="53345930" lat="33.7597949" lon="-84.3889381"/>
+  <node id="2475185759" version="2" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7596291" lon="-84.3874678"/>
+  <node id="2475185764" version="2" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7594106" lon="-84.3870351"/>
+  <node id="2475185773" version="2" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.759625" lon="-84.3870322"/>
+  <node id="2586580252" version="2" timestamp="2013-12-30T04:27:04Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7551505" lon="-84.3896212"/>
+  <node id="2586580253" version="2" timestamp="2013-12-30T04:27:04Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7551514" lon="-84.389622"/>
+  <node id="2586580254" version="2" timestamp="2013-12-30T04:27:04Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7551514" lon="-84.3896235"/>
+  <node id="2586580257" version="2" timestamp="2013-12-30T04:27:04Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7553112" lon="-84.3897887"/>
+  <node id="2586580259" version="2" timestamp="2013-12-30T04:27:04Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7554426" lon="-84.3876383"/>
+  <node id="2586580260" version="2" timestamp="2013-12-30T04:27:04Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7554452" lon="-84.3879003"/>
+  <node id="2586580261" version="3" timestamp="2015-07-08T06:53:05Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7554615" lon="-84.3862431"/>
+  <node id="2586580262" version="3" timestamp="2015-07-08T06:53:05Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7554648" lon="-84.3862436"/>
+  <node id="2586580263" version="3" timestamp="2015-07-08T06:53:05Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.755468" lon="-84.3862445"/>
+  <node id="2586580264" version="3" timestamp="2015-07-08T06:53:05Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7554709" lon="-84.3862459"/>
+  <node id="2586580265" version="3" timestamp="2015-07-08T06:53:05Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7554736" lon="-84.3862477"/>
+  <node id="2586580266" version="3" timestamp="2015-07-08T06:53:05Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.755476" lon="-84.3862499"/>
+  <node id="2586580267" version="3" timestamp="2015-07-08T06:53:05Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7554781" lon="-84.3862524"/>
+  <node id="2586580268" version="3" timestamp="2015-07-08T06:53:04Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.75548" lon="-84.3862553"/>
+  <node id="2586580269" version="3" timestamp="2015-07-08T06:53:04Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7554816" lon="-84.3862586"/>
+  <node id="2586580270" version="3" timestamp="2015-07-08T06:53:04Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7554828" lon="-84.3862621"/>
+  <node id="2586580271" version="3" timestamp="2015-07-08T06:53:04Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7554841" lon="-84.3862698"/>
+  <node id="2586580272" version="3" timestamp="2015-07-08T06:53:04Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.755493" lon="-84.3871522"/>
+  <node id="2586580273" version="3" timestamp="2015-07-08T06:53:04Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7554836" lon="-84.3862658"/>
+  <node id="2586580282" version="2" timestamp="2013-12-30T04:27:05Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7560111" lon="-84.3891741"/>
+  <node id="2586580284" version="2" timestamp="2013-12-30T04:27:05Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7560114" lon="-84.3892277"/>
+  <node id="2586580295" version="2" timestamp="2013-12-30T04:27:05Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7563334" lon="-84.3887376"/>
+  <node id="2586580296" version="2" timestamp="2013-12-30T04:27:05Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7563381" lon="-84.3895714"/>
+  <node id="2586580297" version="2" timestamp="2013-12-30T04:27:05Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7563727" lon="-84.3895616"/>
+  <node id="2586580298" version="2" timestamp="2013-12-30T04:27:05Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.756377" lon="-84.3887341"/>
+  <node id="2586580299" version="3" timestamp="2015-12-13T19:33:44Z" uid="192504" user="kessler" changeset="35932169" lat="33.7564663" lon="-84.3897203"/>
+  <node id="2586580307" version="3" timestamp="2015-12-13T19:33:44Z" uid="192504" user="kessler" changeset="35932169" lat="33.756577" lon="-84.3895767"/>
+  <node id="2586580310" version="2" timestamp="2013-12-30T04:27:06Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7566936" lon="-84.3890664"/>
+  <node id="2586580311" version="2" timestamp="2013-12-30T04:27:06Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7566972" lon="-84.3891182"/>
+  <node id="2586580314" version="3" timestamp="2015-12-13T19:33:44Z" uid="192504" user="kessler" changeset="35932169" lat="33.7566642" lon="-84.3899222"/>
+  <node id="2586580316" version="3" timestamp="2015-12-13T19:33:44Z" uid="192504" user="kessler" changeset="35932169" lat="33.7567645" lon="-84.3897722"/>
+  <node id="2586580317" version="2" timestamp="2013-12-30T04:27:06Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7568458" lon="-84.3891932"/>
+  <node id="2586580324" version="2" timestamp="2013-12-30T04:27:06Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7570288" lon="-84.3897991"/>
+  <node id="2586580325" version="2" timestamp="2013-12-30T04:27:06Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7570352" lon="-84.3893885"/>
+  <node id="2586580326" version="2" timestamp="2013-12-30T04:27:06Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7570995" lon="-84.3898712"/>
+  <node id="2586580327" version="2" timestamp="2013-12-30T04:27:06Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7571875" lon="-84.3895633"/>
+  <node id="2586580328" version="2" timestamp="2013-12-30T04:27:06Z" uid="586822" user="Saikrishna" changeset="19708700" lat="33.7572593" lon="-84.389632"/>
+  <node id="2666543169" version="2" timestamp="2017-11-01T14:16:37Z" uid="231017" user="swimdb" changeset="53425451" lat="33.7596226" lon="-84.3868332"/>
+  <node id="2666543171" version="3" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7592324" lon="-84.3868372"/>
+  <node id="2666543173" version="2" timestamp="2017-11-01T14:16:37Z" uid="231017" user="swimdb" changeset="53425451" lat="33.7592284" lon="-84.3861773"/>
+  <node id="2666543174" version="2" timestamp="2017-11-01T14:16:37Z" uid="231017" user="swimdb" changeset="53425451" lat="33.7596136" lon="-84.3861713"/>
+  <node id="2666556842" version="4" timestamp="2017-11-01T14:31:19Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7591234" lon="-84.3874251"/>
+  <node id="2666556843" version="4" timestamp="2017-11-01T14:31:19Z" uid="231017" user="swimdb" changeset="53425860" lat="33.759161" lon="-84.3862798"/>
+  <node id="2666556844" version="4" timestamp="2017-11-01T14:31:19Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7588367" lon="-84.3862848"/>
+  <node id="2666556845" version="4" timestamp="2017-11-01T14:31:19Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7588905" lon="-84.3874287"/>
+  <node id="2685391978" version="1" timestamp="2014-02-22T17:36:43Z" uid="1850423" user="andzan75" changeset="20718009" lat="33.7563157" lon="-84.3896534"/>
+  <node id="2685391980" version="1" timestamp="2014-02-22T17:36:43Z" uid="1850423" user="andzan75" changeset="20718009" lat="33.7555792" lon="-84.3897874"/>
+  <node id="2685391981" version="1" timestamp="2014-02-22T17:36:43Z" uid="1850423" user="andzan75" changeset="20718009" lat="33.7559468" lon="-84.3892837"/>
+  <node id="2685392001" version="1" timestamp="2014-02-22T17:36:44Z" uid="1850423" user="andzan75" changeset="20718009" lat="33.7564336" lon="-84.389826"/>
+  <node id="2753846478" version="1" timestamp="2014-03-30T14:28:06Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21401476" lat="33.7598028" lon="-84.3891567"/>
+  <node id="2753846482" version="2" timestamp="2017-10-29T20:46:46Z" uid="231017" user="swimdb" changeset="53352228" lat="33.759809" lon="-84.3898148"/>
+  <node id="2754862913" version="2" timestamp="2017-07-05T22:07:53Z" uid="140125" user="Jack G" changeset="50069854" lat="33.7595949" lon="-84.3852421">
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="75"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="International Boulevard Northeast"/>
+  </node>
+  <node id="2754863040" version="5" timestamp="2017-12-02T12:23:04Z" uid="231017" user="swimdb" changeset="54267920" lat="33.7573868" lon="-84.3867009"/>
+  <node id="2754863098" version="1" timestamp="2014-03-30T21:14:21Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7578735" lon="-84.3877706"/>
+  <node id="2754863104" version="1" timestamp="2014-03-30T21:14:21Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7578757" lon="-84.3878428"/>
+  <node id="2754863152" version="3" timestamp="2017-12-02T12:21:34Z" uid="231017" user="swimdb" changeset="54267881" lat="33.758073" lon="-84.3870286"/>
+  <node id="2754863153" version="2" timestamp="2017-10-31T20:12:00Z" uid="231017" user="swimdb" changeset="53406998" lat="33.7580763" lon="-84.3873937"/>
+  <node id="2754863156" version="2" timestamp="2017-10-31T20:12:00Z" uid="231017" user="swimdb" changeset="53406998" lat="33.7580865" lon="-84.3873928"/>
+  <node id="2754863162" version="2" timestamp="2017-10-31T20:12:00Z" uid="231017" user="swimdb" changeset="53406998" lat="33.7580876" lon="-84.3874168"/>
+  <node id="2754863167" version="1" timestamp="2014-03-30T21:14:22Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7580968" lon="-84.3877664"/>
+  <node id="2754863170" version="1" timestamp="2014-03-30T21:14:22Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7580986" lon="-84.3878388"/>
+  <node id="2754863181" version="2" timestamp="2017-10-31T20:12:00Z" uid="231017" user="swimdb" changeset="53406998" lat="33.7581408" lon="-84.387391"/>
+  <node id="2754863183" version="2" timestamp="2017-10-31T20:12:00Z" uid="231017" user="swimdb" changeset="53406998" lat="33.7581391" lon="-84.3874162"/>
+  <node id="2754863216" version="2" timestamp="2017-10-31T20:12:00Z" uid="231017" user="swimdb" changeset="53406998" lat="33.7582805" lon="-84.3873868"/>
+  <node id="2754863218" version="2" timestamp="2017-10-31T20:12:00Z" uid="231017" user="swimdb" changeset="53406998" lat="33.75828" lon="-84.3874601"/>
+  <node id="2754863259" version="2" timestamp="2017-10-31T20:12:00Z" uid="231017" user="swimdb" changeset="53406998" lat="33.7583461" lon="-84.38746"/>
+  <node id="2754863265" version="1" timestamp="2014-03-30T21:14:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7584857" lon="-84.3853684"/>
+  <node id="2754863267" version="1" timestamp="2014-03-30T21:14:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7584886" lon="-84.3856044"/>
+  <node id="2754863269" version="1" timestamp="2014-03-30T21:14:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7584892" lon="-84.3855719"/>
+  <node id="2754863271" version="1" timestamp="2014-03-30T21:14:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7584917" lon="-84.3857889"/>
+  <node id="2754863301" version="1" timestamp="2014-03-30T21:14:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7585481" lon="-84.3855704"/>
+  <node id="2754863303" version="1" timestamp="2014-03-30T21:14:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7585486" lon="-84.385603"/>
+  <node id="2754863307" version="1" timestamp="2014-03-30T21:14:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7585487" lon="-84.3852047"/>
+  <node id="2754863309" version="1" timestamp="2014-03-30T21:14:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7585511" lon="-84.3853455"/>
+  <node id="2754863364" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7586324" lon="-84.385569"/>
+  <node id="2754863366" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7586331" lon="-84.3856069"/>
+  <node id="2754863368" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7586348" lon="-84.3850329"/>
+  <node id="2754863372" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.758732" lon="-84.3851569"/>
+  <node id="2754863374" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7587327" lon="-84.3852002"/>
+  <node id="2754863376" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7587365" lon="-84.3853409"/>
+  <node id="2754863378" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7587368" lon="-84.3853622"/>
+  <node id="2754863380" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.758737" lon="-84.3850369"/>
+  <node id="2754863384" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7588291" lon="-84.3856021"/>
+  <node id="2754863386" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7588322" lon="-84.3857806"/>
+  <node id="2754863389" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7589583" lon="-84.3850642"/>
+  <node id="2754863392" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7589598" lon="-84.3851513"/>
+  <node id="2754863394" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7590135" lon="-84.3853585"/>
+  <node id="2754863397" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7590169" lon="-84.3855596"/>
+  <node id="2754863406" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7590384" lon="-84.3850622"/>
+  <node id="2754863409" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.759039" lon="-84.3850974"/>
+  <node id="2754863414" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7590434" lon="-84.3853577"/>
+  <node id="2754863431" version="1" timestamp="2014-03-30T21:14:24Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7591262" lon="-84.3859653"/>
+  <node id="2754863496" version="1" timestamp="2014-03-30T21:14:25Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7596084" lon="-84.3859523"/>
+  <node id="2754863499" version="2" timestamp="2017-11-01T14:16:37Z" uid="231017" user="swimdb" changeset="53425451" lat="33.7596163" lon="-84.3864213"/>
+  <node id="2754863502" version="2" timestamp="2017-11-01T14:16:37Z" uid="231017" user="swimdb" changeset="53425451" lat="33.7596168" lon="-84.3864517"/>
+  <node id="2754863519" version="1" timestamp="2014-03-30T21:14:25Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7597646" lon="-84.3857457"/>
+  <node id="2754863525" version="1" timestamp="2014-03-30T21:14:25Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7597699" lon="-84.3858037"/>
+  <node id="2754863533" version="1" timestamp="2014-03-30T21:14:25Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7597759" lon="-84.3864148"/>
+  <node id="2754863536" version="1" timestamp="2014-03-30T21:14:25Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7597766" lon="-84.3864488"/>
+  <node id="2754863550" version="1" timestamp="2014-03-30T21:14:25Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7598244" lon="-84.3858023"/>
+  <node id="2754863553" version="1" timestamp="2014-03-30T21:14:25Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7598269" lon="-84.38595"/>
+  <node id="2754863556" version="1" timestamp="2014-03-30T21:14:25Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.75983" lon="-84.3856287"/>
+  <node id="2754863559" version="1" timestamp="2014-03-30T21:14:25Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7598301" lon="-84.3857432"/>
+  <node id="2754863580" version="1" timestamp="2014-03-30T21:14:25Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7598993" lon="-84.3856163"/>
+  <node id="2754863582" version="1" timestamp="2014-03-30T21:14:26Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934" lat="33.7599057" lon="-84.3859647"/>
+  <node id="2755109104" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7551062" lon="-84.3893247"/>
+  <node id="2755109106" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7551091" lon="-84.3892757"/>
+  <node id="2755109125" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7554361" lon="-84.3896581"/>
+  <node id="2755109126" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.755468" lon="-84.3899349"/>
+  <node id="2755109129" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.755485" lon="-84.3894998"/>
+  <node id="2755109132" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7555129" lon="-84.3895484"/>
+  <node id="2755109135" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7555287" lon="-84.3894397"/>
+  <node id="2755109137" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7555629" lon="-84.3894708"/>
+  <node id="2755109140" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7556258" lon="-84.389295"/>
+  <node id="2755109142" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7556328" lon="-84.388979"/>
+  <node id="2755109144" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7556581" lon="-84.3893274"/>
+  <node id="2755109145" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7556709" lon="-84.3892282"/>
+  <node id="2755109148" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7557036" lon="-84.3892585"/>
+  <node id="2755109150" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7557351" lon="-84.3889409"/>
+  <node id="2755109151" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7557356" lon="-84.3889473"/>
+  <node id="2755109152" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7557358" lon="-84.3889345"/>
+  <node id="2755109153" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.755737" lon="-84.3889535"/>
+  <node id="2755109154" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7557376" lon="-84.3889285"/>
+  <node id="2755109156" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7557395" lon="-84.3889592"/>
+  <node id="2755109157" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7557404" lon="-84.388923"/>
+  <node id="2755109158" version="1" timestamp="2014-03-30T23:11:58Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.755744" lon="-84.3889182"/>
+  <node id="2755109159" version="1" timestamp="2014-03-30T23:11:59Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7557483" lon="-84.3889145"/>
+  <node id="2755109160" version="1" timestamp="2014-03-30T23:11:59Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7557862" lon="-84.389132"/>
+  <node id="2755109165" version="1" timestamp="2014-03-30T23:11:59Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7558414" lon="-84.3890578"/>
+  <node id="2755109175" version="1" timestamp="2014-03-30T23:11:59Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7560313" lon="-84.3887514"/>
+  <node id="2755109177" version="1" timestamp="2014-03-30T23:11:59Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410" lat="33.7560439" lon="-84.3887689"/>
+  <node id="2758435807" version="1" timestamp="2014-04-01T14:45:10Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7550158" lon="-84.3876302"/>
+  <node id="2758435873" version="1" timestamp="2014-04-01T14:45:11Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7556673" lon="-84.3862291"/>
+  <node id="2758435876" version="1" timestamp="2014-04-01T14:45:11Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7556737" lon="-84.3865789"/>
+  <node id="2758435878" version="1" timestamp="2014-04-01T14:45:11Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7556765" lon="-84.3859838"/>
+  <node id="2758435880" version="1" timestamp="2014-04-01T14:45:11Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7556778" lon="-84.3852515"/>
+  <node id="2758435882" version="1" timestamp="2014-04-01T14:45:11Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7557008" lon="-84.3869387"/>
+  <node id="2758435886" version="1" timestamp="2014-04-01T14:45:11Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7557129" lon="-84.3875332"/>
+  <node id="2758435888" version="1" timestamp="2014-04-01T14:45:11Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.755751" lon="-84.3868805"/>
+  <node id="2758435890" version="1" timestamp="2014-04-01T14:45:11Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7557522" lon="-84.3869372"/>
+  <node id="2758435902" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7558035" lon="-84.3852518"/>
+  <node id="2758435911" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.755877" lon="-84.387442"/>
+  <node id="2758435913" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7558788" lon="-84.3875284"/>
+  <node id="2758435915" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7559431" lon="-84.3852502"/>
+  <node id="2758435920" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7560201" lon="-84.3852504"/>
+  <node id="2758435922" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7560344" lon="-84.3850484"/>
+  <node id="2758435924" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7560353" lon="-84.3874374"/>
+  <node id="2758435926" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.756036" lon="-84.3851541"/>
+  <node id="2758435929" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7560371" lon="-84.3875241"/>
+  <node id="2758435933" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7560873" lon="-84.3850473"/>
+  <node id="2758435937" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7560973" lon="-84.3859849"/>
+  <node id="2758435939" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7560986" lon="-84.3852506"/>
+  <node id="2758435944" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7561408" lon="-84.3868692"/>
+  <node id="2758435947" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.756141" lon="-84.3868801"/>
+  <node id="2758435949" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.756142" lon="-84.3869283"/>
+  <node id="2758435950" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.75615" lon="-84.3852592"/>
+  <node id="2758435952" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.756152" lon="-84.3854459"/>
+  <node id="2758435954" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7561547" lon="-84.3854198"/>
+  <node id="2758435957" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7561569" lon="-84.3856002"/>
+  <node id="2758435959" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.756177" lon="-84.3852581"/>
+  <node id="2758435961" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7561776" lon="-84.3854445"/>
+  <node id="2758435963" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7561819" lon="-84.3854187"/>
+  <node id="2758435966" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7561827" lon="-84.3855989"/>
+  <node id="2758435968" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7561899" lon="-84.3862154"/>
+  <node id="2758435970" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7561963" lon="-84.3865652"/>
+  <node id="2758435972" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7561984" lon="-84.3869267"/>
+  <node id="2758435975" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7562104" lon="-84.387519"/>
+  <node id="2758435977" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7562512" lon="-84.3875484"/>
+  <node id="2758435978" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7564135" lon="-84.3857336"/>
+  <node id="2758435979" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7564145" lon="-84.3851942"/>
+  <node id="2758435983" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7564519" lon="-84.3868453"/>
+  <node id="2758435984" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7564579" lon="-84.3875459"/>
+  <node id="2758435989" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.756486" lon="-84.3851441"/>
+  <node id="2758435990" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7564861" lon="-84.3850001"/>
+  <node id="2758435993" version="1" timestamp="2014-04-01T14:45:12Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7564866" lon="-84.3851853"/>
+  <node id="2758435994" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7565004" lon="-84.3862109"/>
+  <node id="2758435995" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7565006" lon="-84.3862368"/>
+  <node id="2758435996" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7565059" lon="-84.3868446"/>
+  <node id="2758436000" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7565463" lon="-84.3879066"/>
+  <node id="2758436007" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7566021" lon="-84.388178"/>
+  <node id="2758436013" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7566164" lon="-84.385021"/>
+  <node id="2758436016" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7566244" lon="-84.3850208"/>
+  <node id="2758436018" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7566249" lon="-84.385055"/>
+  <node id="2758436019" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7566263" lon="-84.3857341"/>
+  <node id="2758436021" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7566269" lon="-84.3851822"/>
+  <node id="2758436026" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7566273" lon="-84.3851947"/>
+  <node id="2758436029" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7566306" lon="-84.3850183"/>
+  <node id="2758436032" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7566338" lon="-84.385345"/>
+  <node id="2758436039" version="2" timestamp="2017-10-30T00:54:25Z" uid="231017" user="swimdb" changeset="53355393" lat="33.7566543" lon="-84.3878497"/>
+  <node id="2758436042" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.756659" lon="-84.3876733"/>
+  <node id="2758436060" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7567145" lon="-84.3853438"/>
+  <node id="2758436064" version="1" timestamp="2014-04-01T14:45:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7567148" lon="-84.3853754"/>
+  <node id="2758436121" version="1" timestamp="2014-04-01T14:45:14Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.75704" lon="-84.3850127"/>
+  <node id="2758436124" version="1" timestamp="2014-04-01T14:45:14Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7570402" lon="-84.3850127"/>
+  <node id="2758436127" version="1" timestamp="2014-04-01T14:45:14Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7570428" lon="-84.388166"/>
+  <node id="2758436130" version="1" timestamp="2014-04-01T14:45:14Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7570436" lon="-84.385371"/>
+  <node id="2758436137" version="1" timestamp="2014-04-01T14:45:14Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7570834" lon="-84.3876612"/>
+  <node id="2758436141" version="1" timestamp="2014-04-01T14:45:14Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7570897" lon="-84.3879243"/>
+  <node id="2758436188" version="1" timestamp="2014-04-01T14:45:14Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.757236" lon="-84.3883633"/>
+  <node id="2758436208" version="1" timestamp="2014-04-01T14:45:14Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7572444" lon="-84.3880498"/>
+  <node id="2758436242" version="1" timestamp="2014-04-01T14:45:14Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7572975" lon="-84.388015"/>
+  <node id="2758436267" version="1" timestamp="2014-04-01T14:45:15Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7573651" lon="-84.3881865"/>
+  <node id="2758436270" version="1" timestamp="2014-04-01T14:45:15Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7573688" lon="-84.3879744"/>
+  <node id="2758436295" version="1" timestamp="2014-04-01T14:45:15Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7574141" lon="-84.3881209"/>
+  <node id="2758436305" version="1" timestamp="2014-04-01T14:45:15Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.757455" lon="-84.3880653"/>
+  <node id="2758436364" version="1" timestamp="2014-04-01T14:45:15Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7576981" lon="-84.3851313"/>
+  <node id="2758436384" version="1" timestamp="2014-04-01T14:45:15Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7577588" lon="-84.3851188"/>
+  <node id="2758436387" version="1" timestamp="2014-04-01T14:45:15Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841" lat="33.7577589" lon="-84.385131"/>
+  <node id="3242871137" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.759241" lon="-84.3887363"/>
+  <node id="3242871138" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7592277" lon="-84.3877224"/>
+  <node id="3242871139" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.758523" lon="-84.3877385"/>
+  <node id="3242871140" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7585275" lon="-84.3885512"/>
+  <node id="3242871141" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7587014" lon="-84.3887417"/>
+  <node id="3242871142" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7582723" lon="-84.3879831"/>
+  <node id="3242871143" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7583512" lon="-84.388337"/>
+  <node id="3242871144" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7583635" lon="-84.3879672"/>
+  <node id="3242871145" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7583627" lon="-84.3877349"/>
+  <node id="3242871146" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7581868" lon="-84.3877359"/>
+  <node id="3242871147" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7581917" lon="-84.3879672"/>
+  <node id="3242871149" version="2" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7593509" lon="-84.3874712"/>
+  <node id="3242871150" version="2" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7593473" lon="-84.3871436"/>
+  <node id="3242871151" version="2" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7594102" lon="-84.3871425"/>
+  <node id="3242871153" version="3" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7592376" lon="-84.3874793"/>
+  <node id="3242871155" version="3" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7593447" lon="-84.3868359"/>
+  <node id="3242871160" version="2" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7585731" lon="-84.3873877"/>
+  <node id="3242871261" version="2" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7585202" lon="-84.3873883"/>
+  <node id="3242871262" version="2" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7586931" lon="-84.3868898"/>
+  <node id="3242871263" version="2" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7586942" lon="-84.387035"/>
+  <node id="3242871268" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7585123" lon="-84.3868274"/>
+  <node id="3242871269" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7584991" lon="-84.3861858"/>
+  <node id="3242871270" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290" lat="33.7588369" lon="-84.3861858"/>
+  <node id="3605314111" version="1" timestamp="2015-06-19T14:26:02Z" uid="539674" user="cbenson583" changeset="32076309" lat="33.7570631" lon="-84.3874872"/>
+  <node id="3605314112" version="1" timestamp="2015-06-19T14:26:02Z" uid="539674" user="cbenson583" changeset="32076309" lat="33.7570229" lon="-84.3873258"/>
+  <node id="3605314113" version="1" timestamp="2015-06-19T14:26:02Z" uid="539674" user="cbenson583" changeset="32076309" lat="33.7570296" lon="-84.3872612"/>
+  <node id="3605314114" version="1" timestamp="2015-06-19T14:26:02Z" uid="539674" user="cbenson583" changeset="32076309" lat="33.756958" lon="-84.386925"/>
+  <node id="3605314115" version="1" timestamp="2015-06-19T14:26:02Z" uid="539674" user="cbenson583" changeset="32076309" lat="33.7564817" lon="-84.3869358"/>
+  <node id="3605314116" version="1" timestamp="2015-06-19T14:26:02Z" uid="539674" user="cbenson583" changeset="32076309" lat="33.7564862" lon="-84.3873527"/>
+  <node id="3605314117" version="1" timestamp="2015-06-19T14:26:02Z" uid="539674" user="cbenson583" changeset="32076309" lat="33.7564951" lon="-84.387549"/>
+  <node id="3605314118" version="1" timestamp="2015-06-19T14:26:02Z" uid="539674" user="cbenson583" changeset="32076309" lat="33.7568507" lon="-84.387428"/>
+  <node id="3605314119" version="1" timestamp="2015-06-19T14:26:02Z" uid="539674" user="cbenson583" changeset="32076309" lat="33.7568686" lon="-84.3875006"/>
+  <node id="3640293362" version="1" timestamp="2015-07-08T06:53:04Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7555109" lon="-84.387534"/>
+  <node id="3640293363" version="1" timestamp="2015-07-08T06:53:04Z" uid="951481" user="mejackreed" changeset="32488337" lat="33.7555067" lon="-84.3872382"/>
+  <node id="3740801978" version="1" timestamp="2015-09-13T02:24:22Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7592469" lon="-84.3880963"/>
+  <node id="3740801979" version="1" timestamp="2015-09-13T02:24:22Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7592832" lon="-84.3876802"/>
+  <node id="3740801980" version="1" timestamp="2015-09-13T02:24:22Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7592844" lon="-84.3880963"/>
+  <node id="3740801981" version="1" timestamp="2015-09-13T02:24:22Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7595905" lon="-84.3876845"/>
+  <node id="3740801982" version="1" timestamp="2015-09-13T02:24:22Z" uid="1946151" user="Jack the Ripper" changeset="33991512" lat="33.7595905" lon="-84.3877252"/>
+  <node id="4722823056" version="3" timestamp="2017-12-02T12:21:07Z" uid="231017" user="swimdb" changeset="54267867" lat="33.7572769" lon="-84.3868032"/>
+  <node id="4722823057" version="3" timestamp="2017-12-02T12:21:07Z" uid="231017" user="swimdb" changeset="54267867" lat="33.7576102" lon="-84.3865982"/>
+  <node id="4722823058" version="3" timestamp="2017-12-02T12:21:07Z" uid="231017" user="swimdb" changeset="54267867" lat="33.7574943" lon="-84.3865994"/>
+  <node id="4722823061" version="3" timestamp="2017-12-02T12:21:07Z" uid="231017" user="swimdb" changeset="54267867" lat="33.7572775" lon="-84.3869028"/>
+  <node id="4722823063" version="4" timestamp="2017-12-02T12:23:04Z" uid="231017" user="swimdb" changeset="54267920" lat="33.7573869" lon="-84.3868021"/>
+  <node id="4722823065" version="3" timestamp="2017-12-02T12:21:07Z" uid="231017" user="swimdb" changeset="54267867" lat="33.7574949" lon="-84.3867008"/>
+  <node id="4722823066" version="3" timestamp="2017-12-02T12:21:07Z" uid="231017" user="swimdb" changeset="54267867" lat="33.7576109" lon="-84.3866991"/>
+  <node id="4722823072" version="3" timestamp="2017-12-02T12:21:08Z" uid="231017" user="swimdb" changeset="54267867" lat="33.7576116" lon="-84.386799"/>
+  <node id="4722823078" version="3" timestamp="2017-12-02T12:21:08Z" uid="231017" user="swimdb" changeset="54267867" lat="33.7576123" lon="-84.386899"/>
+  <node id="4722823079" version="2" timestamp="2017-10-29T18:37:33Z" uid="231017" user="swimdb" changeset="53349489" lat="33.7576135" lon="-84.3873181"/>
+  <node id="4722823080" version="2" timestamp="2017-10-29T18:37:33Z" uid="231017" user="swimdb" changeset="53349489" lat="33.7572821" lon="-84.3875229"/>
+  <node id="4722823086" version="3" timestamp="2017-12-02T12:21:08Z" uid="231017" user="swimdb" changeset="54267867" lat="33.7576129" lon="-84.3869975"/>
+  <node id="5198201670" version="2" timestamp="2017-11-01T14:31:19Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7591237" lon="-84.3874527"/>
+  <node id="5198403887" version="1" timestamp="2017-10-29T15:44:35Z" uid="231017" user="swimdb" changeset="53345173" lat="33.7599685" lon="-84.3866339"/>
+  <node id="5198403888" version="1" timestamp="2017-10-29T15:44:35Z" uid="231017" user="swimdb" changeset="53345173" lat="33.7599697" lon="-84.3867859"/>
+  <node id="5198403889" version="1" timestamp="2017-10-29T15:44:35Z" uid="231017" user="swimdb" changeset="53345173" lat="33.7598808" lon="-84.3867869"/>
+  <node id="5198403890" version="1" timestamp="2017-10-29T15:44:35Z" uid="231017" user="swimdb" changeset="53345173" lat="33.7598806" lon="-84.3867638"/>
+  <node id="5198403891" version="1" timestamp="2017-10-29T15:44:35Z" uid="231017" user="swimdb" changeset="53345173" lat="33.7597864" lon="-84.3867649"/>
+  <node id="5198448261" version="1" timestamp="2017-10-29T16:15:00Z" uid="231017" user="swimdb" changeset="53345930" lat="33.7597939" lon="-84.3886883"/>
+  <node id="5198665761" version="2" timestamp="2017-12-02T12:21:08Z" uid="231017" user="swimdb" changeset="54267867" lat="33.7576132" lon="-84.3871242"/>
+  <node id="5198665762" version="1" timestamp="2017-10-29T18:37:32Z" uid="231017" user="swimdb" changeset="53349489" lat="33.7578213" lon="-84.3871242"/>
+  <node id="5198665763" version="1" timestamp="2017-10-29T18:37:32Z" uid="231017" user="swimdb" changeset="53349489" lat="33.7578072" lon="-84.3862078"/>
+  <node id="5198665764" version="1" timestamp="2017-10-29T18:37:32Z" uid="231017" user="swimdb" changeset="53349489" lat="33.7572212" lon="-84.3862119"/>
+  <node id="5198665765" version="1" timestamp="2017-10-29T18:37:32Z" uid="231017" user="swimdb" changeset="53349489" lat="33.757228" lon="-84.386698"/>
+  <node id="5198665766" version="1" timestamp="2017-10-29T18:37:32Z" uid="231017" user="swimdb" changeset="53349489" lat="33.7575828" lon="-84.3862094"/>
+  <node id="5198665767" version="1" timestamp="2017-10-29T18:37:32Z" uid="231017" user="swimdb" changeset="53349489" lat="33.7575067" lon="-84.3862099"/>
+  <node id="5198665768" version="1" timestamp="2017-10-29T18:37:32Z" uid="231017" user="swimdb" changeset="53349489" lat="33.7575046" lon="-84.3860091"/>
+  <node id="5198665769" version="1" timestamp="2017-10-29T18:37:32Z" uid="231017" user="swimdb" changeset="53349489" lat="33.7575828" lon="-84.3860084"/>
+  <node id="5198665771" version="1" timestamp="2017-10-29T18:37:32Z" uid="231017" user="swimdb" changeset="53349489" lat="33.7583404" lon="-84.3859954"/>
+  <node id="5198665772" version="2" timestamp="2017-10-29T18:38:50Z" uid="231017" user="swimdb" changeset="53349517" lat="33.7578475" lon="-84.3860004"/>
+  <node id="5198665773" version="2" timestamp="2017-10-29T18:38:50Z" uid="231017" user="swimdb" changeset="53349517" lat="33.7578435" lon="-84.3854062"/>
+  <node id="5198665774" version="2" timestamp="2017-10-29T18:38:50Z" uid="231017" user="swimdb" changeset="53349517" lat="33.7577744" lon="-84.3854069"/>
+  <node id="5198667578" version="1" timestamp="2017-10-29T18:38:50Z" uid="231017" user="swimdb" changeset="53349517" lat="33.7572294" lon="-84.3860065"/>
+  <node id="5198667579" version="2" timestamp="2017-10-29T18:44:08Z" uid="231017" user="swimdb" changeset="53349649" lat="33.7572254" lon="-84.3854123"/>
+  <node id="5198668281" version="1" timestamp="2017-10-29T18:44:07Z" uid="231017" user="swimdb" changeset="53349649" lat="33.7576493" lon="-84.3854111"/>
+  <node id="5199096748" version="1" timestamp="2017-10-30T00:54:25Z" uid="231017" user="swimdb" changeset="53355393" lat="33.7567313" lon="-84.3881108"/>
+  <node id="5199994583" version="1" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7587262" lon="-84.3870347"/>
+  <node id="5199994584" version="1" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7587258" lon="-84.3869806"/>
+  <node id="5199994585" version="2" timestamp="2017-11-01T14:31:19Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7587945" lon="-84.3873329"/>
+  <node id="5199994586" version="1" timestamp="2017-10-30T12:00:51Z" uid="231017" user="swimdb" changeset="53365744" lat="33.7587744" lon="-84.387332"/>
+  <node id="5202989682" version="2" timestamp="2017-12-02T12:21:34Z" uid="231017" user="swimdb" changeset="54267881" lat="33.7583454" lon="-84.387027"/>
+  <node id="5204294410" version="2" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7592375" lon="-84.3874509"/>
+  <node id="5204294411" version="1" timestamp="2017-11-01T14:31:18Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7591627" lon="-84.386665"/>
+  <node id="5204294412" version="1" timestamp="2017-11-01T14:31:18Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7592291" lon="-84.386667"/>
+  <node id="5204294413" version="1" timestamp="2017-11-01T14:31:18Z" uid="231017" user="swimdb" changeset="53425860" lat="33.758842" lon="-84.3868212"/>
+  <node id="5204294414" version="1" timestamp="2017-11-01T14:31:18Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7587959" lon="-84.3874643"/>
+  <node id="5204294415" version="1" timestamp="2017-11-01T14:31:18Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7588909" lon="-84.3874628"/>
+  <node id="5204294416" version="1" timestamp="2017-11-01T14:31:18Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7587918" lon="-84.3870385"/>
+  <node id="5204294417" version="1" timestamp="2017-11-01T14:31:18Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7588439" lon="-84.3870378"/>
+  <node id="5204294418" version="1" timestamp="2017-11-01T14:31:18Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7588387" lon="-84.3863345"/>
+  <node id="5204294419" version="1" timestamp="2017-11-01T14:31:18Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7591598" lon="-84.3863305"/>
+  <node id="5204294427" version="1" timestamp="2017-11-01T14:31:18Z" uid="231017" user="swimdb" changeset="53425860" lat="33.7588416" lon="-84.3866703"/>
+  <node id="5204295240" version="1" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907" lat="33.7593509" lon="-84.3874787"/>
+  <way id="40860494" version="6" timestamp="2017-10-30T19:11:12Z" uid="231017" user="swimdb" changeset="53376239">
+    <nd ref="497187752"/>
+    <nd ref="497187754"/>
+    <nd ref="497187755"/>
+    <nd ref="497187756"/>
+    <nd ref="2034726667"/>
+    <nd ref="2034726665"/>
+    <nd ref="2034726653"/>
+    <nd ref="2034726661"/>
+    <nd ref="2034726651"/>
+    <nd ref="497187757"/>
+    <nd ref="497187758"/>
+    <nd ref="497187760"/>
+    <nd ref="497187761"/>
+    <nd ref="2034726675"/>
+    <nd ref="2034726657"/>
+    <nd ref="2034726659"/>
+    <nd ref="497187762"/>
+    <nd ref="497187763"/>
+    <nd ref="497187752"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="160"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="Spring Street Northwest"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="8"/>
+    <tag k="name" v="The American Hotel Atlanta Downtown"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="website" v="http://doubletree3.hilton.com/en/hotels/georgia/the-american-hotel-atlanta-downtown-a-doubletree-by-hilton-ATLSSDT/index.html"/>
+  </way>
+  <way id="42738913" version="7" timestamp="2016-06-13T14:44:27Z" uid="1519787" user="kdano" changeset="39994229">
+    <nd ref="534433754"/>
+    <nd ref="534433756"/>
+    <nd ref="534433758"/>
+    <nd ref="537186330"/>
+    <nd ref="534433759"/>
+    <nd ref="534433754"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="parking" v="multi-storey"/>
+    <tag k="building" v="garage"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Williams Street Northwest"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="120"/>
+  </way>
+  <way id="42740643" version="5" timestamp="2014-12-19T16:06:22Z" uid="2469366" user="DrMatt" changeset="27572290">
+    <nd ref="534448647"/>
+    <nd ref="534448648"/>
+    <nd ref="3242871142"/>
+    <nd ref="534448649"/>
+    <nd ref="534448650"/>
+    <nd ref="534448651"/>
+    <nd ref="534448652"/>
+    <nd ref="534448653"/>
+    <nd ref="3242871143"/>
+    <nd ref="534448655"/>
+    <nd ref="534448647"/>
+    <tag k="name" v="Courtyard Atlanta Downtown"/>
+    <tag k="phone" v="1-404-222-2416"/>
+    <tag k="source" v="http://www.marriott.com/hotels/travel/atldo-courtyard-atlanta-downtown/"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="website" v="http://www.marriott.com/hotels/travel/atldo-courtyard-atlanta-downtown/"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Carnegie Way Northwest"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="133"/>
+  </way>
+  <way id="42779040" version="9" timestamp="2017-11-01T14:31:20Z" uid="231017" user="swimdb" changeset="53425860">
+    <nd ref="534888002"/>
+    <nd ref="5199994586"/>
+    <nd ref="5199994585"/>
+    <nd ref="5204294416"/>
+    <nd ref="534888004"/>
+    <nd ref="5199994584"/>
+    <nd ref="5199994583"/>
+    <nd ref="3242871263"/>
+    <nd ref="3242871262"/>
+    <nd ref="534888007"/>
+    <nd ref="3242871261"/>
+    <nd ref="3242871160"/>
+    <nd ref="534888011"/>
+    <nd ref="534888002"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="181"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="Peachtree Street Northeast"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="24"/>
+    <tag k="height" v="94"/>
+    <tag k="name" v="Ritz-Carlton Hotel Downtown Atlanta"/>
+    <tag k="website" v="http://www.ritzcarlton.com/en/hotels/georgia/atlanta"/>
+  </way>
+  <way id="42902311" version="5" timestamp="2014-03-30T14:29:18Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21401476">
+    <nd ref="537186347"/>
+    <nd ref="537186353"/>
+    <nd ref="537186360"/>
+    <nd ref="537186365"/>
+    <nd ref="537186347"/>
+    <tag k="name" v="Hampton Inn &amp; Suites"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="website" v="http://hamptoninn3.hilton.com"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Spring Street Northwest"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="161"/>
+  </way>
+  <way id="42904130" version="4" timestamp="2017-09-24T07:35:56Z" uid="364" user="Edward" changeset="52321646">
+    <nd ref="537222220"/>
+    <nd ref="537222230"/>
+    <nd ref="537222236"/>
+    <nd ref="537222243"/>
+    <nd ref="537222249"/>
+    <nd ref="537222255"/>
+    <nd ref="3740801978"/>
+    <nd ref="3740801980"/>
+    <nd ref="537222263"/>
+    <nd ref="3740801979"/>
+    <nd ref="3740801981"/>
+    <nd ref="3740801982"/>
+    <nd ref="537222283"/>
+    <nd ref="537222290"/>
+    <nd ref="537222296"/>
+    <nd ref="537222220"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="210"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Peachtree Street Northwest"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Westin Peachtree Plaza"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="wikidata" v="Q3177225"/>
+  </way>
+  <way id="192581349" version="4" timestamp="2016-04-17T12:04:10Z" uid="3478684" user="GoWestTravel" changeset="38641267">
+    <nd ref="2031312777"/>
+    <nd ref="2031312798"/>
+    <nd ref="2031312783"/>
+    <nd ref="2031312788"/>
+    <nd ref="2031312777"/>
+    <tag k="name" v="Holiday Inn Express &amp; Suites Atlanta Downtown"/>
+    <tag k="source" v="survey"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="website" v="http://www.hiexpress.com"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Cone Street Northwest"/>
+    <tag k="addr:country" v="US"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="111"/>
+  </way>
+  <way id="192581351" version="1" timestamp="2012-11-25T05:51:18Z" uid="55916" user="maxolasersquad" changeset="14023531">
+    <nd ref="2031312782"/>
+    <nd ref="2031312771"/>
+    <nd ref="2031312772"/>
+    <nd ref="2031312796"/>
+    <nd ref="2031312782"/>
+    <tag k="source" v="bing"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="192581353" version="2" timestamp="2014-03-30T23:12:11Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410">
+    <nd ref="2031312777"/>
+    <nd ref="2031312788"/>
+    <nd ref="2031312790"/>
+    <nd ref="2031312787"/>
+    <nd ref="2031312774"/>
+    <nd ref="2031312777"/>
+    <tag k="source" v="bing"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Fairlie Street Northwest"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="124"/>
+  </way>
+  <way id="192581356" version="3" timestamp="2012-11-26T01:48:21Z" uid="55916" user="maxolasersquad" changeset="14039631">
+    <nd ref="2031312775"/>
+    <nd ref="2031312776"/>
+    <nd ref="2031312780"/>
+    <nd ref="2031312782"/>
+    <nd ref="2031312796"/>
+    <nd ref="2031312775"/>
+    <tag k="fee" v="yes"/>
+    <tag k="source" v="bing"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="parking" v="multi-storey"/>
+    <tag k="website" v="http://www.lazparking.com"/>
+    <tag k="building" v="garage"/>
+    <tag k="operator" v="LAZ Parking"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Luckie Street Northwest"/>
+    <tag k="addr:country" v="US"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="100"/>
+  </way>
+  <way id="192937631" version="3" timestamp="2014-03-30T14:29:19Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21401476">
+    <nd ref="2034703555"/>
+    <nd ref="2034703544"/>
+    <nd ref="2034703558"/>
+    <nd ref="2034705544"/>
+    <nd ref="2034703557"/>
+    <nd ref="2034703556"/>
+    <nd ref="2034703551"/>
+    <nd ref="2034703555"/>
+    <tag k="source" v="bing"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Cone Street Northwest"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="138"/>
+  </way>
+  <way id="192937990" version="2" timestamp="2014-03-30T14:29:20Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21401476">
+    <nd ref="2034703549"/>
+    <nd ref="2034703559"/>
+    <nd ref="2034705544"/>
+    <nd ref="2034703558"/>
+    <nd ref="2034705543"/>
+    <nd ref="2034703549"/>
+    <tag k="source" v="bing"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Spring Street Northwest"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="151"/>
+  </way>
+  <way id="192939658" version="2" timestamp="2012-11-26T14:24:15Z" uid="55916" user="maxolasersquad" changeset="14045180">
+    <nd ref="2034719412"/>
+    <nd ref="2034703548"/>
+    <nd ref="2034703545"/>
+    <nd ref="2034703553"/>
+    <nd ref="2034703550"/>
+    <nd ref="2034703559"/>
+    <nd ref="2034703549"/>
+    <nd ref="2034703547"/>
+    <nd ref="2034719412"/>
+    <tag k="source" v="bing"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="192939659" version="2" timestamp="2014-03-30T14:29:18Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21401476">
+    <nd ref="2034703554"/>
+    <nd ref="2034703546"/>
+    <nd ref="2034703548"/>
+    <nd ref="2034719412"/>
+    <nd ref="2034703552"/>
+    <nd ref="2034703554"/>
+    <tag k="source" v="bing"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Luckie Street Northwest"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="building:levels" v="3"/>
+    <tag k="addr:housenumber" v="117"/>
+  </way>
+  <way id="192941643" version="4" timestamp="2017-09-09T09:12:51Z" uid="50179" user="Aroche" changeset="51873317">
+    <nd ref="2034743078"/>
+    <nd ref="2034743079"/>
+    <nd ref="2034743087"/>
+    <nd ref="2034743077"/>
+    <nd ref="2034743086"/>
+    <nd ref="2034743076"/>
+    <nd ref="2034743080"/>
+    <nd ref="2034743081"/>
+    <nd ref="2034743083"/>
+    <nd ref="2034743082"/>
+    <nd ref="2034743084"/>
+    <nd ref="2034743085"/>
+    <nd ref="2034743078"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="amenity" v="library"/>
+    <tag k="architect" v="Marcel Breuer"/>
+    <tag k="building" v="yes"/>
+    <tag k="ele" v="324"/>
+    <tag k="gnis:county_name" v="Fulton"/>
+    <tag k="gnis:feature_id" v="351176"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="yes"/>
+    <tag k="name" v="Atlanta-Fulton County Public Library"/>
+    <tag k="operator" v="Atlanta-Fulton Public Library System"/>
+    <tag k="source" v="USGS Geonames"/>
+    <tag k="website" v="http://www.afplweb.com"/>
+    <tag k="wikidata" v="Q4815975"/>
+  </way>
+  <way id="193133144" version="5" timestamp="2016-08-10T22:13:25Z" uid="1822541" user="atlantamap" changeset="41377063">
+    <nd ref="2036492429"/>
+    <nd ref="2036492411"/>
+    <nd ref="2036492407"/>
+    <nd ref="2036492413"/>
+    <nd ref="2036492429"/>
+    <tag k="name" v="Barclay Hotel Atlanta Downtown"/>
+    <tag k="phone" v="+1 (404) 524-7991"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="website" v="http://www.atlantadowntowninn.com"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Luckie Street Northwest"/>
+    <tag k="addr:country" v="US"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="89"/>
+  </way>
+  <way id="193133145" version="1" timestamp="2012-11-27T15:31:46Z" uid="55916" user="maxolasersquad" changeset="14060357">
+    <nd ref="2036492429"/>
+    <nd ref="2036492403"/>
+    <nd ref="2036492419"/>
+    <nd ref="2036492420"/>
+    <nd ref="2036492422"/>
+    <nd ref="2036492415"/>
+    <nd ref="2036492410"/>
+    <nd ref="2036492418"/>
+    <nd ref="2036492414"/>
+    <nd ref="2036492425"/>
+    <nd ref="2036492409"/>
+    <nd ref="2036492426"/>
+    <nd ref="2036492411"/>
+    <nd ref="2036492429"/>
+    <tag k="fee" v="yes"/>
+    <tag k="source" v="bing"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="parking" v="multi-storey"/>
+    <tag k="building" v="garage"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:country" v="US"/>
+    <tag k="addr:postcode" v="30303"/>
+  </way>
+  <way id="239746831" version="3" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907">
+    <nd ref="2475185759"/>
+    <nd ref="2475185756"/>
+    <nd ref="3242871151"/>
+    <nd ref="2475185764"/>
+    <nd ref="2475185773"/>
+    <nd ref="2475185759"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="International Boulevard Northeast"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="252608881" version="1" timestamp="2013-12-19T12:16:23Z" uid="951481" user="mejackreed" changeset="19530041">
+    <nd ref="2586580307"/>
+    <nd ref="2586580299"/>
+    <nd ref="2586580314"/>
+    <nd ref="2586580316"/>
+    <nd ref="2586580307"/>
+    <tag k="addr" v="75 Poplar Street, Atlanta GA"/>
+    <tag k="name" v="Haas-Howell Building"/>
+    <tag k="building" v="university"/>
+    <tag k="operator" v="Georgia State University"/>
+    <tag k="buildtype" v="Departments"/>
+    <tag k="description" v="Haas-Howell houses the School of Music. Constructed in 1920 and occupied by the university since 1994, it contains School of Music administrative and faculty offices, recording studios, a state-of-the-art media and technology center and classrooms."/>
+  </way>
+  <way id="252608882" version="2" timestamp="2014-04-01T14:45:27Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2586580295"/>
+    <nd ref="2586580282"/>
+    <nd ref="2586580284"/>
+    <nd ref="2586580296"/>
+    <nd ref="2586580297"/>
+    <nd ref="2586580311"/>
+    <nd ref="2586580310"/>
+    <nd ref="2586580298"/>
+    <nd ref="2586580295"/>
+    <tag k="addr" v="60 Luckie Street, Atlanta GA"/>
+    <tag k="name" v="Helen M. Aderhold Learning Center"/>
+    <tag k="building" v="university"/>
+    <tag k="operator" v="Georgia State University"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="buildtype" v="Classrooms"/>
+    <tag k="addr:street" v="Luckie Street Northwest"/>
+    <tag k="description" v="This facility houses many general purpose classrooms and lecture halls with some office space. Classrooms are spacious and equipped with current the latest in audio-visual and data technology. Shops and eateries are located outside."/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="60"/>
+  </way>
+  <way id="252608883" version="3" timestamp="2017-09-24T07:36:25Z" uid="364" user="Edward" changeset="52321646">
+    <nd ref="2586580257"/>
+    <nd ref="2586580254"/>
+    <nd ref="2586580242"/>
+    <nd ref="2586580203"/>
+    <nd ref="2586580241"/>
+    <nd ref="2586580257"/>
+    <tag k="addr" v="35 Broad Street NW, Atlanta GA"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="35"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="Broad Street Northwest"/>
+    <tag k="building" v="university"/>
+    <tag k="buildtype" v="Departments"/>
+    <tag k="description" v="The largest business school in the South and part of a major research institution, the J. Mack Robinson College of Business at Georgia State University is located in Atlanta, an epicenter of business."/>
+    <tag k="name" v="J. Mack Robinson College of Business"/>
+    <tag k="operator" v="Georgia State University"/>
+    <tag k="wikidata" v="Q6106443"/>
+  </way>
+  <way id="252608898" version="4" timestamp="2017-09-24T07:36:39Z" uid="364" user="Edward" changeset="52321646">
+    <nd ref="2586580317"/>
+    <nd ref="2586580307"/>
+    <nd ref="2586580316"/>
+    <nd ref="2586580325"/>
+    <nd ref="2586580317"/>
+    <tag k="addr" v="80 Forsyth Street, Atlanta GA"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="80"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="Luckie Street Northwest"/>
+    <tag k="building" v="university"/>
+    <tag k="buildtype" v="Theatre"/>
+    <tag k="description" v="Anchored in the historic Fairlie-Poplar district, The Rialto Center at GSU provides a venue for visitors to enjoy performances ranging from theatre to dance to spoken word to film and to music, including jazz, blues, classical and world arts."/>
+    <tag k="name" v="Rialto Center for the Arts"/>
+    <tag k="operator" v="Georgia State University"/>
+    <tag k="wikidata" v="Q7322136"/>
+  </way>
+  <way id="252608905" version="2" timestamp="2014-03-30T23:12:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410">
+    <nd ref="2586580327"/>
+    <nd ref="2586580324"/>
+    <nd ref="2586580326"/>
+    <nd ref="2586580328"/>
+    <nd ref="2586580327"/>
+    <tag k="addr" v="75 Poplar Street, Atlanta GA"/>
+    <tag k="name" v="Standard Building"/>
+    <tag k="building" v="university"/>
+    <tag k="operator" v="Georgia State University"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="buildtype" v="Departments / Classrooms"/>
+    <tag k="addr:street" v="Fairlie Street Northwest"/>
+    <tag k="description" v="Constructed in 1923 and occupied by the university in 1984, this building is home to School of Music classrooms, faculty offices, rehearsal rooms for small instrumental ensembles, student and faculty lounges, and recording studios."/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="95"/>
+  </way>
+  <way id="252608908" version="1" timestamp="2013-12-19T12:16:28Z" uid="951481" user="mejackreed" changeset="19530041">
+    <nd ref="2586580248"/>
+    <nd ref="2586580272"/>
+    <nd ref="2586580271"/>
+    <nd ref="2586580273"/>
+    <nd ref="2586580270"/>
+    <nd ref="2586580269"/>
+    <nd ref="2586580268"/>
+    <nd ref="2586580267"/>
+    <nd ref="2586580266"/>
+    <nd ref="2586580265"/>
+    <nd ref="2586580264"/>
+    <nd ref="2586580263"/>
+    <nd ref="2586580262"/>
+    <nd ref="2586580261"/>
+    <nd ref="2586580232"/>
+    <nd ref="2586580161"/>
+    <nd ref="2586580134"/>
+    <nd ref="2586580135"/>
+    <nd ref="2586580247"/>
+    <nd ref="2586580248"/>
+    <tag k="addr" v="43 Auburn Avenue, Atlanta GA"/>
+    <tag k="name" v="T Deck"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="university"/>
+    <tag k="operator" v="Georgia State University"/>
+    <tag k="buildtype" v="Parking"/>
+    <tag k="description" v="T Deck entrance is located at 43 Auburn Avenue."/>
+  </way>
+  <way id="252608921" version="4" timestamp="2017-10-29T18:46:16Z" uid="231017" user="swimdb" changeset="53349692">
+    <nd ref="2586580223"/>
+    <nd ref="2586580245"/>
+    <nd ref="2586580246"/>
+    <nd ref="2586580260"/>
+    <nd ref="2586580259"/>
+    <nd ref="2586580243"/>
+    <nd ref="2586580244"/>
+    <nd ref="2586580222"/>
+    <nd ref="2586580221"/>
+    <nd ref="2586580151"/>
+    <nd ref="2586580153"/>
+    <nd ref="2586580138"/>
+    <nd ref="2586580139"/>
+    <nd ref="2586580226"/>
+    <nd ref="2586580225"/>
+    <nd ref="2586580224"/>
+    <nd ref="2586580223"/>
+    <tag k="addr" v="25 Park Place, Atlanta GA"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="23"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="Park Place Northeast"/>
+    <tag k="building" v="university"/>
+    <tag k="building:levels" v="28"/>
+    <tag k="buildtype" v="Departments"/>
+    <tag k="height" v="115"/>
+    <tag k="name" v="Trust Company of Georgia Building|"/>
+    <tag k="operator" v="Georgia State University"/>
+    <tag k="wikidata" v="Q4632172"/>
+  </way>
+  <way id="252608923" version="3" timestamp="2017-10-30T01:39:50Z" uid="231017" user="swimdb" changeset="53355791">
+    <nd ref="2586580236"/>
+    <nd ref="2586580184"/>
+    <nd ref="5199150032"/>
+    <nd ref="2586580242"/>
+    <nd ref="2586580253"/>
+    <nd ref="2586580252"/>
+    <nd ref="2586580236"/>
+    <tag k="addr" v="34 Peachtree Street, Atlanta GA"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="34"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Peachtree Street Northeast"/>
+    <tag k="building" v="university"/>
+    <tag k="building:levels" v="32"/>
+    <tag k="buildtype" v="Departments"/>
+    <tag k="description" v="34 Peachtree is home to the departments of Applied Linguistics (12th floor), Computer Science (14th floor), Philosophy (11th floor),Religious Studies (11th Floor), History (20th Floor), and The Middle East Institute (20th Floor)."/>
+    <tag k="height" v="134"/>
+    <tag k="name" v="34 Peachtree St. Building"/>
+    <tag k="operator" v="Georgia State University"/>
+  </way>
+  <way id="261043813" version="3" timestamp="2017-11-01T14:31:19Z" uid="231017" user="swimdb" changeset="53425860">
+    <nd ref="2666543169"/>
+    <nd ref="3242871155"/>
+    <nd ref="2666543171"/>
+    <nd ref="5204294412"/>
+    <nd ref="2666543173"/>
+    <nd ref="2666543174"/>
+    <nd ref="2754863499"/>
+    <nd ref="2754863502"/>
+    <nd ref="2666543169"/>
+    <tag k="access" v="public"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="30"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="International Boulevard Northeast"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="parking"/>
+    <tag k="fee" v="yes"/>
+    <tag k="name" v="International Garage"/>
+    <tag k="parking" v="multi-storey"/>
+    <tag k="supervised" v="yes"/>
+    <tag k="website" v="http://www.atlantadowntown.com/go/international-garage"/>
+  </way>
+  <way id="261043963" version="8" timestamp="2017-11-01T14:31:19Z" uid="231017" user="swimdb" changeset="53425860">
+    <nd ref="2666556842"/>
+    <nd ref="5198201670"/>
+    <nd ref="5204294410"/>
+    <nd ref="5204294412"/>
+    <nd ref="5204294411"/>
+    <nd ref="5204294419"/>
+    <nd ref="2666556843"/>
+    <nd ref="2666556844"/>
+    <nd ref="5204294418"/>
+    <nd ref="5204294427"/>
+    <nd ref="5204294413"/>
+    <nd ref="5204294417"/>
+    <nd ref="5204294416"/>
+    <nd ref="5199994585"/>
+    <nd ref="5204294414"/>
+    <nd ref="5204294415"/>
+    <nd ref="2666556845"/>
+    <nd ref="2666556842"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="191"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="Peachtree Street Northeast"/>
+    <tag k="building" v="commercial"/>
+    <tag k="building:levels" v="3"/>
+    <tag k="name" v="191 Peachtree Tower"/>
+    <tag k="website" v="http://cousinsproperties.com/property/office/one-ninety-one-peachtree-tower"/>
+    <tag k="wikidata" v="Q2746067"/>
+    <tag k="wikipedia" v="en:191 Peachtree Tower"/>
+  </way>
+  <way id="262879644" version="3" timestamp="2017-10-30T02:00:48Z" uid="231017" user="swimdb" changeset="53355981">
+    <nd ref="2685391978"/>
+    <nd ref="2685391979"/>
+    <nd ref="2685391980"/>
+    <nd ref="2685391981"/>
+    <nd ref="2685391978"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="57"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="Forsyth Street Northwest"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="16"/>
+    <tag k="height" v="62.7"/>
+    <tag k="name" v="Healey Building"/>
+  </way>
+  <way id="262879649" version="2" timestamp="2014-03-30T23:12:13Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410">
+    <nd ref="2685391999"/>
+    <nd ref="2685392000"/>
+    <nd ref="2685392001"/>
+    <nd ref="2685392002"/>
+    <nd ref="2685391999"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Poplar Street Northwest"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="96"/>
+  </way>
+  <way id="270358207" version="3" timestamp="2017-10-30T18:52:53Z" uid="231017" user="swimdb" changeset="53375683">
+    <nd ref="2753846482"/>
+    <nd ref="2753846537"/>
+    <nd ref="2753846535"/>
+    <nd ref="2753846478"/>
+    <nd ref="2753846482"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="196"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:street" v="Spring Street Northwest"/>
+    <tag k="building" v="retail"/>
+    <tag k="building:levels" v="18"/>
+  </way>
+  <way id="270469976" version="1" timestamp="2014-03-30T21:14:44Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934">
+    <nd ref="2754863167"/>
+    <nd ref="2754863098"/>
+    <nd ref="2754863104"/>
+    <nd ref="2754863170"/>
+    <nd ref="2754863167"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Carnegie Way Northwest"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="1"/>
+  </way>
+  <way id="270470118" version="1" timestamp="2014-03-30T21:14:48Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934">
+    <nd ref="2754863600"/>
+    <nd ref="2754863580"/>
+    <nd ref="2754863556"/>
+    <nd ref="2754863559"/>
+    <nd ref="2754863519"/>
+    <nd ref="2754863525"/>
+    <nd ref="2754863550"/>
+    <nd ref="2754863553"/>
+    <nd ref="2754863582"/>
+    <nd ref="2754863602"/>
+    <nd ref="2754863600"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="International Boulevard Northeast"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="62"/>
+  </way>
+  <way id="270470121" version="1" timestamp="2014-03-30T21:14:49Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934">
+    <nd ref="2754863368"/>
+    <nd ref="2754863380"/>
+    <nd ref="2754863382"/>
+    <nd ref="2754863370"/>
+    <nd ref="2754863368"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Ellis Street Northeast"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="78"/>
+  </way>
+  <way id="270470131" version="3" timestamp="2017-12-02T12:21:34Z" uid="231017" user="swimdb" changeset="54267881">
+    <nd ref="5202989682"/>
+    <nd ref="2754863152"/>
+    <nd ref="2754863153"/>
+    <nd ref="2754863156"/>
+    <nd ref="2754863162"/>
+    <nd ref="2754863183"/>
+    <nd ref="2754863181"/>
+    <nd ref="2754863216"/>
+    <nd ref="2754863218"/>
+    <nd ref="2754863259"/>
+    <nd ref="5202989682"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="270470140" version="1" timestamp="2014-03-30T21:14:50Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934">
+    <nd ref="2754863409"/>
+    <nd ref="2754863406"/>
+    <nd ref="2754863389"/>
+    <nd ref="2754863392"/>
+    <nd ref="2754863372"/>
+    <nd ref="2754863374"/>
+    <nd ref="2754863307"/>
+    <nd ref="2754863309"/>
+    <nd ref="2754863376"/>
+    <nd ref="2754863378"/>
+    <nd ref="2754863265"/>
+    <nd ref="2754863269"/>
+    <nd ref="2754863301"/>
+    <nd ref="2754863303"/>
+    <nd ref="2754863267"/>
+    <nd ref="2754863271"/>
+    <nd ref="2754863386"/>
+    <nd ref="2754863384"/>
+    <nd ref="2754863366"/>
+    <nd ref="2754863364"/>
+    <nd ref="2754863397"/>
+    <nd ref="2754863394"/>
+    <nd ref="2754863414"/>
+    <nd ref="2754863409"/>
+    <tag k="building" v="commercial"/>
+  </way>
+  <way id="270470173" version="1" timestamp="2014-03-30T21:14:52Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21408934">
+    <nd ref="2754863533"/>
+    <nd ref="2754863499"/>
+    <nd ref="2754863502"/>
+    <nd ref="2754863536"/>
+    <nd ref="2754863533"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="270470181" version="2" timestamp="2017-07-05T22:07:53Z" uid="140125" user="Jack G" changeset="50069854">
+    <nd ref="2754863434"/>
+    <nd ref="2754863423"/>
+    <nd ref="2754863431"/>
+    <nd ref="2754863496"/>
+    <nd ref="2754862913"/>
+    <nd ref="2754863482"/>
+    <nd ref="2754863434"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="270497370" version="1" timestamp="2014-03-30T23:12:04Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410">
+    <nd ref="2755109122"/>
+    <nd ref="2755109120"/>
+    <nd ref="2755109124"/>
+    <nd ref="2755109130"/>
+    <nd ref="2755109133"/>
+    <nd ref="2755109131"/>
+    <nd ref="2755109141"/>
+    <nd ref="2755109139"/>
+    <nd ref="2755109134"/>
+    <nd ref="2755109116"/>
+    <nd ref="2755109127"/>
+    <nd ref="2755109166"/>
+    <nd ref="2755109126"/>
+    <nd ref="2755109122"/>
+    <tag k="building" v="commercial"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Broad Street Northwest"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="48"/>
+  </way>
+  <way id="270497379" version="2" timestamp="2017-12-07T20:06:48Z" uid="550708" user="eltiar" changeset="54441653">
+    <nd ref="2755109177"/>
+    <nd ref="2755109175"/>
+    <nd ref="2755109159"/>
+    <nd ref="2755109158"/>
+    <nd ref="2755109157"/>
+    <nd ref="2755109154"/>
+    <nd ref="2755109152"/>
+    <nd ref="2755109150"/>
+    <nd ref="2755109151"/>
+    <nd ref="2755109153"/>
+    <nd ref="2755109156"/>
+    <nd ref="2755109165"/>
+    <nd ref="2755109177"/>
+    <tag k="building" v="commercial"/>
+    <tag k="name" v="FlatironCity"/>
+  </way>
+  <way id="270497381" version="1" timestamp="2014-03-30T23:12:05Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21410410">
+    <nd ref="2755109142"/>
+    <nd ref="2755109106"/>
+    <nd ref="2755109104"/>
+    <nd ref="2755109125"/>
+    <nd ref="2755109132"/>
+    <nd ref="2755109129"/>
+    <nd ref="2755109135"/>
+    <nd ref="2755109137"/>
+    <nd ref="2755109144"/>
+    <nd ref="2755109140"/>
+    <nd ref="2755109145"/>
+    <nd ref="2755109148"/>
+    <nd ref="2755109160"/>
+    <nd ref="2755109142"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="270880829" version="4" timestamp="2017-10-30T00:54:25Z" uid="231017" user="swimdb" changeset="53355393">
+    <nd ref="2758436042"/>
+    <nd ref="2758436039"/>
+    <nd ref="2758436000"/>
+    <nd ref="2758436007"/>
+    <nd ref="5199096748"/>
+    <nd ref="2758436141"/>
+    <nd ref="2758436137"/>
+    <nd ref="2758436042"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="111"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Park Place Northeast"/>
+    <tag k="building" v="commercial"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="ele" v="324"/>
+    <tag k="gnis:county_name" v="Fulton"/>
+    <tag k="gnis:feature_id" v="1695156"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Candler Building"/>
+    <tag k="source" v="USGS Geonames"/>
+    <tag k="wikidata" v="Q5031977"/>
+  </way>
+  <way id="270880830" version="1" timestamp="2014-04-01T14:45:16Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2758435995"/>
+    <nd ref="2758435994"/>
+    <nd ref="534430852"/>
+    <nd ref="2758435977"/>
+    <nd ref="2758435984"/>
+    <nd ref="2758435983"/>
+    <nd ref="2758435996"/>
+    <nd ref="2758435995"/>
+    <tag k="name" v="Enclosed Garage"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="270880835" version="1" timestamp="2014-04-01T14:45:16Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2758436384"/>
+    <nd ref="2758436381"/>
+    <nd ref="2758436359"/>
+    <nd ref="2758436364"/>
+    <nd ref="2758436387"/>
+    <nd ref="2758436384"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Courtland Street Northeast"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="112"/>
+  </way>
+  <way id="270880843" version="2" timestamp="2015-12-13T19:33:46Z" uid="192504" user="kessler" changeset="35932169">
+    <nd ref="2758436242"/>
+    <nd ref="2758436295"/>
+    <nd ref="2758436305"/>
+    <nd ref="2758436270"/>
+    <nd ref="2758436242"/>
+    <tag k="name" v="Hillyer Trust Building"/>
+    <tag k="building" v="commercial"/>
+    <tag k="addr:street" v="Peachtree Street"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="136"/>
+  </way>
+  <way id="270880860" version="1" timestamp="2014-04-01T14:45:19Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2758435968"/>
+    <nd ref="2758435873"/>
+    <nd ref="2758435876"/>
+    <nd ref="2758435970"/>
+    <nd ref="2758435968"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Auburn Avenue Northeast"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="42"/>
+  </way>
+  <way id="270880863" version="1" timestamp="2014-04-01T14:45:19Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2758435947"/>
+    <nd ref="2758435944"/>
+    <nd ref="2758435888"/>
+    <nd ref="2758435890"/>
+    <nd ref="2758435882"/>
+    <nd ref="2758435886"/>
+    <nd ref="2758435913"/>
+    <nd ref="2758435911"/>
+    <nd ref="2758435924"/>
+    <nd ref="2758435929"/>
+    <nd ref="2758435975"/>
+    <nd ref="2758435972"/>
+    <nd ref="2758435949"/>
+    <nd ref="2758435947"/>
+    <tag k="building" v="commercial"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Park Place Northeast"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="55"/>
+  </way>
+  <way id="270880864" version="1" timestamp="2014-04-01T14:45:19Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2758436018"/>
+    <nd ref="2758436016"/>
+    <nd ref="2758436013"/>
+    <nd ref="2758436009"/>
+    <nd ref="2758435990"/>
+    <nd ref="2758435988"/>
+    <nd ref="2758435998"/>
+    <nd ref="2758435997"/>
+    <nd ref="2758435985"/>
+    <nd ref="2758435986"/>
+    <nd ref="2758435982"/>
+    <nd ref="2758435981"/>
+    <nd ref="2758435932"/>
+    <nd ref="2758435933"/>
+    <nd ref="2758435922"/>
+    <nd ref="2758435926"/>
+    <nd ref="2758435989"/>
+    <nd ref="2758435993"/>
+    <nd ref="2758436021"/>
+    <nd ref="2758436018"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="Courtland Street Northeast"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="60"/>
+  </way>
+  <way id="270880866" version="1" timestamp="2014-04-01T14:45:20Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2758436121"/>
+    <nd ref="2758436029"/>
+    <nd ref="2758436032"/>
+    <nd ref="2758436060"/>
+    <nd ref="2758436064"/>
+    <nd ref="2758436130"/>
+    <nd ref="2758436124"/>
+    <nd ref="2758436121"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:street" v="John Wesley Dobbs Avenue Northeast"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="addr:housenumber" v="75"/>
+  </way>
+  <way id="270880880" version="2" timestamp="2017-10-29T16:08:22Z" uid="231017" user="swimdb" changeset="53345758">
+    <nd ref="2758435920"/>
+    <nd ref="2758435915"/>
+    <nd ref="2758435917"/>
+    <nd ref="2758435906"/>
+    <nd ref="2758435908"/>
+    <nd ref="2758435895"/>
+    <nd ref="2758435892"/>
+    <nd ref="2758435904"/>
+    <nd ref="2758435902"/>
+    <nd ref="2758435880"/>
+    <nd ref="2758435878"/>
+    <nd ref="2758435937"/>
+    <nd ref="2758435939"/>
+    <nd ref="2758435920"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="51"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Peachtree Center Avenue Northeast"/>
+    <tag k="building" v="commercial"/>
+    <tag k="height" v="78"/>
+    <tag k="name" v="AT&amp;T Communications Building"/>
+  </way>
+  <way id="270880890" version="1" timestamp="2014-04-01T14:45:22Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2758435804"/>
+    <nd ref="2758435807"/>
+    <nd ref="2758435801"/>
+    <nd ref="2758435798"/>
+    <nd ref="2758435804"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="270880894" version="5" timestamp="2017-10-30T00:13:45Z" uid="231017" user="swimdb" changeset="53355101">
+    <nd ref="2758436208"/>
+    <nd ref="2758436127"/>
+    <nd ref="2758436188"/>
+    <nd ref="2758436267"/>
+    <nd ref="2758436208"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="21"/>
+    <tag k="height" v="75"/>
+    <tag k="name" v="Residence Inn Atlanta Downtown"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="wikidata" v="Q7320997"/>
+  </way>
+  <way id="270880909" version="1" timestamp="2014-04-01T14:45:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2758435952"/>
+    <nd ref="2758435957"/>
+    <nd ref="2758435966"/>
+    <nd ref="2758435961"/>
+    <nd ref="2758435952"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="270880912" version="1" timestamp="2014-04-01T14:45:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2758435978"/>
+    <nd ref="2758436019"/>
+    <nd ref="2758436026"/>
+    <nd ref="2758435979"/>
+    <nd ref="2758435978"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="270880920" version="1" timestamp="2014-04-01T14:45:23Z" uid="1981121" user="Saikrishna_FultonCountyImport" changeset="21440841">
+    <nd ref="2758435950"/>
+    <nd ref="2758435954"/>
+    <nd ref="2758435963"/>
+    <nd ref="2758435959"/>
+    <nd ref="2758435950"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="317949454" version="3" timestamp="2017-10-30T07:02:52Z" uid="231017" user="swimdb" changeset="53359033">
+    <nd ref="3242871137"/>
+    <nd ref="3242871138"/>
+    <nd ref="3242871139"/>
+    <nd ref="3242871140"/>
+    <nd ref="537186325"/>
+    <nd ref="3242871141"/>
+    <nd ref="3242871137"/>
+    <tag k="building" v="commercial"/>
+    <tag k="building:levels" v="14"/>
+    <tag k="height" v="44.5"/>
+    <tag k="name" v="Rich&apos;s Inc"/>
+  </way>
+  <way id="317949456" version="1" timestamp="2014-12-19T16:06:21Z" uid="2469366" user="DrMatt" changeset="27572290">
+    <nd ref="3242871144"/>
+    <nd ref="3242871145"/>
+    <nd ref="3242871146"/>
+    <nd ref="3242871147"/>
+    <nd ref="3242871144"/>
+    <tag k="name" v="Ellis Hotel"/>
+    <tag k="building" v="commercial"/>
+  </way>
+  <way id="317949461" version="2" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907">
+    <nd ref="2475185756"/>
+    <nd ref="3242871149"/>
+    <nd ref="3242871150"/>
+    <nd ref="3242871151"/>
+    <nd ref="2475185756"/>
+    <tag k="building" v="commercial"/>
+  </way>
+  <way id="317949464" version="5" timestamp="2017-11-01T14:33:17Z" uid="231017" user="swimdb" changeset="53425907">
+    <nd ref="3242871149"/>
+    <nd ref="5204295240"/>
+    <nd ref="3242871153"/>
+    <nd ref="5204294410"/>
+    <nd ref="2666543171"/>
+    <nd ref="3242871155"/>
+    <nd ref="3242871150"/>
+    <nd ref="3242871149"/>
+    <tag k="building" v="commercial"/>
+  </way>
+  <way id="317949470" version="4" timestamp="2017-11-01T14:31:19Z" uid="231017" user="swimdb" changeset="53425860">
+    <nd ref="3242871268"/>
+    <nd ref="3242871269"/>
+    <nd ref="3242871270"/>
+    <nd ref="2666556844"/>
+    <nd ref="5204294418"/>
+    <nd ref="5204294427"/>
+    <nd ref="5204294413"/>
+    <nd ref="3242871268"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="commercial"/>
+    <tag k="parking" v="multi-storey"/>
+  </way>
+  <way id="354881427" version="4" timestamp="2015-06-19T14:30:08Z" uid="539674" user="cbenson583" changeset="32076402">
+    <nd ref="3605314111"/>
+    <nd ref="3605314112"/>
+    <nd ref="3605314113"/>
+    <nd ref="3605314114"/>
+    <nd ref="3605314115"/>
+    <nd ref="3605314116"/>
+    <nd ref="3605314117"/>
+    <nd ref="3605314118"/>
+    <nd ref="3605314119"/>
+    <nd ref="3605314111"/>
+    <tag k="name" v="College of Law"/>
+    <tag k="building" v="university"/>
+    <tag k="operator" v="Georgia State University"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="buildtype" v="Departments / Classrooms"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Park Place Northeast"/>
+    <tag k="addr:postcode" v="30303"/>
+    <tag k="building:levels" v="7"/>
+    <tag k="addr:housenumber" v="85"/>
+  </way>
+  <way id="359277812" version="2" timestamp="2015-12-13T19:33:50Z" uid="192504" user="kessler" changeset="35932169">
+    <nd ref="3640293362"/>
+    <nd ref="3640293363"/>
+    <nd ref="3640293364"/>
+    <nd ref="3640293365"/>
+    <nd ref="3640293362"/>
+    <tag k="name" v="Bell Building"/>
+    <tag k="building" v="yes"/>
+    <tag k="operator" v="Georgia State University"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Auburn Avenue Northeast"/>
+    <tag k="addr:housenumber" v="25"/>
+  </way>
+  <way id="385744389" version="1" timestamp="2015-12-13T19:33:43Z" uid="192504" user="kessler" changeset="35932169">
+    <nd ref="2758436267"/>
+    <nd ref="2758436295"/>
+    <nd ref="2758436242"/>
+    <nd ref="2758436208"/>
+    <nd ref="2758436267"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="475912764" version="2" timestamp="2017-10-29T18:14:32Z" uid="231017" user="swimdb" changeset="53349007">
+    <nd ref="2036492404"/>
+    <nd ref="2036492427"/>
+    <nd ref="2036492423"/>
+    <nd ref="2036492421"/>
+    <nd ref="2036492404"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="100"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Peachtree Street Northeast"/>
+    <tag k="building" v="commercial"/>
+    <tag k="building:levels" v="35"/>
+    <tag k="height" v="138"/>
+    <tag k="name" v="Equitable Building"/>
+    <tag k="wikipedia" v="en:Equitable Building (Atlanta)"/>
+  </way>
+  <way id="479134200" version="7" timestamp="2017-12-02T14:33:26Z" uid="231017" user="swimdb" changeset="54271312">
+    <nd ref="4722823079"/>
+    <nd ref="4722823080"/>
+    <nd ref="4722823061"/>
+    <nd ref="4722823056"/>
+    <nd ref="4722823063"/>
+    <nd ref="2754863040"/>
+    <nd ref="4722823065"/>
+    <nd ref="4722823058"/>
+    <nd ref="4722823057"/>
+    <nd ref="4722823066"/>
+    <nd ref="4722823072"/>
+    <nd ref="4722823078"/>
+    <nd ref="4722823086"/>
+    <nd ref="5198665761"/>
+    <nd ref="4722823079"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="133"/>
+    <tag k="addr:street" v="Peachtree Street Northeast"/>
+    <tag k="building" v="commercial"/>
+    <tag k="building:colour" v="#ba9287"/>
+    <tag k="building:levels" v="14"/>
+    <tag k="building:material" v="granite"/>
+    <tag k="height" v="50"/>
+    <tag k="name" v="Georgia-Pacific Tower"/>
+  </way>
+  <way id="536691261" version="2" timestamp="2017-10-30T20:08:28Z" uid="554973" user="dgitto" changeset="53378129">
+    <nd ref="5198403885"/>
+    <nd ref="5198403886"/>
+    <nd ref="5198403887"/>
+    <nd ref="5198403888"/>
+    <nd ref="5198403889"/>
+    <nd ref="5198403890"/>
+    <nd ref="5198403891"/>
+    <nd ref="496152627"/>
+    <nd ref="5198403885"/>
+    <tag k="addr:city" v="Atlanta"/>
+    <tag k="addr:housenumber" v="229"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Peachtree Street Northeast"/>
+    <tag k="building" v="commercial"/>
+    <tag k="building:levels" v="30"/>
+    <tag k="height" v="115"/>
+    <tag k="name" v="Peachtree Center International Tower"/>
+  </way>
+  <way id="536698625" version="3" timestamp="2017-10-30T20:08:29Z" uid="554973" user="dgitto" changeset="53378129">
+    <nd ref="2475185763"/>
+    <nd ref="2475185771"/>
+    <nd ref="2475185757"/>
+    <nd ref="5198448261"/>
+    <nd ref="5198448262"/>
+    <nd ref="5198448263"/>
+    <nd ref="5198448264"/>
+    <nd ref="5198448265"/>
+    <nd ref="5198448266"/>
+    <nd ref="5198448267"/>
+    <nd ref="5198448268"/>
+    <nd ref="5198448269"/>
+    <nd ref="2475185763"/>
+    <tag k="building" v="commercial"/>
+    <tag k="building:levels" v="20"/>
+    <tag k="height" v="91.5"/>
+    <tag k="name" v="Merchandise Mart"/>
+  </way>
+  <way id="536725714" version="2" timestamp="2017-10-31T20:10:38Z" uid="231017" user="swimdb" changeset="53406963">
+    <nd ref="5198665761"/>
+    <nd ref="5198665762"/>
+    <nd ref="5198665763"/>
+    <nd ref="5198665766"/>
+    <nd ref="5198665767"/>
+    <nd ref="5198665764"/>
+    <nd ref="5198665765"/>
+    <nd ref="2754863040"/>
+    <nd ref="4722823065"/>
+    <nd ref="4722823058"/>
+    <nd ref="4722823057"/>
+    <nd ref="4722823066"/>
+    <nd ref="4722823072"/>
+    <nd ref="4722823078"/>
+    <nd ref="4722823086"/>
+    <nd ref="5198665761"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="parking"/>
+    <tag k="building:levels" v="6"/>
+    <tag k="parking" v="multi-storey"/>
+  </way>
+  <way id="536725715" version="1" timestamp="2017-10-29T18:37:32Z" uid="231017" user="swimdb" changeset="53349489">
+    <nd ref="5198665766"/>
+    <nd ref="5198665767"/>
+    <nd ref="5198665768"/>
+    <nd ref="5198665769"/>
+    <nd ref="5198665766"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="536725716" version="2" timestamp="2017-11-01T14:15:06Z" uid="231017" user="swimdb" changeset="53425402">
+    <nd ref="5198665770"/>
+    <nd ref="5198665771"/>
+    <nd ref="5198665772"/>
+    <nd ref="5198665773"/>
+    <nd ref="5198665774"/>
+    <nd ref="5198665775"/>
+    <nd ref="5198665770"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="parking"/>
+    <tag k="building:levels" v="8"/>
+    <tag k="parking" v="multi-storey"/>
+  </way>
+  <way id="536725918" version="3" timestamp="2017-11-01T14:15:06Z" uid="231017" user="swimdb" changeset="53425402">
+    <nd ref="5198665774"/>
+    <nd ref="5198665773"/>
+    <nd ref="5198665772"/>
+    <nd ref="5198667578"/>
+    <nd ref="5198667579"/>
+    <nd ref="5198668281"/>
+    <nd ref="5198665774"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="parking"/>
+    <tag k="building:levels" v="6"/>
+    <tag k="parking" v="multi-storey"/>
+  </way>
+  <way id="536746638" version="2" timestamp="2017-10-30T19:06:22Z" uid="231017" user="swimdb" changeset="53376083">
+    <nd ref="2753846537"/>
+    <nd ref="5198849798"/>
+    <nd ref="5198849799"/>
+    <nd ref="2753846482"/>
+    <nd ref="2753846537"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="10"/>
+  </way>
+</osm>

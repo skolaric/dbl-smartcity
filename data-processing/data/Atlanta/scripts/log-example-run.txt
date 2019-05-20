@@ -1,0 +1,1196 @@
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM Wider Atlanta, fine-grained: (227,900 tiles) 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM 00a-generate-3D-tiles.bat -84.860000 33.340000 -83.800000 34.200000 0.002000 0.002000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM Five Points, small area around (16 tiles): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM 00a-generate-3D-tiles.bat -84.396000 33.750000 -84.388000 33.758000 0.002000 0.002000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM Five Points, even SMALLER area around (4 tiles): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM 00a-generate-3D-tiles.bat -84.394000 33.752000 -84.390000 33.756000 0.002000 0.002000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM 00a-generate-3D-tiles.bat -84.860000 33.340000 -83.800000 34.200000 0.002000 0.002000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM 00a-generate-3D-tiles.bat -85.860000 34.340000 -83.800000 34.200000 0.002000 0.002000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM Tiled area's west limit, longitude in [rad] 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.396000  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM Tiled area's south limit, latitude in [rad] 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM Tiled area's east limit, latitude in [rad] 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.388000  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM Tiled area's north limit, latitude in [rad] 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.758000  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM Tile width, in [rad]. 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg5=0.002000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>REM Tile height, in [rad]. 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg6=0.002000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "00b-generate-3D-tiles.py"   -- -84.396000  33.750000  -84.388000  33.758000  0.002000 0.002000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.410000 33.750000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.390000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>./../../../tools/osmosis/bin/osmosis   --read-pbf file="./../data.osm.pbf"   --tag-filter reject-relations   --tag-filter accept-ways building=*   --tag-filter reject-nodes entrance=*   --tag-filter reject-ways building=entrance   --used-node   --bounding-box left=-84.390000 bottom=33.750000 right=-84.385000 top=33.755000   --write-xml file="./../tileset-3d/tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm" 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem This is: -84.394635 33.751115 = 84°23'40.7"W  33°45'04.0"N  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem ----> X, Y, Z (in meters) = 518527.76724968, -5283261.28526402, 3523526.39818424 (see http://www.apsalin.com/convert-geodetic-to-cartesian.aspx) 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.390000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>java -Xmx512m -jar "./../../../tools/OSM2World/OSM2World.jar"   -i "./../tileset-3d/tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm"   -o "./../tileset-3d/tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj"   --config "02b-osm2world.config" 
+time terrain interpolation: 0:00:00.024
+time add constraints: 0:00:00.000
+time enforce constraints: 0:00:00.000
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.390000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "03b-postprocess-OBJ-tile-Blender.py"   -- -84.390000 33.750000 -84.385000 33.755000 
+
+==========================================
+This is Blender Python script that post-processes the OBJ file obtained through osm2world
+Author Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.390000', '33.750000', '-84.385000', '33.755000']
+Full path to import file:  ..\tileset-3d\tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj
+Progress:   0.00%(  0.0010 sec |   0.0010 sec) Importing OBJ '..\\tileset-3d\\tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj'...
+Progress:   0.00%  (  0.0010 sec |   0.0000 sec) Parsing OBJ file...
+Progress:   0.00%    (  0.0400 sec |   0.0390 sec) Done, loading materials and images...
+Progress:  33.33%    (  0.0410 sec |   0.0400 sec) Done, building geometries (verts:1624 faces:4098 materials: 3 smoothgroups:0) ...
+Progress:  66.67%    (  0.0610 sec |   0.0600 sec) Done.
+Progress:  66.67%Progress: 100.00%  (  0.0610 sec |   0.0600 sec) Finished importing: '..\\tileset-3d\\tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj'
+Progress: 100.00%Progress: 100.00%
+
+Count of selected objects (bpy.context.selected_objects):  48
+
+Count of selected objects, len(obj_objects):  48
+
+Full path to export file:  ..\tileset-3d\tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj.postprocessed.obj
+len(obj_objects) is greater than zero, so export the post-processed scene (i.e., objects in it) to Wavefront OBJ
+Progress:   0.00%    (  0.0000 sec |   0.0000 sec) OBJ Export path: '..\\tileset-3d\\tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj.postprocessed.obj'
+Progress:   0.00%Progress:   0.16%Progress:   0.33%Progress:   0.49%Progress:   0.65%Progress:   0.82%Progress:   0.98%          (  0.0020 sec |   0.0010 sec) Finished writing geometry of 'Building2'.
+Progress:   0.98%Progress:   0.98%Progress:   1.14%Progress:   1.31%Progress:   1.47%Progress:   1.63%Progress:   1.80%Progress:   1.96%          (  0.0020 sec |   0.0000 sec) Finished writing geometry of 'Building College of Education'.
+Progress:   1.96%Progress:   1.96%Progress:   2.12%Progress:   2.29%Progress:   2.45%Progress:   2.61%Progress:   2.78%Progress:   2.94%          (  0.0030 sec |   0.0010 sec) Finished writing geometry of 'Building12'.
+Progress:   2.94%Progress:   2.94%Progress:   3.10%Progress:   3.27%Progress:   3.43%Progress:   3.59%Progress:   3.76%Progress:   3.92%          (  0.0040 sec |   0.0010 sec) Finished writing geometry of 'Building Ten Park Place'.
+Progress:   3.92%Progress:   3.92%Progress:   4.08%Progress:   4.25%Progress:   4.41%Progress:   4.58%Progress:   4.74%Progress:   4.90%          (  0.0040 sec |   0.0000 sec) Finished writing geometry of 'Building Courtland Building'.
+Progress:   4.90%Progress:   4.90%Progress:   5.07%Progress:   5.23%Progress:   5.39%Progress:   5.56%Progress:   5.72%Progress:   5.88%          (  0.0050 sec |   0.0010 sec) Finished writing geometry of 'Building Georgia Railroad Freight Depot'.
+Progress:   5.88%Progress:   5.88%Progress:   6.05%Progress:   6.21%Progress:   6.37%Progress:   6.54%Progress:   6.70%Progress:   6.86%          (  0.0070 sec |   0.0020 sec) Finished writing geometry of 'Building Sports Annex'.
+Progress:   6.86%Progress:   6.86%Progress:   7.03%Progress:   7.19%Progress:   7.35%Progress:   7.52%Progress:   7.68%Progress:   7.84%          (  0.0080 sec |   0.0010 sec) Finished writing geometry of 'Building Student Center West'.
+Progress:   7.84%Progress:   7.84%Progress:   8.01%Progress:   8.17%Progress:   8.33%Progress:   8.50%Progress:   8.66%Progress:   8.82%          (  0.0080 sec |   0.0000 sec) Finished writing geometry of 'SurfaceParking G Deck'.
+Progress:   8.82%Progress:   8.82%Progress:   8.99%Progress:   9.15%Progress:   9.31%Progress:   9.48%Progress:   9.64%Progress:   9.80%          (  0.0090 sec |   0.0000 sec) Finished writing geometry of 'Building Robert W. Woodruff Volunteer Service Center Building'.
+Progress:   9.80%Progress:   9.80%Progress:   9.97%Progress:  10.13%Progress:  10.29%Progress:  10.46%Progress:  10.62%Progress:  10.78%          (  0.0100 sec |   0.0010 sec) Finished writing geometry of 'Building Classroom South'.
+Progress:  10.78%Progress:  10.78%Progress:  10.95%Progress:  11.11%Progress:  11.27%Progress:  11.44%Progress:  11.60%Progress:  11.76%          (  0.0110 sec |   0.0010 sec) Finished writing geometry of 'Building0'.
+Progress:  11.76%Progress:  11.76%Progress:  11.93%Progress:  12.09%Progress:  12.25%Progress:  12.42%Progress:  12.58%Progress:  12.75%          (  0.0110 sec |   0.0000 sec) Finished writing geometry of 'Building5'.
+Progress:  12.75%Progress:  12.75%Progress:  12.91%Progress:  13.07%Progress:  13.24%Progress:  13.40%Progress:  13.56%Progress:  13.73%          (  0.0120 sec |   0.0000 sec) Finished writing geometry of 'Building One Park Place'.
+Progress:  13.73%Progress:  13.73%Progress:  13.89%Progress:  14.05%Progress:  14.22%Progress:  14.38%Progress:  14.54%Progress:  14.71%          (  0.0130 sec |   0.0010 sec) Finished writing geometry of 'Building Langdale Hall'.
+Progress:  14.71%Progress:  14.71%Progress:  14.87%Progress:  15.03%Progress:  15.20%Progress:  15.36%Progress:  15.52%Progress:  15.69%          (  0.0140 sec |   0.0010 sec) Finished writing geometry of 'Building4'.
+Progress:  15.69%Progress:  15.69%Progress:  15.85%Progress:  16.01%Progress:  16.18%Progress:  16.34%Progress:  16.50%Progress:  16.67%          (  0.0150 sec |   0.0010 sec) Finished writing geometry of 'Building Arts & Humanities'.
+Progress:  16.67%Progress:  16.67%Progress:  16.83%Progress:  16.99%Progress:  17.16%Progress:  17.32%Progress:  17.48%Progress:  17.65%          (  0.0161 sec |   0.0011 sec) Finished writing geometry of 'Building 25 Park Place (Annex)'.
+Progress:  17.65%Progress:  17.65%Progress:  17.81%Progress:  17.97%Progress:  18.14%Progress:  18.30%Progress:  18.46%Progress:  18.63%          (  0.0181 sec |   0.0020 sec) Finished writing geometry of 'Building13'.
+Progress:  18.63%Progress:  18.63%Progress:  18.79%Progress:  18.95%Progress:  19.12%Progress:  19.28%Progress:  19.44%Progress:  19.61%          (  0.0191 sec |   0.0010 sec) Finished writing geometry of 'Building Kell Hall'.
+Progress:  19.61%Progress:  19.61%Progress:  19.77%Progress:  19.93%Progress:  20.10%Progress:  20.26%Progress:  20.42%Progress:  20.59%          (  0.0191 sec |   0.0000 sec) Finished writing geometry of 'Building10'.
+Progress:  20.59%Progress:  20.59%Progress:  20.75%Progress:  20.92%Progress:  21.08%Progress:  21.24%Progress:  21.41%Progress:  21.57%          (  0.0231 sec |   0.0040 sec) Finished writing geometry of 'Building15'.
+Progress:  21.57%Progress:  21.57%Progress:  21.73%Progress:  21.90%Progress:  22.06%Progress:  22.22%Progress:  22.39%Progress:  22.55%          (  0.0231 sec |   0.0000 sec) Finished writing geometry of 'Building Central Presbyterian Church'.
+Progress:  22.55%Progress:  22.55%Progress:  22.71%Progress:  22.88%Progress:  23.04%Progress:  23.20%Progress:  23.37%Progress:  23.53%          (  0.0251 sec |   0.0020 sec) Finished writing geometry of 'Building9'.
+Progress:  23.53%Progress:  23.53%Progress:  23.69%Progress:  23.86%Progress:  24.02%Progress:  24.18%Progress:  24.35%Progress:  24.51%          (  0.0261 sec |   0.0010 sec) Finished writing geometry of 'Building Library South'.
+Progress:  24.51%Progress:  24.51%Progress:  24.67%Progress:  24.84%Progress:  25.00%Progress:  25.16%Progress:  25.33%Progress:  25.49%          (  0.0430 sec |   0.0170 sec) Finished writing geometry of 'Building Urban Life Building'.
+Progress:  25.49%Progress:  25.49%Progress:  25.65%Progress:  25.82%Progress:  25.98%Progress:  26.14%Progress:  26.31%Progress:  26.47%          (  0.0440 sec |   0.0010 sec) Finished writing geometry of 'Building University Bookstore'.
+Progress:  26.47%Progress:  26.47%Progress:  26.63%Progress:  26.80%Progress:  26.96%Progress:  27.12%Progress:  27.29%Progress:  27.45%found bundled python: C:\Program Files\Blender Foundation\Blender\2.79\python
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+          (  0.0480 sec |   0.0040 sec) Finished writing geometry of 'Building Sports Arena'.
+Progress:  27.45%Progress:  27.45%Progress:  27.61%Progress:  27.78%Progress:  27.94%Progress:  28.10%Progress:  28.27%Progress:  28.43%          (  0.0480 sec |   0.0000 sec) Finished writing geometry of 'Building Library North'.
+Progress:  28.43%Progress:  28.43%Progress:  28.59%Progress:  28.76%Progress:  28.92%Progress:  29.08%Progress:  29.25%Progress:  29.41%          (  0.0490 sec |   0.0010 sec) Finished writing geometry of 'Building3'.
+Progress:  29.41%Progress:  29.41%Progress:  29.58%Progress:  29.74%Progress:  29.90%Progress:  30.07%Progress:  30.23%Progress:  30.39%          (  0.0500 sec |   0.0010 sec) Finished writing geometry of 'Building7'.
+Progress:  30.39%Progress:  30.39%Progress:  30.56%Progress:  30.72%Progress:  30.88%Progress:  31.05%Progress:  31.21%Progress:  31.37%          (  0.0500 sec |   0.0000 sec) Finished writing geometry of 'Building Library Link'.
+Progress:  31.37%Progress:  31.37%Progress:  31.54%Progress:  31.70%Progress:  31.86%Progress:  32.03%Progress:  32.19%Progress:  32.35%          (  0.0510 sec |   0.0010 sec) Finished writing geometry of 'Building8'.
+Progress:  32.35%Progress:  32.35%Progress:  32.52%Progress:  32.68%Progress:  32.84%Progress:  33.01%Progress:  33.17%Progress:  33.33%          (  0.0520 sec |   0.0010 sec) Finished writing geometry of 'Building Science Annex'.
+Progress:  33.33%Progress:  33.33%Progress:  33.50%Progress:  33.66%Progress:  33.82%Progress:  33.99%Progress:  34.15%Progress:  34.31%          (  0.0530 sec |   0.0010 sec) Finished writing geometry of 'Building Olympia Building'.
+Progress:  34.31%Progress:  34.31%Progress:  34.48%Progress:  34.64%Progress:  34.80%Progress:  34.97%Progress:  35.13%Progress:  35.29%          (  0.0560 sec |   0.0030 sec) Finished writing geometry of 'Building Shrine of the Immaculate Conception'.
+Progress:  35.29%Progress:  35.29%Progress:  35.46%Progress:  35.62%Progress:  35.78%Progress:  35.95%Progress:  36.11%Progress:  36.27%          (  0.0670 sec |   0.0110 sec) Finished writing geometry of 'Building Petit Science Center'.
+Progress:  36.27%Progress:  36.27%Progress:  36.44%Progress:  36.60%Progress:  36.76%Progress:  36.93%Progress:  37.09%Progress:  37.25%          (  0.0680 sec |   0.0010 sec) Finished writing geometry of 'Building Courtland North'.
+Progress:  37.25%Progress:  37.25%Progress:  37.42%Progress:  37.58%Progress:  37.75%Progress:  37.91%Progress:  38.07%Progress:  38.24%          (  0.0680 sec |   0.0000 sec) Finished writing geometry of 'Building1'.
+Progress:  38.24%Progress:  38.24%Progress:  38.40%Progress:  38.56%Progress:  38.73%Progress:  38.89%Progress:  39.05%Progress:  39.22%          (  0.0690 sec |   0.0010 sec) Finished writing geometry of 'Building14'.
+Progress:  39.22%Progress:  39.22%Progress:  39.38%Progress:  39.54%Progress:  39.71%Progress:  39.87%Progress:  40.03%Progress:  40.20%          (  0.0690 sec |   0.0000 sec) Finished writing geometry of 'Building11'.
+Progress:  40.20%Progress:  40.20%Progress:  40.36%Progress:  40.52%Progress:  40.69%Progress:  40.85%Progress:  41.01%Progress:  41.18%          (  0.0700 sec |   0.0010 sec) Finished writing geometry of 'Building G Deck'.
+Progress:  41.18%Progress:  41.18%Progress:  41.34%Progress:  41.50%Progress:  41.67%Progress:  41.83%Progress:  41.99%Progress:  42.16%          (  0.0740 sec |   0.0030 sec) Finished writing geometry of 'Building Natural Science Center'.
+Progress:  42.16%Progress:  42.16%Progress:  42.32%Progress:  42.48%Progress:  42.65%Progress:  42.81%Progress:  42.97%Progress:  43.14%          (  0.0750 sec |   0.0010 sec) Finished writing geometry of 'Building6'.
+Progress:  43.14%Progress:  43.14%Progress:  43.30%Progress:  43.46%Progress:  43.63%Progress:  43.79%Progress:  43.95%Progress:  44.12%          (  0.0760 sec |   0.0010 sec) Finished writing geometry of 'Building old World of Coca-Cola'.
+Progress:  44.12%Progress:  44.12%Progress:  44.28%Progress:  44.44%Progress:  44.61%Progress:  44.77%Progress:  44.93%Progress:  45.10%          (  0.0770 sec |   0.0010 sec) Finished writing geometry of 'Building 34 Peachtree St. Building'.
+Progress:  45.10%Progress:  45.10%Progress:  45.26%Progress:  45.42%Progress:  45.59%Progress:  45.75%Progress:  45.92%Progress:  46.08%          (  0.0770 sec |   0.0000 sec) Finished writing geometry of 'Building College of Law'.
+Progress:  46.08%Progress:  46.08%Progress:  46.24%Progress:  46.41%Progress:  46.57%Progress:  46.73%Progress:  46.90%Progress:  47.06%          (  0.0780 sec |   0.0010 sec) Finished writing geometry of 'Building William-Oliver Building'.
+Progress:  47.06%Progress:  47.06%Progress:  47.22%Progress:  47.39%Progress:  47.55%Progress:  47.71%Progress:  47.88%Progress:  48.04%          (  0.0790 sec |   0.0010 sec) Finished writing geometry of 'Cube'.
+Progress:  48.04%Progress:  48.04%Progress:  49.02%          (  0.0790 sec |   0.0000 sec) Finished writing geometry of 'Lamp'.
+Progress:  49.02%Progress:  49.02%Progress:  50.00%          (  0.0790 sec |   0.0000 sec) Finished writing geometry of 'Camera'.
+Progress:  50.00%Progress:  50.00%Progress:  50.00%      (  0.0830 sec |   0.0830 sec) Finished exporting geometry, now exporting materials
+Progress: 100.00%      (  0.0870 sec |   0.0870 sec) OBJ Export Finished
+Progress: 100.00%Progress: 100.00%Progress: 100.00%Progress: 100.00%
+
+
+A total of  48  objects have been exported to Wavefront OBJ
+Export file:  ..\tileset-3d\tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj.postprocessed.obj
+Export file size (bytes):  154,560
+
+Tile processed:
+---------------
+  west  (deg, rad): -84.39 -1.4728833557580145
+  south (deg, rad): 33.75 0.5890486225480862
+  east  (deg, rad): -84.385 -1.472796089295415
+  north (deg, rad): 33.755 0.5891358890106859
+---------------
+  extent LON (deg, rad): 0.0049999999999954525 8.7266462599489e-05
+  extent LAT (deg, rad): 0.005000000000002558 8.726646259971105e-05
+---------------
+  center LON (deg, rad): -84.3875 -1.472839722526715
+  center LAT (deg, rad): 33.7525 0.5890922557793861
+  center ECEF (x, y, z): (519177.336377081, -5283111.730141848, 3523654.126990289)
+  tile_center_ECEF (x, y, z): (519177.336377081, -5283111.730141848, 3523654.126990289)
+
+Blender quit
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.390000 33.750000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.390000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "10b-extract-batch-table-from-OBJ-tile-Blender.py"   -- -84.390000 33.750000 -84.385000 33.755000 
+
+========================================================================================================================================
+This is Blender Python script that extracts CustomBatchTable.json and TilesetOptions.json from OBJ tile, for processing with obj23dtiles
+Author: Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.390000', '33.750000', '-84.385000', '33.755000']
+tile_dx_meters:  556.5974444713327
+tile_dy_meters:  54.4110866505462
+Full path to import file:  ..\tileset-3d\tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj.postprocessed.obj
+
+len(featureNames):  49
+
+Writing customBatchtable.json...
+..\tileset-3d\tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj.postprocessed.obj-customBatchtable.json
+
+Writing customTilesetOptions.json...
+..\tileset-3d\tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj.postprocessed.obj-customTilesetOptions.json
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.390000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.755000  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "12b-generate-B3DM-obj23dtiles.py"   -- -84.390000 33.750000 -84.385000 33.755000  
+Total: 105.321ms
+
+========================================================================================================================================
+This is Blender Python script that calls obj23dtiles
+Author: Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.390000', '33.750000', '-84.385000', '33.755000']
+
+Invoking the following command:
+obj23dtiles -i "./../tileset-3d/tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj.postprocessed.obj" --tileset -p "./../tileset-3d/tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj.postprocessed.obj-customTilesetOptions.json" -c "./../tileset-3d/tile-buildings(-84.390000,33.750000,-84.385000,33.755000).osm.obj.postprocessed.obj-customBatchtable.json" 
+
+found bundled python: C:\Program Files\Blender Foundation\Blender\2.79\python
+
+Blender quit
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.410000 33.750000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.390000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>./../../../tools/osmosis/bin/osmosis   --read-pbf file="./../data.osm.pbf"   --tag-filter reject-relations   --tag-filter accept-ways building=*   --tag-filter reject-nodes entrance=*   --tag-filter reject-ways building=entrance   --used-node   --bounding-box left=-84.390000 bottom=33.755000 right=-84.385000 top=33.760000   --write-xml file="./../tileset-3d/tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm" 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem This is: -84.394635 33.751115 = 84°23'40.7"W  33°45'04.0"N  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem ----> X, Y, Z (in meters) = 518527.76724968, -5283261.28526402, 3523526.39818424 (see http://www.apsalin.com/convert-geodetic-to-cartesian.aspx) 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.390000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>java -Xmx512m -jar "./../../../tools/OSM2World/OSM2World.jar"   -i "./../tileset-3d/tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm"   -o "./../tileset-3d/tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj"   --config "02b-osm2world.config" 
+time terrain interpolation: 0:00:00.025
+time add constraints: 0:00:00.001
+time enforce constraints: 0:00:00.000
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.390000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "03b-postprocess-OBJ-tile-Blender.py"   -- -84.390000 33.755000 -84.385000 33.760000 
+
+==========================================
+This is Blender Python script that post-processes the OBJ file obtained through osm2world
+Author Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.390000', '33.755000', '-84.385000', '33.760000']
+Full path to import file:  ..\tileset-3d\tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj
+Progress:   0.00%(  0.0000 sec |   0.0000 sec) Importing OBJ '..\\tileset-3d\\tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj'...
+Progress:   0.00%  (  0.0010 sec |   0.0010 sec) Parsing OBJ file...
+Progress:   0.00%    (  0.0190 sec |   0.0180 sec) Done, loading materials and images...
+Progress:  33.33%    (  0.0190 sec |   0.0180 sec) Done, building geometries (verts:702 faces:1782 materials: 4 smoothgroups:0) ...
+Progress:  66.67%    (  0.0310 sec |   0.0300 sec) Done.
+Progress:  66.67%Progress: 100.00%  (  0.0310 sec |   0.0310 sec) Finished importing: '..\\tileset-3d\\tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj'
+Progress: 100.00%Progress: 100.00%
+
+Count of selected objects (bpy.context.selected_objects):  54
+
+Count of selected objects, len(obj_objects):  54
+
+Full path to export file:  ..\tileset-3d\tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj.postprocessed.obj
+len(obj_objects) is greater than zero, so export the post-processed scene (i.e., objects in it) to Wavefront OBJ
+Progress:   0.00%    (  0.0000 sec |   0.0000 sec) OBJ Export path: '..\\tileset-3d\\tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj.postprocessed.obj'
+Progress:   0.00%Progress:   0.15%Progress:   0.29%Progress:   0.44%Progress:   0.58%Progress:   0.73%Progress:   0.88%          (  0.0010 sec |   0.0000 sec) Finished writing geometry of 'Building Standard Building'.
+Progress:   0.88%Progress:   0.88%Progress:   1.02%Progress:   1.17%Progress:   1.32%Progress:   1.46%Progress:   1.61%Progress:   1.75%          (  0.0020 sec |   0.0010 sec) Finished writing geometry of 'Building Residence Inn Atlanta Downtown'.
+Progress:   1.75%Progress:   1.75%Progress:   1.90%Progress:   2.05%Progress:   2.19%Progress:   2.34%Progress:   2.49%Progress:   2.63%          (  0.0020 sec |   0.0000 sec) Finished writing geometry of 'Building4'.
+Progress:   2.63%Progress:   2.63%Progress:   2.78%Progress:   2.92%Progress:   3.07%Progress:   3.22%Progress:   3.36%Progress:   3.51%          (  0.0030 sec |   0.0010 sec) Finished writing geometry of 'Building AT&T Communications Building'.
+Progress:   3.51%Progress:   3.51%Progress:   3.65%Progress:   3.80%Progress:   3.95%Progress:   4.09%Progress:   4.24%Progress:   4.39%          (  0.0040 sec |   0.0010 sec) Finished writing geometry of 'Building19'.
+Progress:   4.39%Progress:   4.39%Progress:   4.53%Progress:   4.68%Progress:   4.82%Progress:   4.97%Progress:   5.12%Progress:   5.26%          (  0.0050 sec |   0.0010 sec) Finished writing geometry of 'Building Courtyard Atlanta Downtown'.
+Progress:   5.26%Progress:   5.26%Progress:   5.41%Progress:   5.56%Progress:   5.70%Progress:   5.85%Progress:   5.99%Progress:   6.14%          (  0.0070 sec |   0.0020 sec) Finished writing geometry of 'Building15'.
+Progress:   6.14%Progress:   6.14%Progress:   6.29%Progress:   6.43%Progress:   6.58%Progress:   6.73%Progress:   6.87%Progress:   7.02%          (  0.0070 sec |   0.0000 sec) Finished writing geometry of 'Building21'.
+Progress:   7.02%Progress:   7.02%Progress:   7.16%Progress:   7.31%Progress:   7.46%Progress:   7.60%Progress:   7.75%Progress:   7.89%          (  0.0080 sec |   0.0000 sec) Finished writing geometry of 'Building Hillyer Trust Building'.
+Progress:   7.89%Progress:   7.89%Progress:   8.04%Progress:   8.19%Progress:   8.33%Progress:   8.48%Progress:   8.63%Progress:   8.77%          (  0.0080 sec |   0.0000 sec) Finished writing geometry of 'Building11'.
+Progress:   8.77%Progress:   8.77%Progress:   8.92%Progress:   9.06%Progress:   9.21%Progress:   9.36%Progress:   9.50%Progress:   9.65%          (  0.0090 sec |   0.0010 sec) Finished writing geometry of 'Building Rialto Center for the Arts'.
+Progress:   9.65%Progress:   9.65%Progress:   9.80%Progress:   9.94%Progress:  10.09%Progress:  10.23%Progress:  10.38%Progress:  10.53%          (  0.0100 sec |   0.0010 sec) Finished writing geometry of 'Building14'.
+Progress:  10.53%Progress:  10.53%Progress:  10.67%Progress:  10.82%Progress:  10.96%Progress:  11.11%Progress:  11.26%Progress:  11.40%          (  0.0100 sec |   0.0000 sec) Finished writing geometry of 'Building16'.
+Progress:  11.40%Progress:  11.40%Progress:  11.55%Progress:  11.70%Progress:  11.84%Progress:  11.99%Progress:  12.13%Progress:  12.28%          (  0.0110 sec |   0.0010 sec) Finished writing geometry of 'Building12'.
+Progress:  12.28%Progress:  12.28%Progress:  12.43%Progress:  12.57%Progress:  12.72%Progress:  12.87%Progress:  13.01%Progress:  13.16%          (  0.0120 sec |   0.0010 sec) Finished writing geometry of 'Building Ellis Hotel'.
+Progress:  13.16%Progress:  13.16%Progress:  13.30%Progress:  13.45%Progress:  13.60%Progress:  13.74%Progress:  13.89%Progress:  14.04%          (  0.0120 sec |   0.0000 sec) Finished writing geometry of 'Building1'.
+Progress:  14.04%Progress:  14.04%Progress:  14.18%Progress:  14.33%Progress:  14.47%Progress:  14.62%Progress:  14.77%Progress:  14.91%          (  0.0130 sec |   0.0010 sec) Finished writing geometry of 'Building23'.
+Progress:  14.91%Progress:  14.91%Progress:  15.06%Progress:  15.20%Progress:  15.35%Progress:  15.50%Progress:  15.64%Progress:  15.79%          (  0.0130 sec |   0.0000 sec) Finished writing geometry of 'Building9'.
+Progress:  15.79%Progress:  15.79%Progress:  15.94%Progress:  16.08%Progress:  16.23%Progress:  16.37%Progress:  16.52%Progress:  16.67%          (  0.0130 sec |   0.0000 sec) Finished writing geometry of 'SurfaceParking Enclosed Garage'.
+Progress:  16.67%Progress:  16.67%Progress:  16.81%Progress:  16.96%Progress:  17.11%Progress:  17.25%Progress:  17.40%Progress:  17.54%          (  0.0140 sec |   0.0000 sec) Finished writing geometry of 'Building24'.
+Progress:  17.54%Progress:  17.54%Progress:  17.69%Progress:  17.84%Progress:  17.98%Progress:  18.13%Progress:  18.27%Progress:  18.42%          (  0.0150 sec |   0.0010 sec) Finished writing geometry of 'Building2'.
+Progress:  18.42%Progress:  18.42%Progress:  18.57%Progress:  18.71%Progress:  18.86%Progress:  19.01%Progress:  19.15%Progress:  19.30%          (  0.0150 sec |   0.0000 sec) Finished writing geometry of 'Building International Garage'.
+Progress:  19.30%Progress:  19.30%Progress:  19.44%Progress:  19.59%Progress:  19.74%Progress:  19.88%Progress:  20.03%Progress:  20.18%          (  0.0160 sec |   0.0010 sec) Finished writing geometry of 'Building10'.
+Progress:  20.18%Progress:  20.18%Progress:  20.32%Progress:  20.47%Progress:  20.61%Progress:  20.76%Progress:  20.91%Progress:  21.05%          (  0.0180 sec |   0.0020 sec) Finished writing geometry of 'Building Georgia-Pacific Tower'.
+Progress:  21.05%Progress:  21.05%Progress:  21.20%Progress:  21.35%Progress:  21.49%Progress:  21.64%Progress:  21.78%Progress:  21.93%          (  0.0190 sec |   0.0010 sec) Finished writing geometry of 'Building5'.
+Progress:  21.93%Progress:  21.93%Progress:  22.08%Progress:  22.22%Progress:  22.37%Progress:  22.51%Progress:  22.66%Progress:  22.81%          (  0.0200 sec |   0.0010 sec) Finished writing geometry of 'Building27'.
+Progress:  22.81%Progress:  22.81%Progress:  22.95%Progress:  23.10%Progress:  23.25%Progress:  23.39%Progress:  23.54%Progress:  23.68%          (  0.0210 sec |   0.0010 sec) Finished writing geometry of 'Building6'.
+Progress:  23.68%Progress:  23.68%Progress:  23.83%Progress:  23.98%Progress:  24.12%Progress:  24.27%Progress:  24.42%Progress:  24.56%          (  0.0210 sec |   0.0000 sec) Finished writing geometry of 'Building Holiday Inn Express & Suites Atlanta Downtown'.
+Progress:  24.56%found bundled python: C:\Program Files\Blender Foundation\Blender\2.79\python
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Progress:  24.56%Progress:  24.71%Progress:  24.85%Progress:  25.00%Progress:  25.15%Progress:  25.29%Progress:  25.44%          (  0.0220 sec |   0.0010 sec) Finished writing geometry of 'SurfaceParking7'.
+Progress:  25.44%Progress:  25.44%Progress:  25.58%Progress:  25.73%Progress:  25.88%Progress:  26.02%Progress:  26.17%Progress:  26.32%          (  0.0220 sec |   0.0000 sec) Finished writing geometry of 'Building Hampton Inn & Suites'.
+Progress:  26.32%Progress:  26.32%Progress:  26.46%Progress:  26.61%Progress:  26.75%Progress:  26.90%Progress:  27.05%Progress:  27.19%          (  0.0220 sec |   0.0000 sec) Finished writing geometry of 'Building Barclay Hotel Atlanta Downtown'.
+Progress:  27.19%Progress:  27.19%Progress:  27.34%Progress:  27.49%Progress:  27.63%Progress:  27.78%Progress:  27.92%Progress:  28.07%          (  0.0230 sec |   0.0000 sec) Finished writing geometry of 'Building Enclosed Garage'.
+Progress:  28.07%Progress:  28.07%Progress:  28.22%Progress:  28.36%Progress:  28.51%Progress:  28.65%Progress:  28.80%Progress:  28.95%          (  0.0240 sec |   0.0010 sec) Finished writing geometry of 'Building Rich's Inc'.
+Progress:  28.95%Progress:  28.95%Progress:  29.09%Progress:  29.24%Progress:  29.39%Progress:  29.53%Progress:  29.68%Progress:  29.82%          (  0.0250 sec |   0.0010 sec) Finished writing geometry of 'Building Westin Peachtree Plaza'.
+Progress:  29.82%Progress:  29.82%Progress:  29.97%Progress:  30.12%Progress:  30.26%Progress:  30.41%Progress:  30.56%Progress:  30.70%          (  0.0270 sec |   0.0020 sec) Finished writing geometry of 'Building FlatironCity'.
+Progress:  30.70%Progress:  30.70%Progress:  30.85%Progress:  30.99%Progress:  31.14%Progress:  31.29%Progress:  31.43%Progress:  31.58%          (  0.0280 sec |   0.0010 sec) Finished writing geometry of 'Building 191 Peachtree Tower'.
+Progress:  31.58%Progress:  31.58%Progress:  31.73%Progress:  31.87%Progress:  32.02%Progress:  32.16%Progress:  32.31%Progress:  32.46%          (  0.0290 sec |   0.0010 sec) Finished writing geometry of 'Building Candler Building'.
+Progress:  32.46%Progress:  32.46%Progress:  32.60%Progress:  32.75%Progress:  32.89%Progress:  33.04%Progress:  33.19%Progress:  33.33%          (  0.0300 sec |   0.0010 sec) Finished writing geometry of 'Building22'.
+Progress:  33.33%Progress:  33.33%Progress:  33.48%Progress:  33.63%Progress:  33.77%Progress:  33.92%Progress:  34.06%Progress:  34.21%          (  0.0310 sec |   0.0010 sec) Finished writing geometry of 'Building Ritz-Carlton Hotel Downtown Atlanta'.
+Progress:  34.21%Progress:  34.21%Progress:  34.36%Progress:  34.50%Progress:  34.65%Progress:  34.80%Progress:  34.94%Progress:  35.09%          (  0.0320 sec |   0.0010 sec) Finished writing geometry of 'Building College of Law'.
+Progress:  35.09%Progress:  35.09%Progress:  35.23%Progress:  35.38%Progress:  35.53%Progress:  35.67%Progress:  35.82%Progress:  35.96%          (  0.0330 sec |   0.0010 sec) Finished writing geometry of 'Building Helen M. Aderhold Learning Center'.
+Progress:  35.96%Progress:  35.96%Progress:  36.11%Progress:  36.26%Progress:  36.40%Progress:  36.55%Progress:  36.70%Progress:  36.84%          (  0.0330 sec |   0.0000 sec) Finished writing geometry of 'Building Healey Building'.
+Progress:  36.84%Progress:  36.84%Progress:  36.99%Progress:  37.13%Progress:  37.28%Progress:  37.43%Progress:  37.57%Progress:  37.72%          (  0.0340 sec |   0.0010 sec) Finished writing geometry of 'Building13'.
+Progress:  37.72%Progress:  37.72%Progress:  37.87%Progress:  38.01%Progress:  38.16%Progress:  38.30%Progress:  38.45%Progress:  38.60%          (  0.0350 sec |   0.0010 sec) Finished writing geometry of 'Building8'.
+Progress:  38.60%Progress:  38.60%Progress:  38.74%Progress:  38.89%Progress:  39.04%Progress:  39.18%Progress:  39.33%Progress:  39.47%          (  0.0350 sec |   0.0000 sec) Finished writing geometry of 'Building Equitable Building'.
+Progress:  39.47%Progress:  39.47%Progress:  39.62%Progress:  39.77%Progress:  39.91%Progress:  40.06%Progress:  40.20%Progress:  40.35%          (  0.0350 sec |   0.0000 sec) Finished writing geometry of 'SurfaceParking25'.
+Progress:  40.35%Progress:  40.35%Progress:  40.50%Progress:  40.64%Progress:  40.79%Progress:  40.94%Progress:  41.08%Progress:  41.23%          (  0.0370 sec |   0.0020 sec) Finished writing geometry of 'Building Atlanta-Fulton County Public Library'.
+Progress:  41.23%Progress:  41.23%Progress:  41.37%Progress:  41.52%Progress:  41.67%Progress:  41.81%Progress:  41.96%Progress:  42.11%          (  0.0370 sec |   0.0000 sec) Finished writing geometry of 'Building3'.
+Progress:  42.11%Progress:  42.11%Progress:  42.25%Progress:  42.40%Progress:  42.54%Progress:  42.69%Progress:  42.84%Progress:  42.98%          (  0.0380 sec |   0.0010 sec) Finished writing geometry of 'Building Haas-Howell Building'.
+Progress:  42.98%Progress:  42.98%Progress:  43.13%Progress:  43.27%Progress:  43.42%Progress:  43.57%Progress:  43.71%Progress:  43.86%          (  0.0390 sec |   0.0010 sec) Finished writing geometry of 'Building26'.
+Progress:  43.86%Progress:  43.86%Progress:  44.01%Progress:  44.15%Progress:  44.30%Progress:  44.44%Progress:  44.59%Progress:  44.74%          (  0.0390 sec |   0.0000 sec) Finished writing geometry of 'Building17'.
+Progress:  44.74%Progress:  44.74%Progress:  44.88%Progress:  45.03%Progress:  45.18%Progress:  45.32%Progress:  45.47%Progress:  45.61%          (  0.0400 sec |   0.0010 sec) Finished writing geometry of 'Building0'.
+Progress:  45.61%Progress:  45.61%Progress:  45.76%Progress:  45.91%Progress:  46.05%Progress:  46.20%Progress:  46.35%Progress:  46.49%          (  0.0410 sec |   0.0010 sec) Finished writing geometry of 'Building20'.
+Progress:  46.49%Progress:  46.49%Progress:  46.64%Progress:  46.78%Progress:  46.93%Progress:  47.08%Progress:  47.22%Progress:  47.37%          (  0.0410 sec |   0.0000 sec) Finished writing geometry of 'Building18'.
+Progress:  47.37%Progress:  47.37%Progress:  47.51%Progress:  47.66%Progress:  47.81%Progress:  47.95%Progress:  48.10%Progress:  48.25%          (  0.0420 sec |   0.0000 sec) Finished writing geometry of 'Cube'.
+Progress:  48.25%Progress:  48.25%Progress:  49.12%          (  0.0420 sec |   0.0000 sec) Finished writing geometry of 'Lamp'.
+Progress:  49.12%Progress:  49.12%Progress:  50.00%          (  0.0420 sec |   0.0000 sec) Finished writing geometry of 'Camera'.
+Progress:  50.00%Progress:  50.00%Progress:  50.00%      (  0.0467 sec |   0.0467 sec) Finished exporting geometry, now exporting materials
+Progress: 100.00%      (  0.0482 sec |   0.0482 sec) OBJ Export Finished
+Progress: 100.00%Progress: 100.00%Progress: 100.00%Progress: 100.00%
+
+
+A total of  54  objects have been exported to Wavefront OBJ
+Export file:  ..\tileset-3d\tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj.postprocessed.obj
+Export file size (bytes):  68,354
+
+Tile processed:
+---------------
+  west  (deg, rad): -84.39 -1.4728833557580145
+  south (deg, rad): 33.755 0.5891358890106859
+  east  (deg, rad): -84.385 -1.472796089295415
+  north (deg, rad): 33.76 0.5892231554732856
+---------------
+  extent LON (deg, rad): 0.0049999999999954525 8.7266462599489e-05
+  extent LAT (deg, rad): 0.0049999999999954525 8.726646259971105e-05
+---------------
+  center LON (deg, rad): -84.3875 -1.472839722526715
+  center LAT (deg, rad): 33.7575 0.5891795222419858
+  center ECEF (x, y, z): (519147.1989238878, -5282805.0535569405, 3524115.224701983)
+  tile_center_ECEF (x, y, z): (519147.1989238878, -5282805.0535569405, 3524115.224701983)
+
+Blender quit
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.390000 33.750000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.390000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "10b-extract-batch-table-from-OBJ-tile-Blender.py"   -- -84.390000 33.755000 -84.385000 33.760000 
+
+========================================================================================================================================
+This is Blender Python script that extracts CustomBatchTable.json and TilesetOptions.json from OBJ tile, for processing with obj23dtiles
+Author: Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.390000', '33.755000', '-84.385000', '33.760000']
+tile_dx_meters:  556.5974444713327
+tile_dy_meters:  54.411086650468896
+Full path to import file:  ..\tileset-3d\tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj.postprocessed.obj
+
+len(featureNames):  55
+
+Writing customBatchtable.json...
+..\tileset-3d\tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj.postprocessed.obj-customBatchtable.json
+
+Writing customTilesetOptions.json...
+..\tileset-3d\tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj.postprocessed.obj-customTilesetOptions.json
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.390000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.760000  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "12b-generate-B3DM-obj23dtiles.py"   -- -84.390000 33.755000 -84.385000 33.760000  
+Total: 80.537ms
+
+========================================================================================================================================
+This is Blender Python script that calls obj23dtiles
+Author: Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.390000', '33.755000', '-84.385000', '33.760000']
+
+Invoking the following command:
+obj23dtiles -i "./../tileset-3d/tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj.postprocessed.obj" --tileset -p "./../tileset-3d/tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj.postprocessed.obj-customTilesetOptions.json" -c "./../tileset-3d/tile-buildings(-84.390000,33.755000,-84.385000,33.760000).osm.obj.postprocessed.obj-customBatchtable.json" 
+
+found bundled python: C:\Program Files\Blender Foundation\Blender\2.79\python
+
+Blender quit
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.410000 33.750000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.380000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>./../../../tools/osmosis/bin/osmosis   --read-pbf file="./../data.osm.pbf"   --tag-filter reject-relations   --tag-filter accept-ways building=*   --tag-filter reject-nodes entrance=*   --tag-filter reject-ways building=entrance   --used-node   --bounding-box left=-84.385000 bottom=33.750000 right=-84.380000 top=33.755000   --write-xml file="./../tileset-3d/tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm" 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem This is: -84.394635 33.751115 = 84°23'40.7"W  33°45'04.0"N  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem ----> X, Y, Z (in meters) = 518527.76724968, -5283261.28526402, 3523526.39818424 (see http://www.apsalin.com/convert-geodetic-to-cartesian.aspx) 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.380000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>java -Xmx512m -jar "./../../../tools/OSM2World/OSM2World.jar"   -i "./../tileset-3d/tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm"   -o "./../tileset-3d/tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj"   --config "02b-osm2world.config" 
+time terrain interpolation: 0:00:00.023
+time add constraints: 0:00:00.000
+time enforce constraints: 0:00:00.000
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.380000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "03b-postprocess-OBJ-tile-Blender.py"   -- -84.385000 33.750000 -84.380000 33.755000 
+
+==========================================
+This is Blender Python script that post-processes the OBJ file obtained through osm2world
+Author Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.385000', '33.750000', '-84.380000', '33.755000']
+Full path to import file:  ..\tileset-3d\tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj
+Progress:   0.00%(  0.0000 sec |   0.0000 sec) Importing OBJ '..\\tileset-3d\\tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj'...
+Progress:   0.00%  (  0.0000 sec |   0.0000 sec) Parsing OBJ file...
+Progress:   0.00%    (  0.0230 sec |   0.0230 sec) Done, loading materials and images...
+Progress:  33.33%    (  0.0240 sec |   0.0240 sec) Done, building geometries (verts:943 faces:2284 materials: 3 smoothgroups:0) ...
+Progress:  66.67%    (  0.0373 sec |   0.0373 sec) Done.
+Progress:  66.67%Progress: 100.00%  (  0.0373 sec |   0.0373 sec) Finished importing: '..\\tileset-3d\\tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj'
+Progress: 100.00%Progress: 100.00%
+
+Count of selected objects (bpy.context.selected_objects):  49
+
+Count of selected objects, len(obj_objects):  49
+
+Full path to export file:  ..\tileset-3d\tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj.postprocessed.obj
+len(obj_objects) is greater than zero, so export the post-processed scene (i.e., objects in it) to Wavefront OBJ
+Progress:   0.00%    (  0.0010 sec |   0.0000 sec) OBJ Export path: '..\\tileset-3d\\tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj.postprocessed.obj'
+Progress:   0.00%Progress:   0.16%Progress:   0.32%Progress:   0.48%Progress:   0.64%Progress:   0.80%Progress:   0.96%          (  0.0020 sec |   0.0010 sec) Finished writing geometry of 'Building25'.
+Progress:   0.96%Progress:   0.96%Progress:   1.12%Progress:   1.28%Progress:   1.44%Progress:   1.60%Progress:   1.76%Progress:   1.92%          (  0.0030 sec |   0.0010 sec) Finished writing geometry of 'Building Fulton County Department of Health and Wellness'.
+Progress:   1.92%Progress:   1.92%Progress:   2.08%Progress:   2.24%Progress:   2.40%Progress:   2.56%Progress:   2.72%Progress:   2.88%          (  0.0030 sec |   0.0000 sec) Finished writing geometry of 'SurfaceParking Loft Parking'.
+Progress:   2.88%Progress:   2.88%Progress:   3.04%Progress:   3.21%Progress:   3.37%Progress:   3.53%Progress:   3.69%Progress:   3.85%          (  0.0040 sec |   0.0010 sec) Finished writing geometry of 'Building University Lofts'.
+Progress:   3.85%Progress:   3.85%Progress:   4.01%Progress:   4.17%Progress:   4.33%Progress:   4.49%Progress:   4.65%Progress:   4.81%          (  0.0040 sec |   0.0000 sec) Finished writing geometry of 'Building22'.
+Progress:   4.81%Progress:   4.81%Progress:   4.97%Progress:   5.13%Progress:   5.29%Progress:   5.45%Progress:   5.61%Progress:   5.77%          (  0.0060 sec |   0.0010 sec) Finished writing geometry of 'Building Student Recreation Center'.
+Progress:   5.77%Progress:   5.77%Progress:   5.93%Progress:   6.09%Progress:   6.25%Progress:   6.41%Progress:   6.57%Progress:   6.73%          (  0.0080 sec |   0.0020 sec) Finished writing geometry of 'Building Dahlberg Hall'.
+Progress:   6.73%Progress:   6.73%Progress:   6.89%Progress:   7.05%Progress:   7.21%Progress:   7.37%Progress:   7.53%Progress:   7.69%          (  0.0090 sec |   0.0010 sec) Finished writing geometry of 'Building17'.
+Progress:   7.69%Progress:   7.69%Progress:   7.85%Progress:   8.01%Progress:   8.17%Progress:   8.33%Progress:   8.49%Progress:   8.65%          (  0.0100 sec |   0.0010 sec) Finished writing geometry of 'Building14'.
+Progress:   8.65%Progress:   8.65%Progress:   8.81%Progress:   8.97%Progress:   9.13%Progress:   9.29%Progress:   9.46%Progress:   9.62%          (  0.0130 sec |   0.0030 sec) Finished writing geometry of 'Building Greek Housing'.
+Progress:   9.62%Progress:   9.62%Progress:   9.78%Progress:   9.94%Progress:  10.10%Progress:  10.26%Progress:  10.42%Progress:  10.58%          (  0.0140 sec |   0.0010 sec) Finished writing geometry of 'Building YMCA'.
+Progress:  10.58%Progress:  10.58%Progress:  10.74%Progress:  10.90%Progress:  11.06%Progress:  11.22%Progress:  11.38%Progress:  11.54%          (  0.0140 sec |   0.0000 sec) Finished writing geometry of 'Building Emory University School of Medicine'.
+Progress:  11.54%Progress:  11.54%Progress:  11.70%Progress:  11.86%Progress:  12.02%Progress:  12.18%Progress:  12.34%Progress:  12.50%          (  0.0150 sec |   0.0010 sec) Finished writing geometry of 'Building27'.
+Progress:  12.50%Progress:  12.50%Progress:  12.66%Progress:  12.82%Progress:  12.98%Progress:  13.14%Progress:  13.30%Progress:  13.46%          (  0.0160 sec |   0.0010 sec) Finished writing geometry of 'Building20'.
+Progress:  13.46%Progress:  13.46%Progress:  13.62%Progress:  13.78%Progress:  13.94%Progress:  14.10%Progress:  14.26%Progress:  14.42%          (  0.0170 sec |   0.0010 sec) Finished writing geometry of 'Building11'.
+Progress:  14.42%Progress:  14.42%Progress:  14.58%Progress:  14.74%Progress:  14.90%Progress:  15.06%Progress:  15.22%Progress:  15.38%          (  0.0170 sec |   0.0000 sec) Finished writing geometry of 'Building1'.
+Progress:  15.38%Progress:  15.38%Progress:  15.54%Progress:  15.71%Progress:  15.87%Progress:  16.03%Progress:  16.19%Progress:  16.35%          (  0.0180 sec |   0.0010 sec) Finished writing geometry of 'Building9'.
+Progress:  16.35%Progress:  16.35%Progress:  16.51%Progress:  16.67%Progress:  16.83%Progress:  16.99%Progress:  17.15%Progress:  17.31%          (  0.0180 sec |   0.0000 sec) Finished writing geometry of 'Building Loft Parking'.
+Progress:  17.31%Progress:  17.31%Progress:  17.47%Progress:  17.63%Progress:  17.79%Progress:  17.95%Progress:  18.11%Progress:  18.27%          (  0.0190 sec |   0.0010 sec) Finished writing geometry of 'Building 148 Edgewood'.
+Progress:  18.27%Progress:  18.27%Progress:  18.43%Progress:  18.59%Progress:  18.75%Progress:  18.91%Progress:  19.07%Progress:  19.23%          (  0.0200 sec |   0.0010 sec) Finished writing geometry of 'Building10'.
+Progress:  19.23%Progress:  19.23%Progress:  19.39%Progress:  19.55%Progress:  19.71%Progress:  19.87%Progress:  20.03%Progress:  20.19%          (  0.0260 sec |   0.0060 sec) Finished writing geometry of 'Building Grady Memorial Hospital'.
+Progress:  20.19%Progress:  20.19%Progress:  20.35%Progress:  20.51%Progress:  20.67%Progress:  20.83%Progress:  20.99%Progress:  21.15%          (  0.0260 sec |   0.0000 sec) Finished writing geometry of 'Building23'.
+Progress:  21.15%Progress:  21.15%Progress:  21.31%Progress:  21.47%Progress:  21.63%Progress:  21.79%Progress:  21.96%Progress:  22.12%          (  0.0270 sec |   0.0010 sec) Finished writing geometry of 'Building8'.
+Progress:  22.12%Progress:  22.12%Progress:  22.28%Progress:  22.44%Progress:  22.60%Progress:  22.76%Progress:  22.92%Progress:  23.08%          (  0.0270 sec |   0.0000 sec) Finished writing geometry of 'Building7'.
+Progress:  23.08%Progress:  23.08%Progress:  23.24%Progress:  23.40%Progress:  23.56%Progress:  23.72%Progress:  23.88%Progress:  24.04%          (  0.0310 sec |   0.0040 sec) Finished writing geometry of 'Building16'.
+Progress:  24.04%Progress:  24.04%Progress:  24.20%Progress:  24.36%Progress:  24.52%Progress:  24.68%Progress:  24.84%Progress:  25.00%          (  0.0320 sec |   0.0010 sec) Finished writing geometry of 'Building GSU Building'.
+Progress:  25.00%Progress:  25.00%Progress:  25.16%Progress:  25.32%Progress:  25.48%Progress:  25.64%Progress:  25.80%Progress:  25.96%          (  0.0320 sec |   0.0000 sec) Finished writing geometry of 'Building24'.
+Progress:  25.96%Progress:  25.96%Progress:  26.12%Progress:  26.28%Progress:  26.44%Progress:  26.60%Progress:  26.76%Progress:  26.92%          (  0.0330 sec |   0.0000 sec) Finished writing geometry of 'Building Sculpture Studio'.
+Progress:  26.92%found bundled python: C:\Program Files\Blender Foundation\Blender\2.79\python
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Progress:  26.92%Progress:  27.08%Progress:  27.24%Progress:  27.40%Progress:  27.56%Progress:  27.72%Progress:  27.88%          (  0.0340 sec |   0.0010 sec) Finished writing geometry of 'Building13'.
+Progress:  27.88%Progress:  27.88%Progress:  28.04%Progress:  28.21%Progress:  28.37%Progress:  28.53%Progress:  28.69%Progress:  28.85%          (  0.0340 sec |   0.0000 sec) Finished writing geometry of 'Building5'.
+Progress:  28.85%Progress:  28.85%Progress:  29.01%Progress:  29.17%Progress:  29.33%Progress:  29.49%Progress:  29.65%Progress:  29.81%          (  0.0350 sec |   0.0010 sec) Finished writing geometry of 'Building K Deck'.
+Progress:  29.81%Progress:  29.81%Progress:  29.97%Progress:  30.13%Progress:  30.29%Progress:  30.45%Progress:  30.61%Progress:  30.77%          (  0.0360 sec |   0.0010 sec) Finished writing geometry of 'Building19'.
+Progress:  30.77%Progress:  30.77%Progress:  30.93%Progress:  31.09%Progress:  31.25%Progress:  31.41%Progress:  31.57%Progress:  31.73%          (  0.0370 sec |   0.0010 sec) Finished writing geometry of 'Building12'.
+Progress:  31.73%Progress:  31.73%Progress:  31.89%Progress:  32.05%Progress:  32.21%Progress:  32.37%Progress:  32.53%Progress:  32.69%          (  0.0380 sec |   0.0010 sec) Finished writing geometry of 'Building Steiner Building'.
+Progress:  32.69%Progress:  32.69%Progress:  32.85%Progress:  33.01%Progress:  33.17%Progress:  33.33%Progress:  33.49%Progress:  33.65%          (  0.0390 sec |   0.0010 sec) Finished writing geometry of 'Building2'.
+Progress:  33.65%Progress:  33.65%Progress:  33.81%Progress:  33.97%Progress:  34.13%Progress:  34.29%Progress:  34.46%Progress:  34.62%          (  0.0390 sec |   0.0000 sec) Finished writing geometry of 'Building21'.
+Progress:  34.62%Progress:  34.62%Progress:  34.78%Progress:  34.94%Progress:  35.10%Progress:  35.26%Progress:  35.42%Progress:  35.58%          (  0.0400 sec |   0.0010 sec) Finished writing geometry of 'Building15'.
+Progress:  35.58%Progress:  35.58%Progress:  35.74%Progress:  35.90%Progress:  36.06%Progress:  36.22%Progress:  36.38%Progress:  36.54%          (  0.0410 sec |   0.0010 sec) Finished writing geometry of 'Building GSU Sculpture Studio'.
+Progress:  36.54%Progress:  36.54%Progress:  36.70%Progress:  36.86%Progress:  37.02%Progress:  37.18%Progress:  37.34%Progress:  37.50%          (  0.0420 sec |   0.0010 sec) Finished writing geometry of 'Building4'.
+Progress:  37.50%Progress:  37.50%Progress:  37.66%Progress:  37.82%Progress:  37.98%Progress:  38.14%Progress:  38.30%Progress:  38.46%          (  0.0430 sec |   0.0010 sec) Finished writing geometry of 'Building3'.
+Progress:  38.46%Progress:  38.46%Progress:  38.62%Progress:  38.78%Progress:  38.94%Progress:  39.10%Progress:  39.26%Progress:  39.42%          (  0.0440 sec |   0.0010 sec) Finished writing geometry of 'Building0'.
+Progress:  39.42%Progress:  39.42%Progress:  39.58%Progress:  39.74%Progress:  39.90%Progress:  40.06%Progress:  40.22%Progress:  40.38%          (  0.0450 sec |   0.0010 sec) Finished writing geometry of 'Building N Deck'.
+Progress:  40.38%Progress:  40.38%Progress:  40.54%Progress:  40.71%Progress:  40.87%Progress:  41.03%Progress:  41.19%Progress:  41.35%          (  0.0450 sec |   0.0000 sec) Finished writing geometry of 'Building M Deck'.
+Progress:  41.35%Progress:  41.35%Progress:  41.51%Progress:  41.67%Progress:  41.83%Progress:  41.99%Progress:  42.15%Progress:  42.31%          (  0.0460 sec |   0.0010 sec) Finished writing geometry of 'Building28'.
+Progress:  42.31%Progress:  42.31%Progress:  42.47%Progress:  42.63%Progress:  42.79%Progress:  42.95%Progress:  43.11%Progress:  43.27%          (  0.0460 sec |   0.0000 sec) Finished writing geometry of 'SurfaceParking M Deck'.
+Progress:  43.27%Progress:  43.27%Progress:  43.43%Progress:  43.59%Progress:  43.75%Progress:  43.91%Progress:  44.07%Progress:  44.23%          (  0.0470 sec |   0.0010 sec) Finished writing geometry of 'Building26'.
+Progress:  44.23%Progress:  44.23%Progress:  44.39%Progress:  44.55%Progress:  44.71%Progress:  44.87%Progress:  45.03%Progress:  45.19%          (  0.0470 sec |   0.0000 sec) Finished writing geometry of 'Building6'.
+Progress:  45.19%Progress:  45.19%Progress:  45.35%Progress:  45.51%Progress:  45.67%Progress:  45.83%Progress:  45.99%Progress:  46.15%          (  0.0480 sec |   0.0010 sec) Finished writing geometry of 'Building S Deck'.
+Progress:  46.15%Progress:  46.15%Progress:  46.31%Progress:  46.47%Progress:  46.63%Progress:  46.79%Progress:  46.96%Progress:  47.12%          (  0.0490 sec |   0.0010 sec) Finished writing geometry of 'Building18'.
+Progress:  47.12%Progress:  47.12%Progress:  47.28%Progress:  47.44%Progress:  47.60%Progress:  47.76%Progress:  47.92%Progress:  48.08%          (  0.0500 sec |   0.0010 sec) Finished writing geometry of 'Cube'.
+Progress:  48.08%Progress:  48.08%Progress:  49.04%          (  0.0500 sec |   0.0000 sec) Finished writing geometry of 'Lamp'.
+Progress:  49.04%Progress:  49.04%Progress:  50.00%          (  0.0500 sec |   0.0000 sec) Finished writing geometry of 'Camera'.
+Progress:  50.00%Progress:  50.00%Progress:  50.00%      (  0.0540 sec |   0.0530 sec) Finished exporting geometry, now exporting materials
+Progress: 100.00%      (  0.0560 sec |   0.0550 sec) OBJ Export Finished
+Progress: 100.00%Progress: 100.00%Progress: 100.00%Progress: 100.00%
+
+
+A total of  49  objects have been exported to Wavefront OBJ
+Export file:  ..\tileset-3d\tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj.postprocessed.obj
+Export file size (bytes):  85,939
+
+Tile processed:
+---------------
+  west  (deg, rad): -84.385 -1.472796089295415
+  south (deg, rad): 33.75 0.5890486225480862
+  east  (deg, rad): -84.38 -1.4727088228328151
+  north (deg, rad): 33.755 0.5891358890106859
+---------------
+  extent LON (deg, rad): 0.005000000000009663 8.726646259993309e-05
+  extent LAT (deg, rad): 0.005000000000002558 8.726646259971105e-05
+---------------
+  center LON (deg, rad): -84.3825 -1.4727524560641152
+  center LAT (deg, rad): 33.7525 0.5890922557793861
+  center ECEF (x, y, z): (519638.3728718236, -5283066.403255699, 3523654.126990289)
+  tile_center_ECEF (x, y, z): (519638.3728718236, -5283066.403255699, 3523654.126990289)
+
+Blender quit
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.390000 33.750000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.380000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "10b-extract-batch-table-from-OBJ-tile-Blender.py"   -- -84.385000 33.750000 -84.380000 33.755000 
+
+========================================================================================================================================
+This is Blender Python script that extracts CustomBatchTable.json and TilesetOptions.json from OBJ tile, for processing with obj23dtiles
+Author: Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.385000', '33.750000', '-84.380000', '33.755000']
+tile_dx_meters:  556.5974444729146
+tile_dy_meters:  54.45942608831078
+Full path to import file:  ..\tileset-3d\tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj.postprocessed.obj
+
+len(featureNames):  50
+
+Writing customBatchtable.json...
+..\tileset-3d\tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj.postprocessed.obj-customBatchtable.json
+
+Writing customTilesetOptions.json...
+..\tileset-3d\tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj.postprocessed.obj-customTilesetOptions.json
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.750000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.380000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.755000  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "12b-generate-B3DM-obj23dtiles.py"   -- -84.385000 33.750000 -84.380000 33.755000  
+Total: 88.564ms
+
+========================================================================================================================================
+This is Blender Python script that calls obj23dtiles
+Author: Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.385000', '33.750000', '-84.380000', '33.755000']
+
+Invoking the following command:
+obj23dtiles -i "./../tileset-3d/tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj.postprocessed.obj" --tileset -p "./../tileset-3d/tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj.postprocessed.obj-customTilesetOptions.json" -c "./../tileset-3d/tile-buildings(-84.385000,33.750000,-84.380000,33.755000).osm.obj.postprocessed.obj-customBatchtable.json" 
+
+found bundled python: C:\Program Files\Blender Foundation\Blender\2.79\python
+
+Blender quit
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 01-extract-OSM-tile-buildings.bat -84.410000 33.750000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.380000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>./../../../tools/osmosis/bin/osmosis   --read-pbf file="./../data.osm.pbf"   --tag-filter reject-relations   --tag-filter accept-ways building=*   --tag-filter reject-nodes entrance=*   --tag-filter reject-ways building=entrance   --used-node   --bounding-box left=-84.385000 bottom=33.755000 right=-84.380000 top=33.760000   --write-xml file="./../tileset-3d/tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm" 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem This is: -84.394635 33.751115 = 84°23'40.7"W  33°45'04.0"N  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem ----> X, Y, Z (in meters) = 518527.76724968, -5283261.28526402, 3523526.39818424 (see http://www.apsalin.com/convert-geodetic-to-cartesian.aspx) 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 02a-convert-OSM-tile-to-OBJ.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.380000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>java -Xmx512m -jar "./../../../tools/OSM2World/OSM2World.jar"   -i "./../tileset-3d/tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm"   -o "./../tileset-3d/tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj"   --config "02b-osm2world.config" 
+time terrain interpolation: 0:00:00.025
+time add constraints: 0:00:00.000
+time enforce constraints: 0:00:00.000
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 03a-postprocess-OBJ-tile.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.380000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "03b-postprocess-OBJ-tile-Blender.py"   -- -84.385000 33.755000 -84.380000 33.760000 
+
+==========================================
+This is Blender Python script that post-processes the OBJ file obtained through osm2world
+Author Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.385000', '33.755000', '-84.380000', '33.760000']
+Full path to import file:  ..\tileset-3d\tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj
+Progress:   0.00%(  0.0000 sec |   0.0000 sec) Importing OBJ '..\\tileset-3d\\tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj'...
+Progress:   0.00%  (  0.0000 sec |   0.0000 sec) Parsing OBJ file...
+Progress:   0.00%    (  0.0290 sec |   0.0290 sec) Done, loading materials and images...
+Progress:  33.33%    (  0.0290 sec |   0.0290 sec) Done, building geometries (verts:1164 faces:2901 materials: 4 smoothgroups:0) ...
+Progress:  66.67%    (  0.0440 sec |   0.0440 sec) Done.
+Progress:  66.67%Progress: 100.00%  (  0.0440 sec |   0.0440 sec) Finished importing: '..\\tileset-3d\\tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj'
+Progress: 100.00%Progress: 100.00%
+
+Count of selected objects (bpy.context.selected_objects):  48
+
+Count of selected objects, len(obj_objects):  48
+
+Full path to export file:  ..\tileset-3d\tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj.postprocessed.obj
+len(obj_objects) is greater than zero, so export the post-processed scene (i.e., objects in it) to Wavefront OBJ
+Progress:   0.00%    (  0.0000 sec |   0.0000 sec) OBJ Export path: '..\\tileset-3d\\tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj.postprocessed.obj'
+Progress:   0.00%Progress:   0.16%Progress:   0.33%Progress:   0.49%Progress:   0.65%Progress:   0.82%Progress:   0.98%          (  0.0010 sec |   0.0000 sec) Finished writing geometry of 'Building4'.
+Progress:   0.98%Progress:   0.98%Progress:   1.14%Progress:   1.31%Progress:   1.47%Progress:   1.63%Progress:   1.80%Progress:   1.96%          (  0.0020 sec |   0.0010 sec) Finished writing geometry of 'Building5'.
+Progress:   1.96%Progress:   1.96%Progress:   2.12%Progress:   2.29%Progress:   2.45%Progress:   2.61%Progress:   2.78%Progress:   2.94%          (  0.0030 sec |   0.0010 sec) Finished writing geometry of 'Building21'.
+Progress:   2.94%Progress:   2.94%Progress:   3.10%Progress:   3.27%Progress:   3.43%Progress:   3.59%Progress:   3.76%Progress:   3.92%          (  0.0050 sec |   0.0020 sec) Finished writing geometry of 'Building Citizens Trust Building'.
+Progress:   3.92%Progress:   3.92%Progress:   4.08%Progress:   4.25%Progress:   4.41%Progress:   4.58%Progress:   4.74%Progress:   4.90%          (  0.0060 sec |   0.0010 sec) Finished writing geometry of 'Building Sheraton Atlanta Hotel'.
+Progress:   4.90%Progress:   4.90%Progress:   5.07%Progress:   5.23%Progress:   5.39%Progress:   5.56%Progress:   5.72%Progress:   5.88%          (  0.0070 sec |   0.0010 sec) Finished writing geometry of 'Building29'.
+Progress:   5.88%Progress:   5.88%Progress:   6.05%Progress:   6.21%Progress:   6.37%Progress:   6.54%Progress:   6.70%Progress:   6.86%          (  0.0080 sec |   0.0010 sec) Finished writing geometry of 'Building2'.
+Progress:   6.86%Progress:   6.86%Progress:   7.03%Progress:   7.19%Progress:   7.35%Progress:   7.52%Progress:   7.68%Progress:   7.84%          (  0.0100 sec |   0.0020 sec) Finished writing geometry of 'Building Piedmont North'.
+Progress:   7.84%Progress:   7.84%Progress:   8.01%Progress:   8.17%Progress:   8.33%Progress:   8.50%Progress:   8.66%Progress:   8.82%          (  0.0110 sec |   0.0010 sec) Finished writing geometry of 'Building28'.
+Progress:   8.82%Progress:   8.82%Progress:   8.99%Progress:   9.15%Progress:   9.31%Progress:   9.48%Progress:   9.64%Progress:   9.80%          (  0.0110 sec |   0.0000 sec) Finished writing geometry of 'Building1'.
+Progress:   9.80%Progress:   9.80%Progress:   9.97%Progress:  10.13%Progress:  10.29%Progress:  10.46%Progress:  10.62%Progress:  10.78%          (  0.0120 sec |   0.0010 sec) Finished writing geometry of 'Building30'.
+Progress:  10.78%Progress:  10.78%Progress:  10.95%Progress:  11.11%Progress:  11.27%Progress:  11.44%Progress:  11.60%Progress:  11.76%          (  0.0120 sec |   0.0000 sec) Finished writing geometry of 'Building13'.
+Progress:  11.76%Progress:  11.76%Progress:  11.93%Progress:  12.09%Progress:  12.25%Progress:  12.42%Progress:  12.58%Progress:  12.75%          (  0.0130 sec |   0.0010 sec) Finished writing geometry of 'Building31'.
+Progress:  12.75%Progress:  12.75%Progress:  12.91%Progress:  13.07%Progress:  13.24%Progress:  13.40%Progress:  13.56%Progress:  13.73%          (  0.0140 sec |   0.0010 sec) Finished writing geometry of 'Building Centennial Hall'.
+Progress:  13.73%Progress:  13.73%Progress:  13.89%Progress:  14.05%Progress:  14.22%Progress:  14.38%Progress:  14.54%Progress:  14.71%          (  0.0150 sec |   0.0010 sec) Finished writing geometry of 'Building19'.
+Progress:  14.71%Progress:  14.71%Progress:  14.87%Progress:  15.03%Progress:  15.20%Progress:  15.36%Progress:  15.52%Progress:  15.69%          (  0.0150 sec |   0.0000 sec) Finished writing geometry of 'Building Alumni Center'.
+Progress:  15.69%Progress:  15.69%Progress:  15.85%Progress:  16.01%Progress:  16.18%Progress:  16.34%Progress:  16.50%Progress:  16.67%          (  0.0160 sec |   0.0010 sec) Finished writing geometry of 'Building Piedmont North Dining Hall'.
+Progress:  16.67%Progress:  16.67%Progress:  16.83%Progress:  16.99%Progress:  17.16%Progress:  17.32%Progress:  17.48%Progress:  17.65%          (  0.0170 sec |   0.0010 sec) Finished writing geometry of 'Building3'.
+Progress:  17.65%Progress:  17.65%Progress:  17.81%Progress:  17.97%Progress:  18.14%Progress:  18.30%Progress:  18.46%Progress:  18.63%          (  0.0170 sec |   0.0000 sec) Finished writing geometry of 'Building16'.
+Progress:  18.63%Progress:  18.63%Progress:  18.79%Progress:  18.95%Progress:  19.12%Progress:  19.28%Progress:  19.44%Progress:  19.61%          (  0.0180 sec |   0.0010 sec) Finished writing geometry of 'Building27'.
+Progress:  19.61%Progress:  19.61%Progress:  19.77%Progress:  19.93%Progress:  20.10%Progress:  20.26%Progress:  20.42%Progress:  20.59%          (  0.0190 sec |   0.0010 sec) Finished writing geometry of 'Building26'.
+Progress:  20.59%Progress:  20.59%Progress:  20.75%Progress:  20.92%Progress:  21.08%Progress:  21.24%Progress:  21.41%Progress:  21.57%          (  0.0190 sec |   0.0000 sec) Finished writing geometry of 'Building GSU Dorm (Piedmont Central)'.
+Progress:  21.57%Progress:  21.57%Progress:  21.73%Progress:  21.90%Progress:  22.06%Progress:  22.22%Progress:  22.39%Progress:  22.55%          (  0.0200 sec |   0.0010 sec) Finished writing geometry of 'SurfaceParking22'.
+Progress:  22.55%Progress:  22.55%Progress:  22.71%Progress:  22.88%Progress:  23.04%Progress:  23.20%Progress:  23.37%Progress:  23.53%          (  0.0210 sec |   0.0010 sec) Finished writing geometry of 'Building J Deck'.
+Progress:  23.53%Progress:  23.53%Progress:  23.69%Progress:  23.86%Progress:  24.02%Progress:  24.18%Progress:  24.35%Progress:  24.51%          (  0.0210 sec |   0.0000 sec) Finished writing geometry of 'Building9'.
+Progress:  24.51%Progress:  24.51%Progress:  24.67%Progress:  24.84%Progress:  25.00%Progress:  25.16%Progress:  25.33%Progress:  25.49%          (  0.0220 sec |   0.0010 sec) Finished writing geometry of 'Building6'.
+Progress:  25.49%Progress:  25.49%Progress:  25.65%Progress:  25.82%Progress:  25.98%Progress:  26.14%Progress:  26.31%Progress:  26.47%          (  0.0230 sec |   0.0010 sec) Finished writing geometry of 'Building Bethel Towers'.
+Progress:  26.47%Progress:  26.47%Progress:  26.63%Progress:  26.80%Progress:  26.96%Progress:  27.12%Progress:  27.29%Progress:  27.45%          (  0.0240 sec |   0.0010 sec) Finished writing geometry of 'Building24'.
+Progress:  27.45%Progress:  27.45%Progress:  27.61%Progress:  27.78%Progress:  27.94%found bundled python: C:\Program Files\Blender Foundation\Blender\2.79\python
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Progress:  28.10%Progress:  28.27%Progress:  28.43%          (  0.0250 sec |   0.0010 sec) Finished writing geometry of 'Building18'.
+Progress:  28.43%Progress:  28.43%Progress:  28.59%Progress:  28.76%Progress:  28.92%Progress:  29.08%Progress:  29.25%Progress:  29.41%          (  0.0250 sec |   0.0000 sec) Finished writing geometry of 'SurfaceParking J Deck'.
+Progress:  29.41%Progress:  29.41%Progress:  29.58%Progress:  29.74%Progress:  29.90%Progress:  30.07%Progress:  30.23%Progress:  30.39%          (  0.0260 sec |   0.0010 sec) Finished writing geometry of 'Building14'.
+Progress:  30.39%Progress:  30.39%Progress:  30.56%Progress:  30.72%Progress:  30.88%Progress:  31.05%Progress:  31.21%Progress:  31.37%          (  0.0270 sec |   0.0010 sec) Finished writing geometry of 'Building7'.
+Progress:  31.37%Progress:  31.37%Progress:  31.54%Progress:  31.70%Progress:  31.86%Progress:  32.03%Progress:  32.19%Progress:  32.35%          (  0.0270 sec |   0.0000 sec) Finished writing geometry of 'Building10'.
+Progress:  32.35%Progress:  32.35%Progress:  32.52%Progress:  32.68%Progress:  32.84%Progress:  33.01%Progress:  33.17%Progress:  33.33%          (  0.0270 sec |   0.0000 sec) Finished writing geometry of 'Building17'.
+Progress:  33.33%Progress:  33.33%Progress:  33.50%Progress:  33.66%Progress:  33.82%Progress:  33.99%Progress:  34.15%Progress:  34.31%          (  0.0280 sec |   0.0010 sec) Finished writing geometry of 'Building12'.
+Progress:  34.31%Progress:  34.31%Progress:  34.48%Progress:  34.64%Progress:  34.80%Progress:  34.97%Progress:  35.13%Progress:  35.29%          (  0.0290 sec |   0.0010 sec) Finished writing geometry of 'Building15'.
+Progress:  35.29%Progress:  35.29%Progress:  35.46%Progress:  35.62%Progress:  35.78%Progress:  35.95%Progress:  36.11%Progress:  36.27%          (  0.0300 sec |   0.0010 sec) Finished writing geometry of 'Building Atlanta Daily World Building'.
+Progress:  36.27%Progress:  36.27%Progress:  36.44%Progress:  36.60%Progress:  36.76%Progress:  36.93%Progress:  37.09%Progress:  37.25%          (  0.0490 sec |   0.0190 sec) Finished writing geometry of 'Building University Commons'.
+Progress:  37.25%Progress:  37.25%Progress:  37.42%Progress:  37.58%Progress:  37.75%Progress:  37.91%Progress:  38.07%Progress:  38.24%          (  0.0510 sec |   0.0020 sec) Finished writing geometry of 'Building Auburn Avenue Research Library'.
+Progress:  38.24%Progress:  38.24%Progress:  38.40%Progress:  38.56%Progress:  38.73%Progress:  38.89%Progress:  39.05%Progress:  39.22%          (  0.0510 sec |   0.0000 sec) Finished writing geometry of 'Building23'.
+Progress:  39.22%Progress:  39.22%Progress:  39.38%Progress:  39.54%Progress:  39.71%Progress:  39.87%Progress:  40.03%Progress:  40.20%          (  0.0520 sec |   0.0010 sec) Finished writing geometry of 'Building32'.
+Progress:  40.20%Progress:  40.20%Progress:  40.36%Progress:  40.52%Progress:  40.69%Progress:  40.85%Progress:  41.01%Progress:  41.18%          (  0.0530 sec |   0.0010 sec) Finished writing geometry of 'Building First Congregational Church'.
+Progress:  41.18%Progress:  41.18%Progress:  41.34%Progress:  41.50%Progress:  41.67%Progress:  41.83%Progress:  41.99%Progress:  42.16%          (  0.0540 sec |   0.0010 sec) Finished writing geometry of 'Building0'.
+Progress:  42.16%Progress:  42.16%Progress:  42.32%Progress:  42.48%Progress:  42.65%Progress:  42.81%Progress:  42.97%Progress:  43.14%          (  0.0540 sec |   0.0000 sec) Finished writing geometry of 'Building11'.
+Progress:  43.14%Progress:  43.14%Progress:  43.30%Progress:  43.46%Progress:  43.63%Progress:  43.79%Progress:  43.95%Progress:  44.12%          (  0.0550 sec |   0.0010 sec) Finished writing geometry of 'Building20'.
+Progress:  44.12%Progress:  44.12%Progress:  44.28%Progress:  44.44%Progress:  44.61%Progress:  44.77%Progress:  44.93%Progress:  45.10%          (  0.0550 sec |   0.0000 sec) Finished writing geometry of 'Building25'.
+Progress:  45.10%Progress:  45.10%Progress:  45.26%Progress:  45.42%Progress:  45.59%Progress:  45.75%Progress:  45.92%Progress:  46.08%          (  0.0560 sec |   0.0010 sec) Finished writing geometry of 'Building One 12 Courtland'.
+Progress:  46.08%Progress:  46.08%Progress:  46.24%Progress:  46.41%Progress:  46.57%Progress:  46.73%Progress:  46.90%Progress:  47.06%          (  0.0570 sec |   0.0010 sec) Finished writing geometry of 'Building8'.
+Progress:  47.06%Progress:  47.06%Progress:  47.22%Progress:  47.39%Progress:  47.55%Progress:  47.71%Progress:  47.88%Progress:  48.04%          (  0.0570 sec |   0.0000 sec) Finished writing geometry of 'Cube'.
+Progress:  48.04%Progress:  48.04%Progress:  49.02%          (  0.0570 sec |   0.0000 sec) Finished writing geometry of 'Lamp'.
+Progress:  49.02%Progress:  49.02%Progress:  50.00%          (  0.0580 sec |   0.0000 sec) Finished writing geometry of 'Camera'.
+Progress:  50.00%Progress:  50.00%Progress:  50.00%      (  0.0620 sec |   0.0620 sec) Finished exporting geometry, now exporting materials
+Progress: 100.00%      (  0.0640 sec |   0.0640 sec) OBJ Export Finished
+Progress: 100.00%Progress: 100.00%Progress: 100.00%Progress: 100.00%
+
+
+A total of  48  objects have been exported to Wavefront OBJ
+Export file:  ..\tileset-3d\tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj.postprocessed.obj
+Export file size (bytes):  105,189
+
+Tile processed:
+---------------
+  west  (deg, rad): -84.385 -1.472796089295415
+  south (deg, rad): 33.755 0.5891358890106859
+  east  (deg, rad): -84.38 -1.4727088228328151
+  north (deg, rad): 33.76 0.5892231554732856
+---------------
+  extent LON (deg, rad): 0.005000000000009663 8.726646259993309e-05
+  extent LAT (deg, rad): 0.0049999999999954525 8.726646259971105e-05
+---------------
+  center LON (deg, rad): -84.3825 -1.4727524560641152
+  center LAT (deg, rad): 33.7575 0.5891795222419858
+  center ECEF (x, y, z): (519608.20865616447, -5282759.729301949, 3524115.224701983)
+  tile_center_ECEF (x, y, z): (519608.20865616447, -5282759.729301949, 3524115.224701983)
+
+Blender quit
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.390000 33.750000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 10a-extract-batch-table-from-OBJ-tile.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.380000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "10b-extract-batch-table-from-OBJ-tile-Blender.py"   -- -84.385000 33.755000 -84.380000 33.760000 
+
+========================================================================================================================================
+This is Blender Python script that extracts CustomBatchTable.json and TilesetOptions.json from OBJ tile, for processing with obj23dtiles
+Author: Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.385000', '33.755000', '-84.380000', '33.760000']
+tile_dx_meters:  556.5974444729146
+tile_dy_meters:  54.45942608823339
+Full path to import file:  ..\tileset-3d\tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj.postprocessed.obj
+
+len(featureNames):  49
+
+Writing customBatchtable.json...
+..\tileset-3d\tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj.postprocessed.obj-customBatchtable.json
+
+Writing customTilesetOptions.json...
+..\tileset-3d\tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj.postprocessed.obj-customTilesetOptions.json
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem Very small area around Five Points (for testing purposes): 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.394635 33.751115 -84.388637 33.756280 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.420000 33.740000 -84.400000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.400000 33.740000 -84.380000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.380000 33.740000 -84.360000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>rem 12a-generate-B3DM.bat -84.360000 33.740000 -84.340000 33.760000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg1=-84.385000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg2=33.755000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg3=-84.380000 
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>set arg4=33.760000  
+
+C:\dev\sandbox\data-processing-SK1\data\Atlanta\scripts>"C:\Program Files\Blender Foundation\Blender\blender.exe"   --background   --python "12b-generate-B3DM-obj23dtiles.py"   -- -84.385000 33.755000 -84.380000 33.760000  
+Total: 98.928ms
+
+========================================================================================================================================
+This is Blender Python script that calls obj23dtiles
+Author: Sinisa Kolaric
+
+Passed-in arguments: 
+['-84.385000', '33.755000', '-84.380000', '33.760000']
+
+Invoking the following command:
+obj23dtiles -i "./../tileset-3d/tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj.postprocessed.obj" --tileset -p "./../tileset-3d/tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj.postprocessed.obj-customTilesetOptions.json" -c "./../tileset-3d/tile-buildings(-84.385000,33.755000,-84.380000,33.760000).osm.obj.postprocessed.obj-customBatchtable.json" 
+
+found bundled python: C:\Program Files\Blender Foundation\Blender\2.79\python
+
+Blender quit
+
+========================================================================================
+This is a script that generates 3D tiles from OSM.OBJ data.
+Author: Sinisa Kolaric
+
+delta LON, LAT [decimal degrees]:  0.005 0.005
+
+Populating the array of longitudes...
+Count of different longitude values:  2 , from  -84.39  to  -84.385
+lons[]:  [-84.39, -84.385]
+
+Populating the array of latitudes...
+Count of different latitude  values:  2 , from  33.75  to  33.755
+lats[]:  [33.75, 33.755]
+
+Count of tiles to be generated:  4
+Processing tile  0  of  4 with lon, lat:  -84.39 33.75
+  str_to_pass:  -84.390000 33.750000 -84.385000 33.755000
+Processing tile  1  of  4 with lon, lat:  -84.39 33.755
+  str_to_pass:  -84.390000 33.755000 -84.385000 33.760000
+Processing tile  2  of  4 with lon, lat:  -84.385 33.75
+  str_to_pass:  -84.385000 33.750000 -84.380000 33.755000
+Processing tile  3  of  4 with lon, lat:  -84.385 33.755
+  str_to_pass:  -84.385000 33.755000 -84.380000 33.760000
+found bundled python: C:\Program Files\Blender Foundation\Blender\2.79\python
+
+Blender quit
