@@ -1,0 +1,1675 @@
+{
+	"features": [
+		{
+			"geometry": {
+				"type": "MultiLineString",
+				"coordinates": [
+					[
+						[
+							-84.36992,
+							33.75931
+						],
+						[
+							-84.37207,
+							33.75934
+						],
+						[
+							-84.37429,
+							33.75876
+						],
+						[
+							-84.37432,
+							33.75768
+						],
+						[
+							-84.37435,
+							33.75435
+						],
+						[
+							-84.38203,
+							33.75443
+						],
+						[
+							-84.38544,
+							33.75448
+						],
+						[
+							-84.38872,
+							33.75448
+						],
+						[
+							-84.38965,
+							33.75446
+						],
+						[
+							-84.39005,
+							33.75449
+						],
+						[
+							-84.39057,
+							33.75494
+						],
+						[
+							-84.39107,
+							33.75543
+						],
+						[
+							-84.3919,
+							33.7548
+						],
+						[
+							-84.39234,
+							33.75417
+						],
+						[
+							-84.39259,
+							33.75386
+						],
+						[
+							-84.39126,
+							33.75317
+						],
+						[
+							-84.39214,
+							33.75205
+						],
+						[
+							-84.39345,
+							33.75279
+						],
+						[
+							-84.39483,
+							33.75105
+						],
+						[
+							-84.39517,
+							33.75054
+						],
+						[
+							-84.39555,
+							33.75057
+						],
+						[
+							-84.39706,
+							33.75058
+						],
+						[
+							-84.39837,
+							33.75013
+						],
+						[
+							-84.39862,
+							33.75001
+						],
+						[
+							-84.40041,
+							33.7486
+						],
+						[
+							-84.40278,
+							33.74644
+						],
+						[
+							-84.40377,
+							33.74559
+						],
+						[
+							-84.40472,
+							33.74472
+						],
+						[
+							-84.40566,
+							33.74561
+						],
+						[
+							-84.40654,
+							33.74627
+						],
+						[
+							-84.40576,
+							33.74712
+						],
+						[
+							-84.40389,
+							33.74982
+						],
+						[
+							-84.40327,
+							33.75076
+						],
+						[
+							-84.403,
+							33.75129
+						],
+						[
+							-84.40288,
+							33.7517
+						],
+						[
+							-84.40281,
+							33.75386
+						],
+						[
+							-84.40654,
+							33.7539
+						],
+						[
+							-84.40682,
+							33.75406
+						],
+						[
+							-84.40702,
+							33.7542
+						],
+						[
+							-84.40756,
+							33.75469
+						],
+						[
+							-84.41178,
+							33.7547
+						],
+						[
+							-84.41507,
+							33.75473
+						],
+						[
+							-84.42035,
+							33.75474
+						],
+						[
+							-84.42202,
+							33.75482
+						],
+						[
+							-84.42232,
+							33.75481
+						],
+						[
+							-84.42309,
+							33.75469
+						],
+						[
+							-84.42351,
+							33.75457
+						],
+						[
+							-84.42384,
+							33.75444
+						],
+						[
+							-84.4253,
+							33.75371
+						],
+						[
+							-84.42577,
+							33.75356
+						],
+						[
+							-84.42702,
+							33.75347
+						],
+						[
+							-84.42806,
+							33.75348
+						],
+						[
+							-84.43283,
+							33.75377
+						],
+						[
+							-84.43335,
+							33.75379
+						],
+						[
+							-84.43481,
+							33.75371
+						],
+						[
+							-84.43529,
+							33.75363
+						],
+						[
+							-84.43616,
+							33.75339
+						],
+						[
+							-84.4372,
+							33.75296
+						],
+						[
+							-84.43747,
+							33.75291
+						],
+						[
+							-84.43869,
+							33.75282
+						],
+						[
+							-84.43905,
+							33.75277
+						],
+						[
+							-84.43928,
+							33.75269
+						],
+						[
+							-84.44017,
+							33.75209
+						],
+						[
+							-84.44054,
+							33.7519
+						],
+						[
+							-84.44078,
+							33.75181
+						],
+						[
+							-84.4412,
+							33.75169
+						],
+						[
+							-84.44233,
+							33.75151
+						],
+						[
+							-84.44363,
+							33.75116
+						],
+						[
+							-84.44487,
+							33.75086
+						],
+						[
+							-84.44611,
+							33.75067
+						],
+						[
+							-84.44878,
+							33.75032
+						],
+						[
+							-84.45369,
+							33.74995
+						],
+						[
+							-84.45492,
+							33.74987
+						],
+						[
+							-84.45527,
+							33.74989
+						],
+						[
+							-84.4555,
+							33.74993
+						],
+						[
+							-84.45616,
+							33.75014
+						],
+						[
+							-84.45913,
+							33.75084
+						],
+						[
+							-84.45995,
+							33.75114
+						],
+						[
+							-84.46165,
+							33.75192
+						],
+						[
+							-84.46167,
+							33.74754
+						],
+						[
+							-84.45872,
+							33.74751
+						],
+						[
+							-84.45855,
+							33.74754
+						],
+						[
+							-84.4584,
+							33.74763
+						],
+						[
+							-84.45841,
+							33.75065
+						],
+						[
+							-84.45934,
+							33.75092
+						],
+						[
+							-84.45973,
+							33.75105
+						],
+						[
+							-84.46165,
+							33.75192
+						],
+						[
+							-84.46279,
+							33.75234
+						],
+						[
+							-84.46308,
+							33.75239
+						],
+						[
+							-84.46348,
+							33.75238
+						],
+						[
+							-84.46389,
+							33.75234
+						],
+						[
+							-84.46578,
+							33.75182
+						],
+						[
+							-84.46614,
+							33.75175
+						],
+						[
+							-84.46668,
+							33.75176
+						],
+						[
+							-84.46707,
+							33.7518
+						],
+						[
+							-84.46785,
+							33.75197
+						],
+						[
+							-84.4688,
+							33.75229
+						],
+						[
+							-84.46867,
+							33.75382
+						],
+						[
+							-84.46913,
+							33.75383
+						],
+						[
+							-84.46912,
+							33.75412
+						]
+					],
+					[
+						[
+							-84.46913,
+							33.75383
+						],
+						[
+							-84.46912,
+							33.75412
+						],
+						[
+							-84.46871,
+							33.75412
+						],
+						[
+							-84.46867,
+							33.75382
+						],
+						[
+							-84.4688,
+							33.75229
+						],
+						[
+							-84.46813,
+							33.75205
+						],
+						[
+							-84.46785,
+							33.75197
+						],
+						[
+							-84.46707,
+							33.7518
+						],
+						[
+							-84.46668,
+							33.75176
+						],
+						[
+							-84.46614,
+							33.75175
+						],
+						[
+							-84.4653,
+							33.75195
+						],
+						[
+							-84.46389,
+							33.75234
+						],
+						[
+							-84.46348,
+							33.75238
+						],
+						[
+							-84.46308,
+							33.75239
+						],
+						[
+							-84.46279,
+							33.75234
+						],
+						[
+							-84.46165,
+							33.75192
+						],
+						[
+							-84.46167,
+							33.74754
+						],
+						[
+							-84.45872,
+							33.74751
+						],
+						[
+							-84.45855,
+							33.74754
+						],
+						[
+							-84.4584,
+							33.74763
+						],
+						[
+							-84.45841,
+							33.75065
+						],
+						[
+							-84.45616,
+							33.75014
+						],
+						[
+							-84.4555,
+							33.74993
+						],
+						[
+							-84.45527,
+							33.74989
+						],
+						[
+							-84.45492,
+							33.74987
+						],
+						[
+							-84.45065,
+							33.75019
+						],
+						[
+							-84.44729,
+							33.75051
+						],
+						[
+							-84.44565,
+							33.75072
+						],
+						[
+							-84.44464,
+							33.75092
+						],
+						[
+							-84.44264,
+							33.75144
+						],
+						[
+							-84.4412,
+							33.75169
+						],
+						[
+							-84.44078,
+							33.75181
+						],
+						[
+							-84.44054,
+							33.7519
+						],
+						[
+							-84.44017,
+							33.75209
+						],
+						[
+							-84.43928,
+							33.75269
+						],
+						[
+							-84.43905,
+							33.75277
+						],
+						[
+							-84.43816,
+							33.75286
+						],
+						[
+							-84.43747,
+							33.75291
+						],
+						[
+							-84.4372,
+							33.75296
+						],
+						[
+							-84.43616,
+							33.75339
+						],
+						[
+							-84.43529,
+							33.75363
+						],
+						[
+							-84.43481,
+							33.75371
+						],
+						[
+							-84.43409,
+							33.75376
+						],
+						[
+							-84.43335,
+							33.75379
+						],
+						[
+							-84.42839,
+							33.75349
+						],
+						[
+							-84.42702,
+							33.75347
+						],
+						[
+							-84.42599,
+							33.75353
+						],
+						[
+							-84.42565,
+							33.75359
+						],
+						[
+							-84.4253,
+							33.75371
+						],
+						[
+							-84.42393,
+							33.7544
+						],
+						[
+							-84.42351,
+							33.75457
+						],
+						[
+							-84.42309,
+							33.75469
+						],
+						[
+							-84.42232,
+							33.75481
+						],
+						[
+							-84.41984,
+							33.75474
+						],
+						[
+							-84.40756,
+							33.75469
+						],
+						[
+							-84.40702,
+							33.7542
+						],
+						[
+							-84.40682,
+							33.75406
+						],
+						[
+							-84.40654,
+							33.7539
+						],
+						[
+							-84.40281,
+							33.75386
+						],
+						[
+							-84.40281,
+							33.75287
+						],
+						[
+							-84.40285,
+							33.75192
+						],
+						[
+							-84.403,
+							33.75129
+						],
+						[
+							-84.40327,
+							33.75076
+						],
+						[
+							-84.40498,
+							33.74823
+						],
+						[
+							-84.40576,
+							33.74712
+						],
+						[
+							-84.40654,
+							33.74627
+						],
+						[
+							-84.40566,
+							33.74561
+						],
+						[
+							-84.40472,
+							33.74472
+						],
+						[
+							-84.40109,
+							33.748
+						],
+						[
+							-84.39976,
+							33.74913
+						],
+						[
+							-84.39862,
+							33.75001
+						],
+						[
+							-84.39837,
+							33.75013
+						],
+						[
+							-84.39706,
+							33.75058
+						],
+						[
+							-84.39555,
+							33.75057
+						],
+						[
+							-84.39517,
+							33.75054
+						],
+						[
+							-84.39483,
+							33.75105
+						],
+						[
+							-84.39263,
+							33.75382
+						],
+						[
+							-84.39192,
+							33.75351
+						],
+						[
+							-84.39126,
+							33.75317
+						],
+						[
+							-84.39109,
+							33.75328
+						],
+						[
+							-84.39051,
+							33.75354
+						],
+						[
+							-84.39027,
+							33.75369
+						],
+						[
+							-84.38965,
+							33.75446
+						],
+						[
+							-84.3891,
+							33.7552
+						],
+						[
+							-84.38867,
+							33.75592
+						],
+						[
+							-84.38851,
+							33.75603
+						],
+						[
+							-84.38839,
+							33.75603
+						],
+						[
+							-84.38786,
+							33.75572
+						],
+						[
+							-84.38756,
+							33.7556
+						],
+						[
+							-84.38741,
+							33.75559
+						],
+						[
+							-84.38021,
+							33.75552
+						],
+						[
+							-84.37551,
+							33.75551
+						],
+						[
+							-84.37436,
+							33.75549
+						],
+						[
+							-84.37434,
+							33.75591
+						],
+						[
+							-84.37432,
+							33.75768
+						],
+						[
+							-84.36793,
+							33.7576
+						],
+						[
+							-84.36785,
+							33.75856
+						],
+						[
+							-84.36783,
+							33.75927
+						],
+						[
+							-84.36984,
+							33.75931
+						]
+					],
+					[
+						[
+							-84.46913,
+							33.75383
+						],
+						[
+							-84.46912,
+							33.75412
+						],
+						[
+							-84.46871,
+							33.75412
+						],
+						[
+							-84.46867,
+							33.75382
+						],
+						[
+							-84.4688,
+							33.75229
+						],
+						[
+							-84.46813,
+							33.75205
+						],
+						[
+							-84.46785,
+							33.75197
+						],
+						[
+							-84.46707,
+							33.7518
+						],
+						[
+							-84.46668,
+							33.75176
+						],
+						[
+							-84.46614,
+							33.75175
+						],
+						[
+							-84.4653,
+							33.75195
+						],
+						[
+							-84.46389,
+							33.75234
+						],
+						[
+							-84.46348,
+							33.75238
+						],
+						[
+							-84.46308,
+							33.75239
+						],
+						[
+							-84.46279,
+							33.75234
+						],
+						[
+							-84.46165,
+							33.75192
+						],
+						[
+							-84.45995,
+							33.75114
+						],
+						[
+							-84.45913,
+							33.75084
+						],
+						[
+							-84.45841,
+							33.75065
+						],
+						[
+							-84.45616,
+							33.75014
+						],
+						[
+							-84.4555,
+							33.74993
+						],
+						[
+							-84.45527,
+							33.74989
+						],
+						[
+							-84.45492,
+							33.74987
+						],
+						[
+							-84.45065,
+							33.75019
+						],
+						[
+							-84.44729,
+							33.75051
+						],
+						[
+							-84.44565,
+							33.75072
+						],
+						[
+							-84.44464,
+							33.75092
+						],
+						[
+							-84.44264,
+							33.75144
+						],
+						[
+							-84.4412,
+							33.75169
+						],
+						[
+							-84.44078,
+							33.75181
+						],
+						[
+							-84.44054,
+							33.7519
+						],
+						[
+							-84.44017,
+							33.75209
+						],
+						[
+							-84.43928,
+							33.75269
+						],
+						[
+							-84.43905,
+							33.75277
+						],
+						[
+							-84.43816,
+							33.75286
+						],
+						[
+							-84.43747,
+							33.75291
+						],
+						[
+							-84.4372,
+							33.75296
+						],
+						[
+							-84.43616,
+							33.75339
+						],
+						[
+							-84.43529,
+							33.75363
+						],
+						[
+							-84.43481,
+							33.75371
+						],
+						[
+							-84.43409,
+							33.75376
+						],
+						[
+							-84.43335,
+							33.75379
+						],
+						[
+							-84.42839,
+							33.75349
+						],
+						[
+							-84.42702,
+							33.75347
+						],
+						[
+							-84.42599,
+							33.75353
+						],
+						[
+							-84.42565,
+							33.75359
+						],
+						[
+							-84.4253,
+							33.75371
+						],
+						[
+							-84.42393,
+							33.7544
+						],
+						[
+							-84.42351,
+							33.75457
+						],
+						[
+							-84.42309,
+							33.75469
+						],
+						[
+							-84.42232,
+							33.75481
+						],
+						[
+							-84.41984,
+							33.75474
+						],
+						[
+							-84.40756,
+							33.75469
+						],
+						[
+							-84.40702,
+							33.7542
+						],
+						[
+							-84.40682,
+							33.75406
+						],
+						[
+							-84.40654,
+							33.7539
+						],
+						[
+							-84.40281,
+							33.75386
+						],
+						[
+							-84.40281,
+							33.75287
+						],
+						[
+							-84.40285,
+							33.75192
+						],
+						[
+							-84.403,
+							33.75129
+						],
+						[
+							-84.40327,
+							33.75076
+						],
+						[
+							-84.40498,
+							33.74823
+						],
+						[
+							-84.40576,
+							33.74712
+						],
+						[
+							-84.40654,
+							33.74627
+						],
+						[
+							-84.40566,
+							33.74561
+						],
+						[
+							-84.40472,
+							33.74472
+						],
+						[
+							-84.40109,
+							33.748
+						],
+						[
+							-84.39976,
+							33.74913
+						],
+						[
+							-84.39862,
+							33.75001
+						],
+						[
+							-84.39837,
+							33.75013
+						],
+						[
+							-84.39706,
+							33.75058
+						],
+						[
+							-84.39555,
+							33.75057
+						],
+						[
+							-84.39517,
+							33.75054
+						],
+						[
+							-84.39483,
+							33.75105
+						],
+						[
+							-84.39263,
+							33.75382
+						],
+						[
+							-84.39192,
+							33.75351
+						],
+						[
+							-84.39126,
+							33.75317
+						],
+						[
+							-84.39109,
+							33.75328
+						],
+						[
+							-84.39051,
+							33.75354
+						],
+						[
+							-84.39027,
+							33.75369
+						],
+						[
+							-84.38965,
+							33.75446
+						],
+						[
+							-84.3891,
+							33.7552
+						],
+						[
+							-84.38867,
+							33.75592
+						],
+						[
+							-84.38851,
+							33.75603
+						],
+						[
+							-84.38839,
+							33.75603
+						],
+						[
+							-84.38786,
+							33.75572
+						],
+						[
+							-84.38756,
+							33.7556
+						],
+						[
+							-84.38741,
+							33.75559
+						],
+						[
+							-84.38021,
+							33.75552
+						],
+						[
+							-84.37551,
+							33.75551
+						],
+						[
+							-84.37436,
+							33.75549
+						],
+						[
+							-84.37434,
+							33.75591
+						],
+						[
+							-84.37432,
+							33.75768
+						],
+						[
+							-84.36793,
+							33.7576
+						],
+						[
+							-84.36785,
+							33.75856
+						],
+						[
+							-84.36783,
+							33.75927
+						],
+						[
+							-84.36984,
+							33.75931
+						]
+					]
+				]
+			},
+			"properties": {
+				"onestop_id": "r-djgzz-3",
+				"created_at": "2016-12-20T15:43:31.307Z",
+				"updated_at": "2016-12-20T15:43:31.307Z",
+				"tags": {
+					"route_color": "819FF7",
+					"route_long_name": "Martin Luther King Jr. Dr/Auburn Av"
+				},
+				"created_or_updated_in_changeset_id": 3789,
+				"name": "3",
+				"vehicle_type": "bus",
+				"color": "819FF7",
+				"stops_served_by_route": [
+					{
+						"stop_onestop_id": "s-djgzyrcrur-wynnwooddr~martinlkingjrdrsw",
+						"stop_name": "WYNNWOOD DR @ MARTIN L KING JR DR SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyq1msr-wynnwooddr~wingatest",
+						"stop_name": "WYNNWOOD DR @ WINGATE ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzyq1msr-wynnwooddrsw~larchwoodst",
+						"stop_name": "WYNNWOOD DR SW @ LARCHWOOD ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzyq1msr-larchwoodstsw~autumnlnsw",
+						"stop_name": "LARCHWOOD ST SW @ AUTUMN LN SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyn4jer-larchwoodstsw~camfieldctsw",
+						"stop_name": "LARCHWOOD ST SW @ CAMFIELD CT SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyn4jer-barfieldavesw~larchwoodstsw",
+						"stop_name": "BARFIELD AVE SW @ LARCHWOOD ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzypfpgr-barfieldave~martinlkingjrdrsw",
+						"stop_name": "BARFIELD AVE @ MARTIN L KING JR DR SW"
+					},
+					{
+						"stop_onestop_id": "s-djupbrfzvx-irwinstne~randolphstne",
+						"stop_name": "IRWIN ST NE @ RANDOLPH ST NE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-irwinstne~boulevardne",
+						"stop_name": "IRWIN ST NE @ BOULEVARD NE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-auburnave~williamhborderssrdr",
+						"stop_name": "AUBURN AVE @ WILLIAM H BORDERS SR DR"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-auburnavene~hilliardstne",
+						"stop_name": "AUBURN AVE NE @ HILLIARD ST NE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-auburnavene~jessehilljrdrne",
+						"stop_name": "AUBURN AVE NE @ JESSE HILL JR DR NE"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-auburnavene~piedmontavene",
+						"stop_name": "AUBURN AVE NE @ PIEDMONT AVE NE"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-auburnave~courtlandst",
+						"stop_name": "AUBURN AVE @ COURTLAND ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-auburnave~equitableplne",
+						"stop_name": "AUBURN AVE @ EQUITABLE PL NE"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-peachtreest~auburnavene",
+						"stop_name": "PEACHTREE ST @ AUBURN AVE NE"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-peachtreest~decaturst",
+						"stop_name": "PEACHTREE ST @ DECATUR ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzzxvpfr-peachtreest~wallstfivepointsstation",
+						"stop_name": "PEACHTREE ST @ WALL ST (FIVE POINTS STATION)"
+					},
+					{
+						"stop_onestop_id": "s-djgzzxvpfr-forsythst~martinlkingjrdr",
+						"stop_name": "FORSYTH ST @ MARTIN L KING JR DR"
+					},
+					{
+						"stop_onestop_id": "s-djgzzxvpfr-trinityavesw~forsythstsw",
+						"stop_name": "TRINITY AVE SW @ FORSYTH ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzxvpfr-petersstsw~springstsw",
+						"stop_name": "PETERS ST SW@SPRING ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzqjv9r-mcdanielst~northsidedrsw",
+						"stop_name": "MCDANIEL ST @ NORTHSIDE DR SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzqjv9r-northsidedrsw~atlantastudentmovementblvdsw",
+						"stop_name": "NORTHSIDE DR SW @ ATLANTA STUDENT MOVEMENT BLVD SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzqjv9r-northsidedrsw~stonewallstsw",
+						"stop_name": "NORTHSIDE DR SW @ STONEWALL ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzrvzcr-northsidedrsw~chapelstsw",
+						"stop_name": "NORTHSIDE DR SW @ CHAPEL ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzrvzcr-northsidedr~markhamst",
+						"stop_name": "NORTHSIDE DR @ MARKHAM ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzzrvzcr-mitchellst~northsidedr",
+						"stop_name": "MITCHELL ST @ NORTHSIDE DR"
+					},
+					{
+						"stop_onestop_id": "s-djgzzrvzcr-tatnallst~walnutst",
+						"stop_name": "TATNALL ST @ WALNUT ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzzpyxbr-martinlutherkingjdrsw~sunseta",
+						"stop_name": "MARTIN LUTHER KING J DR SW@SUNSET A"
+					},
+					{
+						"stop_onestop_id": "s-djgzzpyxbr-martinlutherkingjdr~griffinst",
+						"stop_name": "MARTIN LUTHER KING J DR@GRIFFIN ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzzpyxbr-martinlutherkingj~jamespbra",
+						"stop_name": "MARTIN LUTHER KING J@JAMES P BRA"
+					},
+					{
+						"stop_onestop_id": "s-djgzzpyxbr-martinlutherjdr~paschalblvdsw",
+						"stop_name": "MARTIN LUTHER J DR @ PASCHAL BLVD SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzpyxbr-martinlkingjrdr~josepheloweryblvd",
+						"stop_name": "MARTIN L KING JR DR @ JOSEPH E LOWERY BLVD"
+					},
+					{
+						"stop_onestop_id": "s-djgzzpyxbr-martinlutherkingjdr~whitehousedr",
+						"stop_name": "MARTIN LUTHER KING J DR @ WHITEHOUSE DR"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlutherkingjdr~olliest",
+						"stop_name": "MARTIN LUTHER KING J DR@OLLIE ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlutherkingj~hunterpln",
+						"stop_name": "MARTIN LUTHER KING J@HUNTER PL N"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlkingjrdr~morrisbrown",
+						"stop_name": "MARTIN L KING JR DR @ MORRIS BROWN"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlutherkingj~staffordst",
+						"stop_name": "MARTIN LUTHER KING J@STAFFORD ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlutherkingjdrsw~burbank",
+						"stop_name": "MARTIN LUTHER KING J DR SW@BURBANK"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlutherkingjdrsw~cerrost",
+						"stop_name": "MARTIN LUTHER KING J DR SW@CERRO ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxzzyr-martinlutherkingj~chicamaugaave",
+						"stop_name": "MARTIN LUTHER KING J@CHICAMAUGA AVE"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxzzyr-martinlutherkingjdr~chappellrd",
+						"stop_name": "MARTIN LUTHER KING J DR@CHAPPELL RD"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxzzyr-martinlkingjrdrnw~1444",
+						"stop_name": "MARTIN L KING JR DR NW @ 1444"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxbxvr-martinlkingjrdr~laurelavesw",
+						"stop_name": "MARTIN L KING JR DR @ LAUREL AVE SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxbxvr-martinlkingjrdrnw~gordonter",
+						"stop_name": "MARTIN L KING JR DR NW @ GORDON TER"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxbxvr-martinlutherkingjdr~andersonave",
+						"stop_name": "MARTIN LUTHER KING J DR @ ANDERSON AVE"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxbxvr-martinlutherkingjdrsw~1991",
+						"stop_name": "MARTIN LUTHER KING J DR SW@1991"
+					},
+					{
+						"stop_onestop_id": "s-djgzyrcrur-martinlutherkingjdrsw~2001",
+						"stop_name": "MARTIN LUTHER KING J DR SW@2001"
+					},
+					{
+						"stop_onestop_id": "s-djgzyq1msr-martinlutherkingjdrsw~2035",
+						"stop_name": "MARTIN LUTHER KING J DR SW@2035"
+					},
+					{
+						"stop_onestop_id": "s-djgzyrcrur-martinlutherkingjdr~larchwood",
+						"stop_name": "MARTIN LUTHER KING J DR@LARCHWOOD"
+					},
+					{
+						"stop_onestop_id": "s-djgzyrcrur-martinlkingjrdrsw~wynnwood",
+						"stop_name": "MARTIN L KING JR DR SW @ WYNNWOOD"
+					},
+					{
+						"stop_onestop_id": "s-djgzypfpgr-martinlkingjrdr~floridaave",
+						"stop_name": "MARTIN L KING JR DR @ FLORIDA AVE"
+					},
+					{
+						"stop_onestop_id": "s-djgzypfpgr-martinlkingjrdr~willismillrdsw",
+						"stop_name": "MARTIN L KING JR DR @ WILLIS MILL RD SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzypfpgr-hamiltoneholmesstation~busloop",
+						"stop_name": "HAMILTON E HOLMES STATION - BUS LOOP"
+					},
+					{
+						"stop_onestop_id": "s-djgzypfpgr-martinlkingjrdrsw~hamiltoneholmesdrnw",
+						"stop_name": "MARTIN L KING JR DR SW @ HAMILTON E HOLMES DR NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzypfpgr-martinlkingjrdrnw~floridaavesw",
+						"stop_name": "MARTIN L KING JR DR NW @ FLORIDA AVE SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzypfpgr-martinlkingjrdrsw~fairfieldplnw",
+						"stop_name": "MARTIN L KING JR DR SW @ FAIRFIELD PL NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzypfpgr-martinlkingjrdrsw~barfieldavesw",
+						"stop_name": "MARTIN L KING JR DR SW @ BARFIELD AVE SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyrcrur-martinlkingjrdrsw~lamarave",
+						"stop_name": "MARTIN L KING JR DR SW @ LAMAR AVE"
+					},
+					{
+						"stop_onestop_id": "s-djgzyrcrur-martinlkingjrdrsw~wilsonave",
+						"stop_name": "MARTIN L KING JR DR SW @ WILSON AVE"
+					},
+					{
+						"stop_onestop_id": "s-djgzyq1msr-martinlkingjrdrsw~2085",
+						"stop_name": "MARTIN L KING JR DR SW @ 2085"
+					},
+					{
+						"stop_onestop_id": "s-djgzyrcrur-martinlkingjrdrsw~2051",
+						"stop_name": "MARTIN L KING JR DR SW @ 2051"
+					},
+					{
+						"stop_onestop_id": "s-djgzyrcrur-martinlkingjrdrsw~2021",
+						"stop_name": "MARTIN L KING JR DR SW @ 2021"
+					},
+					{
+						"stop_onestop_id": "s-djgzyrcrur-martinlkingjrdrsw~2001",
+						"stop_name": "MARTIN L KING JR DR SW @ 2001"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxbxvr-martinlkingjrdrsw~1991",
+						"stop_name": "MARTIN L KING JR DR SW @ 1991"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxbxvr-martinlkingjrdrsw~andersonavenw",
+						"stop_name": "MARTIN L KING JR DR SW @ ANDERSON AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxbxvr-martinlkingjrdrnw~wlakeavesw",
+						"stop_name": "MARTIN L KING JR DR NW @ W LAKE AVE SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxbxvr-martinlkingjrdrnw~federaldrsw",
+						"stop_name": "MARTIN L KING JR DR NW @ FEDERAL DR SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxbxvr-martinlkingjrdrnw~racinestsw",
+						"stop_name": "MARTIN L KING JR DR NW @ RACINE ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxbxvr-martinlkingjrdrnw~browningstsw",
+						"stop_name": "MARTIN L KING JR DR NW @ BROWNING ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxzzyr-martinlkingjrdrnw~wellingtonstsw",
+						"stop_name": "MARTIN L KING JR DR NW @ WELLINGTON ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxzzyr-martinlkingjrdrnw~mathewsonplsw",
+						"stop_name": "MARTIN L KING JR DR NW @ MATHEWSON PL SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxzzyr-martinlkingjrdrnw~1457",
+						"stop_name": "MARTIN L KING JR DR NW @ 1457"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxzzyr-martinlkingjrdrnw~chappellrd",
+						"stop_name": "MARTIN L KING JR DR NW @ CHAPPELL RD"
+					},
+					{
+						"stop_onestop_id": "s-djgzyxzzyr-martinlkingjrdrnw~chicamaugaavenw",
+						"stop_name": "MARTIN L KING JR DR NW @ CHICAMAUGA AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlkingjrdrnw~cerrostsw",
+						"stop_name": "MARTIN L KING JR DR NW @ CERRO ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlkingjrdrnw~burbankdrnw",
+						"stop_name": "MARTIN L KING JR DR NW @ BURBANK DR NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlkingjrdrnw~staffordstsw",
+						"stop_name": "MARTIN L KING JR DR NW @ STAFFORD ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlkingjrdrnw~morrisbrowndrsw",
+						"stop_name": "MARTIN L KING JR DR NW @ MORRIS BROWN DR SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlkingjrdrnw~hunterplnw",
+						"stop_name": "MARTIN L KING JR DR NW @ HUNTER PL NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlkingjrdrnw~olliestnw",
+						"stop_name": "MARTIN L KING JR DR NW @ OLLIE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzyzzpzr-martinlkingjrdrnw~bookerstnw",
+						"stop_name": "MARTIN L KING JR DR NW @ BOOKER ST NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzpyxbr-martinlkingjrdrnw~josepheloweryblvdnw",
+						"stop_name": "MARTIN L KING JR DR NW @ JOSEPH E LOWERY BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzpyxbr-martinlkingjrdrnw~paschalblvdsw",
+						"stop_name": "MARTIN L KING JR DR NW @ PASCHAL BLVD SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzpyxbr-martinlkingjrdrnw~jamespbrawleydrnw",
+						"stop_name": "MARTIN L KING JR DR NW @ JAMES P BRAWLEY DR NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzpyxbr-martinlkingjrdrnw~griffinstnw",
+						"stop_name": "MARTIN L KING JR DR NW @ GRIFFIN ST NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzrvzcr-martinlkingjrdrnw~sunsetavenw",
+						"stop_name": "MARTIN L KING JR DR NW @ SUNSET AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzrvzcr-tatnallst~martinlkingjrdr",
+						"stop_name": "TATNALL ST @ MARTIN L KING JR DR"
+					},
+					{
+						"stop_onestop_id": "s-djgzzrvzcr-mitchellstsw~northsidedrsw",
+						"stop_name": "MITCHELL ST SW @ NORTHSIDE DR SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzrvzcr-northsidedrsw~markhamstsw",
+						"stop_name": "NORTHSIDE DR SW @ MARKHAM ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzrvzcr-northsidedrsw~nelsonstsw",
+						"stop_name": "NORTHSIDE DR SW @ NELSON ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzqjv9r-northsidedrsw~fairstsw",
+						"stop_name": "NORTHSIDE DR SW @ FAIR ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzqjv9r-northsidedr~larkinst",
+						"stop_name": "NORTHSIDE DR @ LARKIN ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzzqjv9r-mcdanielst~northsidedr",
+						"stop_name": "MCDANIEL ST @ NORTHSIDE DR"
+					},
+					{
+						"stop_onestop_id": "s-djgzzqjv9r-petersstsw~walkerstsw",
+						"stop_name": "PETERS ST SW @ WALKER ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzqjv9r-petersstsw~fairstsw",
+						"stop_name": "PETERS ST SW @ FAIR ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzwjjdr-petersstsw~haynesstsw",
+						"stop_name": "PETERS ST SW@HAYNES ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzxvpfr-trinityavesw~tedturnerdrsw",
+						"stop_name": "TRINITY AVE SW @ TED TURNER DR SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzxvpfr-forsythstsw~mitchellstsw",
+						"stop_name": "FORSYTH ST SW@MITCHELL ST SW"
+					},
+					{
+						"stop_onestop_id": "s-djgzzxvpfr-peachtreest~martinlkingjrdr",
+						"stop_name": "PEACHTREE ST @ MARTIN L KING JR DR"
+					},
+					{
+						"stop_onestop_id": "s-djgzzxvpfr-alabamast~broadstfivepointsstation",
+						"stop_name": "ALABAMA ST @ BROAD ST (FIVE POINTS STATION)"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-edgewoodave~peachtreest",
+						"stop_name": "EDGEWOOD AVE @ PEACHTREE ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-edgewoodave~peachtreecenterave",
+						"stop_name": "EDGEWOOD AVE @ PEACHTREE CENTER AVE"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-edgewoodavese~courtlandstse",
+						"stop_name": "EDGEWOOD AVE SE @ COURTLAND ST SE"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-edgewoodave~piedmontave",
+						"stop_name": "EDGEWOOD AVE @ PIEDMONT AVE"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-edgewoodave~jessehilljrdr",
+						"stop_name": "EDGEWOOD AVE @ JESSE HILL JR DR"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-edgewoodavese~jacksonstne",
+						"stop_name": "EDGEWOOD AVE SE @ JACKSON ST NE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-jacksonstne~oldwheatstne",
+						"stop_name": "JACKSON ST NE @ OLD WHEAT ST NE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-jacksonstne~irwinstne",
+						"stop_name": "JACKSON ST NE @ IRWIN ST NE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-johnwesleydobbsave~jacksonst",
+						"stop_name": "JOHN WESLEY DOBBS AVE @ JACKSON ST"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-johnwesleydobbsave~howellst",
+						"stop_name": "JOHN WESLEY DOBBS AVE @ HOWELL ST"
+					}
+				],
+				"operated_by_onestop_id": "o-dnh-metropolitanatlantarapidtransitauthority",
+				"operated_by_name": "Metropolitan Atlanta Rapid Transit Authority",
+				"wheelchair_accessible": "unknown",
+				"bikes_allowed": "unknown",
+				"route_stop_patterns_by_onestop_id": [],
+				"title": "r-djgzz-3"
+			},
+			"type": "Feature",
+			"id": "r-djgzz-3"
+		}
+	],
+	"meta": {
+		"sort_key": "id",
+		"sort_order": "asc",
+		"per_page": 50,
+		"offset": 0
+	},
+	"type": "FeatureCollection"
+}

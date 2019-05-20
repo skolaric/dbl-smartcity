@@ -1,0 +1,2742 @@
+{
+	"features": [
+		{
+			"geometry": {
+				"type": "MultiLineString",
+				"coordinates": [
+					[
+						[
+							-84.38689,
+							33.77197
+						],
+						[
+							-84.38696,
+							33.77189
+						],
+						[
+							-84.38697,
+							33.77172
+						],
+						[
+							-84.38691,
+							33.77162
+						],
+						[
+							-84.38675,
+							33.77156
+						],
+						[
+							-84.38677,
+							33.77129
+						],
+						[
+							-84.38781,
+							33.77122
+						],
+						[
+							-84.3909,
+							33.77131
+						],
+						[
+							-84.39371,
+							33.7713
+						],
+						[
+							-84.39638,
+							33.77133
+						],
+						[
+							-84.3981,
+							33.77137
+						],
+						[
+							-84.39852,
+							33.77132
+						],
+						[
+							-84.39899,
+							33.77122
+						],
+						[
+							-84.40033,
+							33.77067
+						],
+						[
+							-84.40077,
+							33.77043
+						],
+						[
+							-84.40157,
+							33.77016
+						],
+						[
+							-84.40194,
+							33.7701
+						],
+						[
+							-84.40468,
+							33.77001
+						],
+						[
+							-84.40472,
+							33.76961
+						],
+						[
+							-84.4048,
+							33.76909
+						],
+						[
+							-84.40484,
+							33.7682
+						],
+						[
+							-84.40632,
+							33.76822
+						],
+						[
+							-84.41349,
+							33.76822
+						],
+						[
+							-84.41346,
+							33.76902
+						],
+						[
+							-84.41345,
+							33.77207
+						],
+						[
+							-84.41341,
+							33.77304
+						],
+						[
+							-84.41441,
+							33.77303
+						],
+						[
+							-84.41735,
+							33.77305
+						],
+						[
+							-84.41785,
+							33.77304
+						],
+						[
+							-84.41935,
+							33.77318
+						],
+						[
+							-84.42125,
+							33.7732
+						],
+						[
+							-84.42207,
+							33.77323
+						],
+						[
+							-84.42313,
+							33.77309
+						],
+						[
+							-84.42455,
+							33.77279
+						],
+						[
+							-84.42509,
+							33.77257
+						],
+						[
+							-84.42627,
+							33.77193
+						],
+						[
+							-84.42641,
+							33.77187
+						],
+						[
+							-84.42653,
+							33.77184
+						],
+						[
+							-84.42714,
+							33.77182
+						],
+						[
+							-84.42951,
+							33.77193
+						],
+						[
+							-84.42949,
+							33.77225
+						],
+						[
+							-84.42844,
+							33.77226
+						],
+						[
+							-84.42847,
+							33.77188
+						],
+						[
+							-84.42667,
+							33.77182
+						],
+						[
+							-84.42641,
+							33.77187
+						],
+						[
+							-84.4257,
+							33.77223
+						],
+						[
+							-84.42524,
+							33.77249
+						],
+						[
+							-84.42535,
+							33.77266
+						],
+						[
+							-84.42544,
+							33.77274
+						],
+						[
+							-84.42577,
+							33.7728
+						],
+						[
+							-84.42587,
+							33.77285
+						],
+						[
+							-84.42593,
+							33.77292
+						],
+						[
+							-84.42599,
+							33.77311
+						],
+						[
+							-84.42617,
+							33.77419
+						],
+						[
+							-84.42602,
+							33.77609
+						],
+						[
+							-84.42606,
+							33.77647
+						],
+						[
+							-84.42615,
+							33.77685
+						],
+						[
+							-84.42663,
+							33.77806
+						],
+						[
+							-84.42744,
+							33.7789
+						],
+						[
+							-84.42919,
+							33.7803
+						],
+						[
+							-84.4294,
+							33.78053
+						],
+						[
+							-84.4296,
+							33.78089
+						],
+						[
+							-84.42975,
+							33.78155
+						],
+						[
+							-84.42976,
+							33.78195
+						],
+						[
+							-84.42973,
+							33.78231
+						],
+						[
+							-84.42964,
+							33.78263
+						],
+						[
+							-84.4295,
+							33.78296
+						],
+						[
+							-84.42918,
+							33.78338
+						],
+						[
+							-84.42848,
+							33.78406
+						],
+						[
+							-84.42821,
+							33.78436
+						],
+						[
+							-84.42807,
+							33.78456
+						],
+						[
+							-84.42794,
+							33.78479
+						],
+						[
+							-84.42784,
+							33.78507
+						],
+						[
+							-84.42778,
+							33.78549
+						],
+						[
+							-84.42783,
+							33.78632
+						],
+						[
+							-84.4323,
+							33.78625
+						],
+						[
+							-84.43261,
+							33.78628
+						],
+						[
+							-84.43297,
+							33.78639
+						],
+						[
+							-84.43399,
+							33.78717
+						],
+						[
+							-84.43439,
+							33.78741
+						],
+						[
+							-84.43663,
+							33.78837
+						],
+						[
+							-84.43772,
+							33.78894
+						],
+						[
+							-84.44137,
+							33.79073
+						],
+						[
+							-84.44621,
+							33.79306
+						],
+						[
+							-84.45004,
+							33.79494
+						],
+						[
+							-84.45035,
+							33.79514
+						],
+						[
+							-84.45069,
+							33.79551
+						],
+						[
+							-84.45103,
+							33.79613
+						],
+						[
+							-84.45131,
+							33.79654
+						],
+						[
+							-84.45174,
+							33.79694
+						],
+						[
+							-84.45296,
+							33.79782
+						],
+						[
+							-84.45477,
+							33.79947
+						],
+						[
+							-84.45502,
+							33.79934
+						],
+						[
+							-84.4552,
+							33.79931
+						],
+						[
+							-84.45539,
+							33.79933
+						],
+						[
+							-84.45656,
+							33.79993
+						],
+						[
+							-84.45689,
+							33.80007
+						],
+						[
+							-84.45705,
+							33.80008
+						],
+						[
+							-84.45719,
+							33.80007
+						],
+						[
+							-84.45786,
+							33.79977
+						],
+						[
+							-84.45804,
+							33.79963
+						],
+						[
+							-84.45819,
+							33.79939
+						],
+						[
+							-84.45865,
+							33.79843
+						],
+						[
+							-84.4589,
+							33.79849
+						],
+						[
+							-84.45917,
+							33.79868
+						],
+						[
+							-84.45993,
+							33.79938
+						],
+						[
+							-84.46017,
+							33.79947
+						],
+						[
+							-84.46043,
+							33.79945
+						],
+						[
+							-84.46106,
+							33.79931
+						],
+						[
+							-84.46134,
+							33.79934
+						],
+						[
+							-84.46162,
+							33.79945
+						],
+						[
+							-84.4621,
+							33.7999
+						],
+						[
+							-84.46239,
+							33.80042
+						],
+						[
+							-84.4622,
+							33.80055
+						],
+						[
+							-84.46204,
+							33.80072
+						],
+						[
+							-84.46193,
+							33.80104
+						],
+						[
+							-84.46196,
+							33.80131
+						],
+						[
+							-84.46294,
+							33.80114
+						],
+						[
+							-84.46324,
+							33.80201
+						],
+						[
+							-84.46285,
+							33.80199
+						],
+						[
+							-84.4621,
+							33.80218
+						],
+						[
+							-84.46167,
+							33.80223
+						],
+						[
+							-84.45995,
+							33.80213
+						],
+						[
+							-84.4596,
+							33.80208
+						],
+						[
+							-84.45931,
+							33.80189
+						],
+						[
+							-84.45919,
+							33.80178
+						],
+						[
+							-84.45811,
+							33.80266
+						],
+						[
+							-84.45863,
+							33.80305
+						],
+						[
+							-84.46107,
+							33.80533
+						],
+						[
+							-84.46155,
+							33.80562
+						],
+						[
+							-84.46259,
+							33.80588
+						],
+						[
+							-84.46297,
+							33.80593
+						],
+						[
+							-84.46349,
+							33.80596
+						],
+						[
+							-84.46391,
+							33.80589
+						],
+						[
+							-84.46425,
+							33.80586
+						],
+						[
+							-84.46426,
+							33.80576
+						],
+						[
+							-84.46391,
+							33.80589
+						]
+					],
+					[
+						[
+							-84.46349,
+							33.80596
+						],
+						[
+							-84.46297,
+							33.80593
+						],
+						[
+							-84.46259,
+							33.80588
+						],
+						[
+							-84.46155,
+							33.80562
+						],
+						[
+							-84.46107,
+							33.80533
+						],
+						[
+							-84.45863,
+							33.80305
+						],
+						[
+							-84.45811,
+							33.80266
+						],
+						[
+							-84.45919,
+							33.80178
+						],
+						[
+							-84.45931,
+							33.80189
+						],
+						[
+							-84.4596,
+							33.80208
+						],
+						[
+							-84.45995,
+							33.80213
+						],
+						[
+							-84.46167,
+							33.80223
+						],
+						[
+							-84.4621,
+							33.80218
+						],
+						[
+							-84.46285,
+							33.80199
+						],
+						[
+							-84.46324,
+							33.80201
+						],
+						[
+							-84.46294,
+							33.80114
+						],
+						[
+							-84.46196,
+							33.80131
+						],
+						[
+							-84.46193,
+							33.80104
+						],
+						[
+							-84.46204,
+							33.80072
+						],
+						[
+							-84.4622,
+							33.80055
+						],
+						[
+							-84.46239,
+							33.80042
+						],
+						[
+							-84.4621,
+							33.7999
+						],
+						[
+							-84.46162,
+							33.79945
+						],
+						[
+							-84.46134,
+							33.79934
+						],
+						[
+							-84.46106,
+							33.79931
+						],
+						[
+							-84.46043,
+							33.79945
+						],
+						[
+							-84.46017,
+							33.79947
+						],
+						[
+							-84.45993,
+							33.79938
+						],
+						[
+							-84.45917,
+							33.79868
+						],
+						[
+							-84.4589,
+							33.79849
+						],
+						[
+							-84.45865,
+							33.79843
+						],
+						[
+							-84.45819,
+							33.79939
+						],
+						[
+							-84.45804,
+							33.79963
+						],
+						[
+							-84.45786,
+							33.79977
+						],
+						[
+							-84.45719,
+							33.80007
+						],
+						[
+							-84.45705,
+							33.80008
+						],
+						[
+							-84.45689,
+							33.80007
+						],
+						[
+							-84.45634,
+							33.79982
+						],
+						[
+							-84.45539,
+							33.79933
+						],
+						[
+							-84.4552,
+							33.79931
+						],
+						[
+							-84.45502,
+							33.79934
+						],
+						[
+							-84.45477,
+							33.79947
+						],
+						[
+							-84.45381,
+							33.79861
+						],
+						[
+							-84.45296,
+							33.79782
+						],
+						[
+							-84.45174,
+							33.79694
+						],
+						[
+							-84.45131,
+							33.79654
+						],
+						[
+							-84.45103,
+							33.79613
+						],
+						[
+							-84.45069,
+							33.79551
+						],
+						[
+							-84.45035,
+							33.79514
+						],
+						[
+							-84.45004,
+							33.79494
+						],
+						[
+							-84.44137,
+							33.79073
+						],
+						[
+							-84.43772,
+							33.78894
+						],
+						[
+							-84.43663,
+							33.78837
+						],
+						[
+							-84.43439,
+							33.78741
+						],
+						[
+							-84.43399,
+							33.78717
+						],
+						[
+							-84.43297,
+							33.78639
+						],
+						[
+							-84.43261,
+							33.78628
+						],
+						[
+							-84.4323,
+							33.78625
+						],
+						[
+							-84.42783,
+							33.78632
+						],
+						[
+							-84.42778,
+							33.78549
+						],
+						[
+							-84.42784,
+							33.78507
+						],
+						[
+							-84.42794,
+							33.78479
+						],
+						[
+							-84.42807,
+							33.78456
+						],
+						[
+							-84.42821,
+							33.78436
+						],
+						[
+							-84.4289,
+							33.78363
+						],
+						[
+							-84.42918,
+							33.78338
+						],
+						[
+							-84.4295,
+							33.78296
+						],
+						[
+							-84.42973,
+							33.78231
+						],
+						[
+							-84.42976,
+							33.78195
+						],
+						[
+							-84.42975,
+							33.78155
+						],
+						[
+							-84.4296,
+							33.78089
+						],
+						[
+							-84.4294,
+							33.78053
+						],
+						[
+							-84.42919,
+							33.7803
+						],
+						[
+							-84.42744,
+							33.7789
+						],
+						[
+							-84.42663,
+							33.77806
+						],
+						[
+							-84.42615,
+							33.77685
+						],
+						[
+							-84.42606,
+							33.77647
+						],
+						[
+							-84.42602,
+							33.77609
+						],
+						[
+							-84.42617,
+							33.77452
+						],
+						[
+							-84.42617,
+							33.77419
+						],
+						[
+							-84.42599,
+							33.77311
+						],
+						[
+							-84.42593,
+							33.77292
+						],
+						[
+							-84.42587,
+							33.77285
+						],
+						[
+							-84.42577,
+							33.7728
+						],
+						[
+							-84.42544,
+							33.77274
+						],
+						[
+							-84.42535,
+							33.77266
+						],
+						[
+							-84.42524,
+							33.77249
+						],
+						[
+							-84.42627,
+							33.77193
+						],
+						[
+							-84.42641,
+							33.77187
+						],
+						[
+							-84.42653,
+							33.77184
+						],
+						[
+							-84.42714,
+							33.77182
+						],
+						[
+							-84.42951,
+							33.77193
+						],
+						[
+							-84.42949,
+							33.77225
+						],
+						[
+							-84.42844,
+							33.77226
+						],
+						[
+							-84.42847,
+							33.77188
+						],
+						[
+							-84.42683,
+							33.77182
+						],
+						[
+							-84.42667,
+							33.77182
+						],
+						[
+							-84.42653,
+							33.77184
+						],
+						[
+							-84.42641,
+							33.77187
+						],
+						[
+							-84.4257,
+							33.77223
+						],
+						[
+							-84.42509,
+							33.77257
+						],
+						[
+							-84.42455,
+							33.77279
+						],
+						[
+							-84.42288,
+							33.77314
+						],
+						[
+							-84.42207,
+							33.77323
+						],
+						[
+							-84.41912,
+							33.77317
+						],
+						[
+							-84.41788,
+							33.77304
+						],
+						[
+							-84.41341,
+							33.77304
+						],
+						[
+							-84.41345,
+							33.7722
+						],
+						[
+							-84.41349,
+							33.76822
+						],
+						[
+							-84.40632,
+							33.76822
+						],
+						[
+							-84.40484,
+							33.7682
+						],
+						[
+							-84.4048,
+							33.76909
+						],
+						[
+							-84.40468,
+							33.77001
+						],
+						[
+							-84.40194,
+							33.7701
+						],
+						[
+							-84.40157,
+							33.77016
+						],
+						[
+							-84.40077,
+							33.77043
+						],
+						[
+							-84.40033,
+							33.77067
+						],
+						[
+							-84.39899,
+							33.77122
+						],
+						[
+							-84.39852,
+							33.77132
+						],
+						[
+							-84.3981,
+							33.77137
+						],
+						[
+							-84.39612,
+							33.77132
+						],
+						[
+							-84.39209,
+							33.77129
+						],
+						[
+							-84.3909,
+							33.77131
+						],
+						[
+							-84.38836,
+							33.77122
+						],
+						[
+							-84.38708,
+							33.77129
+						],
+						[
+							-84.38677,
+							33.77129
+						],
+						[
+							-84.38675,
+							33.77156
+						],
+						[
+							-84.3866,
+							33.77161
+						],
+						[
+							-84.38652,
+							33.77168
+						],
+						[
+							-84.38651,
+							33.77185
+						],
+						[
+							-84.38656,
+							33.77196
+						],
+						[
+							-84.3867,
+							33.77203
+						],
+						[
+							-84.38689,
+							33.77197
+						],
+						[
+							-84.38696,
+							33.77189
+						]
+					],
+					[
+						[
+							-84.46425,
+							33.80586
+						],
+						[
+							-84.46349,
+							33.80596
+						],
+						[
+							-84.46297,
+							33.80593
+						],
+						[
+							-84.46259,
+							33.80588
+						],
+						[
+							-84.46155,
+							33.80562
+						],
+						[
+							-84.46107,
+							33.80533
+						],
+						[
+							-84.45863,
+							33.80305
+						],
+						[
+							-84.45776,
+							33.8024
+						],
+						[
+							-84.45706,
+							33.8014
+						],
+						[
+							-84.45651,
+							33.80082
+						],
+						[
+							-84.45628,
+							33.80061
+						],
+						[
+							-84.45528,
+							33.79993
+						],
+						[
+							-84.45296,
+							33.79782
+						],
+						[
+							-84.45174,
+							33.79694
+						],
+						[
+							-84.45131,
+							33.79654
+						],
+						[
+							-84.45103,
+							33.79613
+						],
+						[
+							-84.45061,
+							33.79543
+						],
+						[
+							-84.45035,
+							33.79514
+						],
+						[
+							-84.45004,
+							33.79494
+						],
+						[
+							-84.44137,
+							33.79073
+						],
+						[
+							-84.43772,
+							33.78894
+						],
+						[
+							-84.43663,
+							33.78837
+						],
+						[
+							-84.43439,
+							33.78741
+						],
+						[
+							-84.43399,
+							33.78717
+						],
+						[
+							-84.43297,
+							33.78639
+						],
+						[
+							-84.43261,
+							33.78628
+						],
+						[
+							-84.4323,
+							33.78625
+						],
+						[
+							-84.42783,
+							33.78632
+						],
+						[
+							-84.42778,
+							33.78549
+						],
+						[
+							-84.42784,
+							33.78507
+						],
+						[
+							-84.42794,
+							33.78479
+						],
+						[
+							-84.42807,
+							33.78456
+						],
+						[
+							-84.42821,
+							33.78436
+						],
+						[
+							-84.4289,
+							33.78363
+						],
+						[
+							-84.42918,
+							33.78338
+						],
+						[
+							-84.4295,
+							33.78296
+						],
+						[
+							-84.42973,
+							33.78231
+						],
+						[
+							-84.42976,
+							33.78195
+						],
+						[
+							-84.42975,
+							33.78155
+						],
+						[
+							-84.4296,
+							33.78089
+						],
+						[
+							-84.4294,
+							33.78053
+						],
+						[
+							-84.42919,
+							33.7803
+						],
+						[
+							-84.42744,
+							33.7789
+						],
+						[
+							-84.42663,
+							33.77806
+						],
+						[
+							-84.42615,
+							33.77685
+						],
+						[
+							-84.42606,
+							33.77647
+						],
+						[
+							-84.42602,
+							33.77609
+						],
+						[
+							-84.42617,
+							33.77452
+						],
+						[
+							-84.42617,
+							33.77419
+						],
+						[
+							-84.42599,
+							33.77311
+						],
+						[
+							-84.42593,
+							33.77292
+						],
+						[
+							-84.42587,
+							33.77285
+						],
+						[
+							-84.42577,
+							33.7728
+						],
+						[
+							-84.42544,
+							33.77274
+						],
+						[
+							-84.42535,
+							33.77266
+						],
+						[
+							-84.42524,
+							33.77249
+						],
+						[
+							-84.42627,
+							33.77193
+						],
+						[
+							-84.42641,
+							33.77187
+						],
+						[
+							-84.42653,
+							33.77184
+						],
+						[
+							-84.42714,
+							33.77182
+						],
+						[
+							-84.42951,
+							33.77193
+						],
+						[
+							-84.42949,
+							33.77225
+						],
+						[
+							-84.42844,
+							33.77226
+						],
+						[
+							-84.42847,
+							33.77188
+						],
+						[
+							-84.42683,
+							33.77182
+						],
+						[
+							-84.42667,
+							33.77182
+						],
+						[
+							-84.42653,
+							33.77184
+						],
+						[
+							-84.42641,
+							33.77187
+						],
+						[
+							-84.4257,
+							33.77223
+						],
+						[
+							-84.42509,
+							33.77257
+						],
+						[
+							-84.42455,
+							33.77279
+						],
+						[
+							-84.42288,
+							33.77314
+						],
+						[
+							-84.42207,
+							33.77323
+						],
+						[
+							-84.41912,
+							33.77317
+						],
+						[
+							-84.41788,
+							33.77304
+						],
+						[
+							-84.41341,
+							33.77304
+						],
+						[
+							-84.41345,
+							33.7722
+						],
+						[
+							-84.41349,
+							33.76822
+						],
+						[
+							-84.40632,
+							33.76822
+						],
+						[
+							-84.40484,
+							33.7682
+						],
+						[
+							-84.4048,
+							33.76909
+						],
+						[
+							-84.40468,
+							33.77001
+						],
+						[
+							-84.40194,
+							33.7701
+						],
+						[
+							-84.40157,
+							33.77016
+						],
+						[
+							-84.40077,
+							33.77043
+						],
+						[
+							-84.40033,
+							33.77067
+						],
+						[
+							-84.39899,
+							33.77122
+						],
+						[
+							-84.39852,
+							33.77132
+						],
+						[
+							-84.3981,
+							33.77137
+						],
+						[
+							-84.39612,
+							33.77132
+						],
+						[
+							-84.39209,
+							33.77129
+						],
+						[
+							-84.3909,
+							33.77131
+						],
+						[
+							-84.38836,
+							33.77122
+						],
+						[
+							-84.38708,
+							33.77129
+						],
+						[
+							-84.38677,
+							33.77129
+						],
+						[
+							-84.38675,
+							33.77156
+						],
+						[
+							-84.3866,
+							33.77161
+						],
+						[
+							-84.38652,
+							33.77168
+						],
+						[
+							-84.38651,
+							33.77185
+						],
+						[
+							-84.38656,
+							33.77196
+						],
+						[
+							-84.3867,
+							33.77203
+						],
+						[
+							-84.38689,
+							33.77197
+						],
+						[
+							-84.38696,
+							33.77189
+						]
+					],
+					[
+						[
+							-84.38689,
+							33.77197
+						],
+						[
+							-84.38696,
+							33.77189
+						],
+						[
+							-84.38697,
+							33.77172
+						],
+						[
+							-84.38691,
+							33.77162
+						],
+						[
+							-84.38675,
+							33.77156
+						],
+						[
+							-84.38677,
+							33.77129
+						],
+						[
+							-84.38781,
+							33.77122
+						],
+						[
+							-84.3909,
+							33.77131
+						],
+						[
+							-84.39371,
+							33.7713
+						],
+						[
+							-84.39638,
+							33.77133
+						],
+						[
+							-84.3981,
+							33.77137
+						],
+						[
+							-84.39852,
+							33.77132
+						],
+						[
+							-84.39899,
+							33.77122
+						],
+						[
+							-84.40033,
+							33.77067
+						],
+						[
+							-84.40077,
+							33.77043
+						],
+						[
+							-84.40157,
+							33.77016
+						],
+						[
+							-84.40194,
+							33.7701
+						],
+						[
+							-84.40468,
+							33.77001
+						],
+						[
+							-84.40472,
+							33.76961
+						],
+						[
+							-84.4048,
+							33.76909
+						],
+						[
+							-84.40484,
+							33.7682
+						],
+						[
+							-84.40632,
+							33.76822
+						],
+						[
+							-84.41349,
+							33.76822
+						],
+						[
+							-84.41346,
+							33.76902
+						],
+						[
+							-84.41345,
+							33.77207
+						],
+						[
+							-84.41341,
+							33.77304
+						],
+						[
+							-84.41441,
+							33.77303
+						],
+						[
+							-84.41735,
+							33.77305
+						],
+						[
+							-84.41785,
+							33.77304
+						],
+						[
+							-84.41935,
+							33.77318
+						],
+						[
+							-84.42125,
+							33.7732
+						],
+						[
+							-84.42207,
+							33.77323
+						],
+						[
+							-84.42313,
+							33.77309
+						],
+						[
+							-84.42455,
+							33.77279
+						],
+						[
+							-84.42509,
+							33.77257
+						],
+						[
+							-84.42627,
+							33.77193
+						],
+						[
+							-84.42641,
+							33.77187
+						],
+						[
+							-84.42653,
+							33.77184
+						],
+						[
+							-84.42714,
+							33.77182
+						],
+						[
+							-84.42951,
+							33.77193
+						],
+						[
+							-84.42949,
+							33.77225
+						],
+						[
+							-84.42844,
+							33.77226
+						],
+						[
+							-84.42847,
+							33.77188
+						],
+						[
+							-84.42667,
+							33.77182
+						],
+						[
+							-84.42641,
+							33.77187
+						],
+						[
+							-84.4257,
+							33.77223
+						],
+						[
+							-84.42524,
+							33.77249
+						],
+						[
+							-84.42535,
+							33.77266
+						],
+						[
+							-84.42544,
+							33.77274
+						],
+						[
+							-84.42577,
+							33.7728
+						],
+						[
+							-84.42587,
+							33.77285
+						],
+						[
+							-84.42593,
+							33.77292
+						],
+						[
+							-84.42599,
+							33.77311
+						],
+						[
+							-84.42617,
+							33.77419
+						],
+						[
+							-84.42602,
+							33.77609
+						],
+						[
+							-84.42606,
+							33.77647
+						],
+						[
+							-84.42615,
+							33.77685
+						],
+						[
+							-84.42663,
+							33.77806
+						],
+						[
+							-84.42744,
+							33.7789
+						],
+						[
+							-84.42919,
+							33.7803
+						],
+						[
+							-84.4294,
+							33.78053
+						],
+						[
+							-84.4296,
+							33.78089
+						],
+						[
+							-84.42975,
+							33.78155
+						],
+						[
+							-84.42976,
+							33.78195
+						],
+						[
+							-84.42973,
+							33.78231
+						],
+						[
+							-84.42964,
+							33.78263
+						],
+						[
+							-84.4295,
+							33.78296
+						],
+						[
+							-84.42918,
+							33.78338
+						],
+						[
+							-84.42848,
+							33.78406
+						],
+						[
+							-84.42821,
+							33.78436
+						],
+						[
+							-84.42807,
+							33.78456
+						],
+						[
+							-84.42794,
+							33.78479
+						],
+						[
+							-84.42784,
+							33.78507
+						],
+						[
+							-84.42778,
+							33.78549
+						],
+						[
+							-84.42783,
+							33.78632
+						],
+						[
+							-84.4323,
+							33.78625
+						],
+						[
+							-84.43261,
+							33.78628
+						],
+						[
+							-84.43297,
+							33.78639
+						],
+						[
+							-84.43399,
+							33.78717
+						],
+						[
+							-84.43439,
+							33.78741
+						],
+						[
+							-84.43663,
+							33.78837
+						],
+						[
+							-84.43772,
+							33.78894
+						],
+						[
+							-84.44137,
+							33.79073
+						],
+						[
+							-84.44621,
+							33.79306
+						],
+						[
+							-84.45004,
+							33.79494
+						],
+						[
+							-84.45035,
+							33.79514
+						],
+						[
+							-84.45069,
+							33.79551
+						],
+						[
+							-84.45103,
+							33.79613
+						],
+						[
+							-84.45131,
+							33.79654
+						],
+						[
+							-84.45174,
+							33.79694
+						],
+						[
+							-84.45339,
+							33.79822
+						],
+						[
+							-84.45528,
+							33.79993
+						],
+						[
+							-84.45628,
+							33.80061
+						],
+						[
+							-84.45674,
+							33.80102
+						],
+						[
+							-84.45706,
+							33.8014
+						],
+						[
+							-84.45776,
+							33.8024
+						],
+						[
+							-84.45863,
+							33.80305
+						],
+						[
+							-84.46107,
+							33.80533
+						],
+						[
+							-84.46155,
+							33.80562
+						],
+						[
+							-84.46259,
+							33.80588
+						],
+						[
+							-84.46297,
+							33.80593
+						],
+						[
+							-84.46349,
+							33.80596
+						],
+						[
+							-84.46391,
+							33.80589
+						],
+						[
+							-84.46425,
+							33.80586
+						],
+						[
+							-84.46426,
+							33.80576
+						]
+					]
+				]
+			},
+			"properties": {
+				"onestop_id": "r-dn5bn-26",
+				"created_at": "2016-05-04T21:01:46.359Z",
+				"updated_at": "2017-11-05T16:52:15.235Z",
+				"tags": {
+					"route_color": "819FF7",
+					"route_long_name": "Perry Boulevard/North Avenue"
+				},
+				"created_or_updated_in_changeset_id": 9082,
+				"name": "26",
+				"vehicle_type": "bus",
+				"color": "819FF7",
+				"stops_served_by_route": [
+					{
+						"stop_onestop_id": "s-dn5bq16tth-abnerplnw~marygeorgeavenw",
+						"stop_name": "ABNER PL NW @ MARY GEORGE AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq13zd0-abnerpl~2224",
+						"stop_name": "ABNER PL @ 2224"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq12xec-abnerplnw~abnerternw",
+						"stop_name": "ABNER PL NW @ ABNER TER NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bmcrvkm-abnerlnnw~abnerplnw",
+						"stop_name": "ABNER LN NW @ ABNER PL NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bmcrfx9-marygeorgeavenw~abnerlnnw",
+						"stop_name": "MARY GEORGE AVE NW @ ABNER LN NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq12dz0-abnerternw~marygeorgeavenw",
+						"stop_name": "ABNER TER NW @ MARY GEORGE AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq10kz8-ajaxdrnw~abnerternw",
+						"stop_name": "AJAX DR NW @ ABNER TER NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq10c3d-ajaxdrnw~addisonplnw",
+						"stop_name": "AJAX DR NW @ ADDISON PL NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq0cx8m-ajaxdrnw~2223",
+						"stop_name": "AJAX DR NW @ 2223"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq0g48p-mccallieblvd~ajaxdr",
+						"stop_name": "MCCALLIE BLVD @ AJAX DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq1h52r-mccallieblvdnw~abnerplnw",
+						"stop_name": "MCCALLIE BLVD NW @ ABNER PL NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq1jb22-perryblvdnw~mccallieblvdnw",
+						"stop_name": "PERRY BLVD NW @ MCCALLIE BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bmfpwn6-perryblvdnw~2245",
+						"stop_name": "PERRY BLVD NW @ 2245"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq1cz2f-perryblvdnw~2250",
+						"stop_name": "PERRY BLVD NW @ 2250"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq1f8gt-perryblvdnw~2210",
+						"stop_name": "PERRY BLVD NW @ 2210"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq1e7kc-perryblvdnw~marygeorgeavenw",
+						"stop_name": "PERRY BLVD NW @ MARY GEORGE AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq0yp6x-perryblvdnw~mccallieblvdnw",
+						"stop_name": "PERRY BLVD NW @ MCCALLIE BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq2454t-perryblvdnw~odessadr",
+						"stop_name": "PERRY BLVD NW @ ODESSA DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnrgq2j-perryblvd~whighlandsblvdnw",
+						"stop_name": "PERRY BLVD @ W HIGHLANDS BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnx26cb-perryblvd~1600",
+						"stop_name": "PERRY BLVD@1600"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnx4c54-perryblvdnw~johnsonrdnw",
+						"stop_name": "PERRY BLVD NW @ JOHNSON RD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bny8g8x-mariettastnw~mariettablvdnw",
+						"stop_name": "MARIETTA ST NW @ MARIETTA BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bny986s-mariettablvdnw~wmariettastnw",
+						"stop_name": "MARIETTA BLVD NW @ W MARIETTA ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnv8pme-mariettablvdnw~1079",
+						"stop_name": "MARIETTA BLVD NW @ 1079"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnv3k27-mariettablvdnw~860",
+						"stop_name": "MARIETTA BLVD NW @ 860"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnv47nw-mariettablvdnw~ricestnw",
+						"stop_name": "MARIETTA BLVD NW @ RICE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnudueh-mariettablvdnw~jeffersonstnw",
+						"stop_name": "MARIETTA BLVD NW @ JEFFERSON ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnu5m86-mariettablvd~donaldlhollowellpkwy",
+						"stop_name": "MARIETTA BLVD @ DONALD L HOLLOWELL PKWY"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnu5u8r-donaldlhollowellpkwy~glassst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ GLASS ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnujz3m-donaldlhollowellpkwy~finleyave",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ FINLEY AVE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnupx2z-donaldlhollowellpkwy~addiest",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ ADDIE ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bph1nqn-donaldlhollowellpkwy~josepheloweryblvd",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ JOSEPH E LOWERY BLVD"
+					},
+					{
+						"stop_onestop_id": "s-dn5bph4w6e-donaldlhollowellpkwy~oliverst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ OLIVER ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bph5q6d-donaldlhollowellpkwy~painesave",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ PAINES AVE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bphh130-englishavenw~foxstnw",
+						"stop_name": "ENGLISH AVE NW @ FOX ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5u59k-englishavenw~pelhamstnw",
+						"stop_name": "ENGLISH AVE NW @ PELHAM ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5sh3h-englishavenw~northavenw",
+						"stop_name": "ENGLISH AVE NW @ NORTH AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5kh1v-englishave~cameronmalexanderblvdnw",
+						"stop_name": "ENGLISH AVE @ CAMERON M ALEXANDER BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5kdqs-cameronmalexanderblvd~jpbrawleydr",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ J P BRAWLEY DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5mdjx-cameronmalexanderblvd~griffinstnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ GRIFFIN ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5q6nr-cameronmalexanderblvd~sunsetavenw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ SUNSET AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5r6nr-cameronmalexanderblvdnw~elmstnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD NW @ ELM ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp724r4-cameronmalexanderblvdnw~vinestnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD NW @ VINE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp7363h-cameronmalexanderblvdnw~walnutst",
+						"stop_name": "CAMERON M ALEXANDER BLVD NW @ WALNUT ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp764hz-cameronmalexanderblvd~northsidedr",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ NORTHSIDE DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp7dkwr-northsidedr~northave",
+						"stop_name": "NORTHSIDE DR @ NORTH AVE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp7emp3-northavenw~strongstnw",
+						"stop_name": "NORTH AVE NW@STRONG ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpebsmu-northavenw~techpkwynw",
+						"stop_name": "NORTH AVE NW@TECH PKWY NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpech7d-northave~cherryst",
+						"stop_name": "NORTH AVE@CHERRY ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpefkmc-northavenw~fowlerst",
+						"stop_name": "NORTH AVE NW@FOWLER ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpegs4v-northavenw~techwooddrnw",
+						"stop_name": "NORTH AVE NW @ TECHWOOD DR NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpevgzs-northavenw~springstnw",
+						"stop_name": "NORTH AVE NW @ SPRING ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpezpsk-northavestation",
+						"stop_name": "NORTH AVE STATION"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpeg5yb-northave~centennialolympicparkdr",
+						"stop_name": "NORTH AVE @ CENTENNIAL OLYMPIC PARK DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpef5uj-northavenw~fowlerst",
+						"stop_name": "NORTH AVE NW@FOWLER ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpebkhs-northavenw~luckiestnw",
+						"stop_name": "NORTH AVE NW @ LUCKIE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp7ye34-northavenw~statestnw",
+						"stop_name": "NORTH AVE NW @ STATE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp7eseh-northavenw~northyardsdrnw",
+						"stop_name": "NORTH AVE NW @ NORTH YARDS DR NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp7d6sz-northsidedrnw~northavenw",
+						"stop_name": "NORTHSIDE DR NW @ NORTH AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp761yz-cameronmalexanderblvd~northsidedr",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ NORTHSIDE DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp734pd-cameronmalexanderblvd~walnutstnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ WALNUT ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp721ux-cameronmalexanderblvd~vinestnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ VINE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5r3uj-cameronmalexanderblvd~elmstnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ ELM ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5q9b6-cameronmalexanderblvd~sunsetavenw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ SUNSET AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5m9g9-cameronmalexanderblvd~griffinstnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ GRIFFIN ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5k9cu-cameronmalexanderblvd~jamespbrawleydr",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ JAMES P BRAWLEY DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp57fwz-englishavenw~cameronmalexanderblvd",
+						"stop_name": "ENGLISH AVE NW @ CAMERON M ALEXANDER BLVD"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5evqd-englishavenw~northavenw",
+						"stop_name": "ENGLISH AVE NW @ NORTH AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5guwe-englishavenw~pelhamstnw",
+						"stop_name": "ENGLISH AVE NW @ PELHAM ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bph5vzu-donaldlhollowellpkwy~englishave",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ ENGLISH AVE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bph5mbu-donaldlhollowellpkwy~painesave",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ PAINES AVE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bph4tbw-donaldlhollowellpkwy~oliverst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ OLIVER ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bph1wp3-donaldlhollowellpkwy~lindsayst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ LINDSAY ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnupnf5-donaldlhollowellpkwy~simmonsst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ SIMMONS ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnujwsy-donaldlhollowellpkwy~finleyave",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ FINLEY AVE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnu56hk-donaldlhollowellpkwy~mariettablvd",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ MARIETTA BLVD"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngfn8u-donaldlhollowellpkwy~stiffst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ STIFF ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnu0bt0-bankheadstation",
+						"stop_name": "BANKHEAD STATION"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngczkb-donaldlhollowellpky~stiffst",
+						"stop_name": "DONALD L HOLLOWELL PKY @ STIFF ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnu57bz-mariettablvd~donaldlhollowellpky",
+						"stop_name": "MARIETTA BLVD @ DONALD L HOLLOWELL PKY"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnudv32-mariettablvdnw~jeffersonstnw",
+						"stop_name": "MARIETTA BLVD NW @ JEFFERSON ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnv43yf-mariettablvdnw~ricest",
+						"stop_name": "MARIETTA BLVD NW @ RICE ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnv35yk-mariettablvdnw~860",
+						"stop_name": "MARIETTA BLVD NW @ 860"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnvb00d-mariettablvdnw~930",
+						"stop_name": "MARIETTA BLVD NW @ 930"
+					},
+					{
+						"stop_onestop_id": "s-dn5bny982s-mariettablvdnw~wmariettastnw",
+						"stop_name": "MARIETTA BLVD NW @ W MARIETTA ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bny9770-mariettastnw~mariettablvdnw",
+						"stop_name": "MARIETTA ST NW@MARIETTA BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnwtqbp-mariettastnw~rockdalestnw",
+						"stop_name": "MARIETTA ST NW@ROCKDALE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnwgp9b-perryblvdnw~johnsonrdnw",
+						"stop_name": "PERRY BLVD NW @ JOHNSON RD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnx24yg-perryblvd~1600",
+						"stop_name": "PERRY BLVD@1600"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnrgm7q-perryblvdnw~whighlandsblvdnw",
+						"stop_name": "PERRY BLVD NW @ W HIGHLANDS BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq21fwy-perryblvdnw~odessadr",
+						"stop_name": "PERRY BLVD NW @ ODESSA DR NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq0vz7n-mccallieblvdnw~perryblvdnw",
+						"stop_name": "MCCALLIE BLVD NW@PERRY BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq15fkr-mccallieblvdnw~abnerplnw",
+						"stop_name": "MCCALLIE BLVD NW@ABNER PL NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq0ffm3-ajaxdrnw~mccallieblvdnw",
+						"stop_name": "AJAX DR NW@MCCALLIE BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq0fpnn-ajaxdr~2208",
+						"stop_name": "AJAX DR@2208"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq109t0-ajaxdrnw~addisonpl",
+						"stop_name": "AJAX DR NW @ ADDISON PL"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq107vf-ajaxdrnw~abnerternw",
+						"stop_name": "AJAX DR NW @ ABNER TER NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq128u8-abnerternw~marygeorgeavenw",
+						"stop_name": "ABNER TER NW @ MARY GEORGE AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bmcrffq-abnerlnnw~marygeorgeavenw",
+						"stop_name": "ABNER LN NW @ MARY GEORGE AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq1884s-abnerplnw~abnerternw",
+						"stop_name": "ABNER PL NW @ ABNER TER NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq19b0r-abnerpl~2219",
+						"stop_name": "ABNER PL @ 2219"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq16tym-marygeorgeavenw~abnerplnw",
+						"stop_name": "MARY GEORGE AVE NW @ ABNER PL NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq1e3b8-perryblvdnw~marygeorgeavenw",
+						"stop_name": "PERRY BLVD NW @ MARY GEORGE AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq1f8c3-perryblvdnw~2210",
+						"stop_name": "PERRY BLVD NW @ 2210"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq1cz00-perryblvdnw~2250",
+						"stop_name": "PERRY BLVD NW @ 2250"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq414vq-perryblvdnw~2221",
+						"stop_name": "PERRY BLVD NW @ 2221"
+					},
+					{
+						"stop_onestop_id": "s-dn5bmfpv8n-perryblvdnw~2245",
+						"stop_name": "PERRY BLVD NW @ 2245"
+					},
+					{
+						"stop_onestop_id": "s-dn5bmfpj6b-perryblvd~2265",
+						"stop_name": "PERRY BLVD @ 2265"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq317k2-abnerplnw~marygeorgeavenw",
+						"stop_name": "ABNER PL NW @ MARY GEORGE AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-abnerpl~2224",
+						"stop_name": "ABNER PL @ 2224"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-abnerlnnw~abnerplnw",
+						"stop_name": "ABNER LN NW @ ABNER PL NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-marygeorgeavenw~abnerlnnw",
+						"stop_name": "MARY GEORGE AVE NW @ ABNER LN NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnp6152-ajaxdrnw~addisonplnw",
+						"stop_name": "AJAX DR NW @ ADDISON PL NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnp6152-ajaxdrnw~2223",
+						"stop_name": "AJAX DR NW @ 2223"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnr33h2-mccallieblvd~ajaxdr",
+						"stop_name": "MCCALLIE BLVD @ AJAX DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq317k2-mccallieblvdnw~abnerplnw",
+						"stop_name": "MCCALLIE BLVD NW @ ABNER PL NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnr33h2-perryblvdnw~mccallieblvdnw",
+						"stop_name": "PERRY BLVD NW @ MCCALLIE BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnx29j2-perryblvd~whighlandsblvdnw",
+						"stop_name": "PERRY BLVD @ W HIGHLANDS BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnvrnz2-mariettablvdnw~1079",
+						"stop_name": "MARIETTA BLVD NW @ 1079"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-mariettablvdnw~ricestnw",
+						"stop_name": "MARIETTA BLVD NW @ RICE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-mariettablvd~donaldlhollowellpkwy",
+						"stop_name": "MARIETTA BLVD @ DONALD L HOLLOWELL PKWY"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-donaldlhollowellpkwy~glassst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ GLASS ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5ws82-donaldlhollowellpkwy~addiest",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ ADDIE ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5ws82-donaldlhollowellpkwy~josepheloweryblvd",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ JOSEPH E LOWERY BLVD"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5ws82-englishavenw~foxstnw",
+						"stop_name": "ENGLISH AVE NW @ FOX ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp1yd22-englishavenw~northavenw",
+						"stop_name": "ENGLISH AVE NW @ NORTH AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp1yd22-englishave~cameronmalexanderblvdnw",
+						"stop_name": "ENGLISH AVE @ CAMERON M ALEXANDER BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp1yd22-cameronmalexanderblvd~jpbrawleydr",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ J P BRAWLEY DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp3vf32-cameronmalexanderblvdnw~elmstnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD NW @ ELM ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp3vf32-cameronmalexanderblvdnw~vinestnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD NW @ VINE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp3vf32-cameronmalexanderblvdnw~walnutst",
+						"stop_name": "CAMERON M ALEXANDER BLVD NW @ WALNUT ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp3vf32-northsidedr~northave",
+						"stop_name": "NORTHSIDE DR @ NORTH AVE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp7tu92-northavenw~strongstnw",
+						"stop_name": "NORTH AVE NW@STRONG ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpethd2-northavenw~techpkwynw",
+						"stop_name": "NORTH AVE NW@TECH PKWY NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpethd2-northave~cherryst",
+						"stop_name": "NORTH AVE@CHERRY ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpethd2-northavenw~techwooddrnw",
+						"stop_name": "NORTH AVE NW @ TECHWOOD DR NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpgske2-northavenw~springstnw",
+						"stop_name": "NORTH AVE NW @ SPRING ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpgske2-northavestation",
+						"stop_name": "NORTH AVE STATION"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpethd2-northave~centennialolympicparkdr",
+						"stop_name": "NORTH AVE @ CENTENNIAL OLYMPIC PARK DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpethd2-northavenw~fowlerst",
+						"stop_name": "NORTH AVE NW@FOWLER ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpethd2-northavenw~luckiestnw",
+						"stop_name": "NORTH AVE NW @ LUCKIE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpethd2-northavenw~statestnw",
+						"stop_name": "NORTH AVE NW @ STATE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp7tu92-northavenw~northyardsdrnw",
+						"stop_name": "NORTH AVE NW @ NORTH YARDS DR NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp3vf32-northsidedrnw~northavenw",
+						"stop_name": "NORTHSIDE DR NW @ NORTH AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp3vf32-cameronmalexanderblvd~northsidedr",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ NORTHSIDE DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp3vf32-cameronmalexanderblvd~walnutstnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ WALNUT ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp3vf32-cameronmalexanderblvd~vinestnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ VINE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp3vf32-cameronmalexanderblvd~elmstnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ ELM ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp1yd22-cameronmalexanderblvd~sunsetavenw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ SUNSET AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp1yd22-cameronmalexanderblvd~griffinstnw",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ GRIFFIN ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp1yd22-cameronmalexanderblvd~jamespbrawleydr",
+						"stop_name": "CAMERON M ALEXANDER BLVD @ JAMES P BRAWLEY DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp1yd22-englishavenw~cameronmalexanderblvd",
+						"stop_name": "ENGLISH AVE NW @ CAMERON M ALEXANDER BLVD"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5ws82-englishavenw~northavenw",
+						"stop_name": "ENGLISH AVE NW @ NORTH AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5ws82-englishavenw~pelhamstnw",
+						"stop_name": "ENGLISH AVE NW @ PELHAM ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5ws82-donaldlhollowellpkwy~englishave",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ ENGLISH AVE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5ws82-donaldlhollowellpkwy~painesave",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ PAINES AVE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5ws82-donaldlhollowellpkwy~oliverst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ OLIVER ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bp5ws82-donaldlhollowellpkwy~lindsayst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ LINDSAY ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-donaldlhollowellpkwy~simmonsst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ SIMMONS ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-donaldlhollowellpkwy~finleyave",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ FINLEY AVE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-donaldlhollowellpkwy~mariettablvd",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ MARIETTA BLVD"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-donaldlhollowellpkwy~stiffst",
+						"stop_name": "DONALD L HOLLOWELL PKWY @ STIFF ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-bankheadstation",
+						"stop_name": "BANKHEAD STATION"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-donaldlhollowellpky~stiffst",
+						"stop_name": "DONALD L HOLLOWELL PKY @ STIFF ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-mariettablvd~donaldlhollowellpky",
+						"stop_name": "MARIETTA BLVD @ DONALD L HOLLOWELL PKY"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-mariettablvdnw~jeffersonstnw",
+						"stop_name": "MARIETTA BLVD NW @ JEFFERSON ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-mariettablvdnw~ricest",
+						"stop_name": "MARIETTA BLVD NW @ RICE ST"
+					},
+					{
+						"stop_onestop_id": "s-dn5bngxhx2-mariettablvdnw~860",
+						"stop_name": "MARIETTA BLVD NW @ 860"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnvrnz2-mariettablvdnw~930",
+						"stop_name": "MARIETTA BLVD NW @ 930"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnvrnz2-mariettablvdnw~wmariettastnw",
+						"stop_name": "MARIETTA BLVD NW @ W MARIETTA ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnvrnz2-mariettastnw~mariettablvdnw",
+						"stop_name": "MARIETTA ST NW @ MARIETTA BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bntryy2-mariettastnw~rockdalestnw",
+						"stop_name": "MARIETTA ST NW@ROCKDALE ST NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bntryy2-perryblvdnw~johnsonrdnw",
+						"stop_name": "PERRY BLVD NW @ JOHNSON RD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnx29j2-perryblvd~1600",
+						"stop_name": "PERRY BLVD@1600"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnx29j2-perryblvdnw~whighlandsblvdnw",
+						"stop_name": "PERRY BLVD NW@W HIGHLANDS BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnx29j2-perryblvdnw~odessadr",
+						"stop_name": "PERRY BLVD NW @ ODESSA DR"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnr33h2-mccallieblvdnw~perryblvdnw",
+						"stop_name": "MCCALLIE BLVD NW@PERRY BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnr33h2-mccallieblvdnw~abnerplnw",
+						"stop_name": "MCCALLIE BLVD NW@ABNER PL NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnr33h2-ajaxdrnw~mccallieblvdnw",
+						"stop_name": "AJAX DR NW@MCCALLIE BLVD NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnr33h2-ajaxdr~2208",
+						"stop_name": "AJAX DR@2208"
+					},
+					{
+						"stop_onestop_id": "s-dn5bnp6152-ajaxdrnw~addisonpl",
+						"stop_name": "AJAX DR NW @ ADDISON PL"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-ajaxdrnw~abnerternw",
+						"stop_name": "AJAX DR NW @ ABNER TER NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-abnerternw~marygeorgeavenw",
+						"stop_name": "ABNER TER NW @ MARY GEORGE AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-abnerlnnw~marygeorgeavenw",
+						"stop_name": "ABNER LN NW @ MARY GEORGE AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-abnerplnw~abnerternw",
+						"stop_name": "ABNER PL NW @ ABNER TER NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-abnerpl~2219",
+						"stop_name": "ABNER PL @ 2219"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq317k2-marygeorgeavenw~abnerplnw",
+						"stop_name": "MARY GEORGE AVE NW @ ABNER PL NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq317k2-perryblvdnw~marygeorgeavenw",
+						"stop_name": "PERRY BLVD NW @ MARY GEORGE AVE NW"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq317k2-perryblvdnw~2210",
+						"stop_name": "PERRY BLVD NW @ 2210"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-perryblvdnw~2250",
+						"stop_name": "PERRY BLVD NW @ 2250"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-perryblvdnw~2221",
+						"stop_name": "PERRY BLVD NW @ 2221"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-perryblvdnw~2245",
+						"stop_name": "PERRY BLVD NW @ 2245"
+					},
+					{
+						"stop_onestop_id": "s-dn5bq14572-perryblvd~2265",
+						"stop_name": "PERRY BLVD @ 2265"
+					}
+				],
+				"operated_by_onestop_id": "o-dnh-metropolitanatlantarapidtransitauthority",
+				"operated_by_name": "Metropolitan Atlanta Rapid Transit Authority",
+				"wheelchair_accessible": "unknown",
+				"bikes_allowed": "unknown",
+				"route_stop_patterns_by_onestop_id": [
+					"r-dn5bn-26-0f7fa8-17c63b",
+					"r-dn5bn-26-abccbb-343a01",
+					"r-dn5bn-26-dd2c77-f4e98b",
+					"r-dn5bn-26-b47483-780bb8"
+				],
+				"title": "r-dn5bn-26"
+			},
+			"type": "Feature",
+			"id": "r-dn5bn-26"
+		}
+	],
+	"meta": {
+		"sort_key": "id",
+		"sort_order": "asc",
+		"per_page": 50,
+		"offset": 0
+	},
+	"type": "FeatureCollection"
+}

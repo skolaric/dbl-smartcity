@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="onestop_id" type="string"></SimpleField>
+	<SimpleField name="created_at" type="string"></SimpleField>
+	<SimpleField name="updated_at" type="string"></SimpleField>
+	<SimpleField name="tags" type="string"></SimpleField>
+	<SimpleField name="created_or_updated_in_changeset_id" type="int"></SimpleField>
+	<SimpleField name="timezone" type="string"></SimpleField>
+	<SimpleField name="osm_way_id" type="int"></SimpleField>
+	<SimpleArrayField name="served_by_vehicle_types" type="string"></SimpleArrayField>
+	<SimpleField name="parent_stop_onestop_id" type="string"></SimpleField>
+	<SimpleField name="wheelchair_boarding" type="string"></SimpleField>
+	<SimpleField name="geometry_reversegeo" type="string"></SimpleField>
+	<SimpleField name="geometry_centroid" type="string"></SimpleField>
+	<SimpleField name="operators_serving_stop" type="string"></SimpleField>
+	<SimpleField name="routes_serving_stop" type="string"></SimpleField>
+	<SimpleField name="title" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<name>NORTH AVE STATION</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpgske2-northavestation</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpgske2-northavestation</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.502+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/28 18:31:16.180+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9278216&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9278216</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.380000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; }, { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;2&quot;, &quot;route_onestop_id&quot;: &quot;r-dnh00-2&quot; }, { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;26&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bn-26&quot; }, { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;102&quot;, &quot;route_onestop_id&quot;: &quot;r-dnh00-102&quot; }, { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;99&quot;, &quot;route_onestop_id&quot;: &quot;r-dnh00-99&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpgske2-northavestation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.38,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTH AVE NW @ SPRING ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpgske2-northavenw~springstnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpgske2-northavenw~springstnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.513+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 23:32:26.458+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9278216&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9278216</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.380000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; }, { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;26&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bn-26&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpgske2-northavenw~springstnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.38,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTH AVE NW @ TECHWOOD DR NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpethd2-northavenw~techwooddrnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpethd2-northavenw~techwooddrnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.520+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/29 17:29:39.917+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;247954188&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">247954188</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; }, { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;26&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bn-26&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpethd2-northavenw~techwooddrnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTH AVE NW@FOWLER ST</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpethd2-northavenw~fowlerst</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpethd2-northavenw~fowlerst</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.527+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/31 00:07:58.856+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;247954188&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">247954188</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; }, { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;26&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bn-26&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpethd2-northavenw~fowlerst</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTH AVE@CHERRY ST</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpethd2-northave~cherryst</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpethd2-northave~cherryst</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.533+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/29 01:01:15.197+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;247954188&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">247954188</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; }, { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;26&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bn-26&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpethd2-northave~cherryst</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LUCKIE ST @ NORTH AVE</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpethd2-luckiest~northave</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpethd2-luckiest~northave</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.538+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/29 17:26:23.016+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;247954188&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">247954188</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpethd2-luckiest~northave</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LUCKIE ST NW @ MERRITTS AVE</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp9v462-luckiestnw~merrittsave</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp9v462-luckiestnw~merrittsave</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.545+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/31 00:03:51.338+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;143771200&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">143771200</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.760000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp9v462-luckiestnw~merrittsave</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.76</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PINE ST NW @ MCAFEE ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp9v462-pinestnw~mcafeestnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp9v462-pinestnw~mcafeestnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.551+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 23:32:18.005+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;143771200&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">143771200</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.760000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp9v462-pinestnw~mcafeestnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.76</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PINE ST NW @ LOVEJOY ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp9v462-pinestnw~lovejoystnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp9v462-pinestnw~lovejoystnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.557+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/28 18:31:26.661+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;143771200&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">143771200</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.760000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp9v462-pinestnw~lovejoystnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.76</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CENTENNIAL OLYMPIC PARK DR @ HUNNICUTT ST</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp9v462-centennialolympicparkdr~hunnicuttst</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp9v462-centennialolympicparkdr~hunnicuttst</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.563+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 23:31:43.192+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;143771200&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">143771200</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.760000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp9v462-centennialolympicparkdr~hunnicuttst</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.76</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CENTENNIAL OLYMPIC PARK DR @ IVAN ALLEN JR BLVD</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp9v462-centennialolympicparkdr~ivanallenjrblvd</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp9v462-centennialolympicparkdr~ivanallenjrblvd</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.568+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/29 17:07:30.839+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;143771200&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">143771200</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.760000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp9v462-centennialolympicparkdr~ivanallenjrblvd</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.76</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>IVAN ALLEN JR BLVD NW @ LOVEJOY ST</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp9v462-ivanallenjrblvdnw~lovejoyst</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp9v462-ivanallenjrblvdnw~lovejoyst</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.574+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 23:32:42.414+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;143771200&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">143771200</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.760000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp9v462-ivanallenjrblvdnw~lovejoyst</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.76</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>IVAN ALLEN JR BLVD NW @ LUCKIE ST</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp9v462-ivanallenjrblvdnw~luckiest</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp9v462-ivanallenjrblvdnw~luckiest</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.581+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/28 12:02:24.710+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;143771200&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">143771200</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.760000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp9v462-ivanallenjrblvdnw~luckiest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.76</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARIETTA ST NW@PARKER ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp9v462-mariettastnw~parkerstnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp9v462-mariettastnw~parkerstnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.587+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/29 01:04:59.304+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;143771200&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">143771200</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.760000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp9v462-mariettastnw~parkerstnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.76</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARIETTA ST@615</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp9v462-mariettast~615</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp9v462-mariettast~615</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.592+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 02:01:49.482+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;143771200&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">143771200</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.390000, 33.760000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp9v462-mariettast~615</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.39,33.76</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARIETTA ST NW@WALLACE ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp7tu92-mariettastnw~wallacestnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp7tu92-mariettastnw~wallacestnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.598+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 23:32:39.179+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;169925546&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">169925546</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.400000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp7tu92-mariettastnw~wallacestnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.4,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARIETTA ST NW@MEANS ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp7tu92-mariettastnw~meansstnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp7tu92-mariettastnw~meansstnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.604+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 12:08:31.485+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;169925546&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">169925546</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.400000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp7tu92-mariettastnw~meansstnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.4,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARIETTA ST NW @ BANKHEAD AVE</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp7tu92-mariettastnw~bankheadave</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp7tu92-mariettastnw~bankheadave</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.609+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/28 18:07:55.570+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;169925546&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">169925546</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.400000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp7tu92-mariettastnw~bankheadave</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.4,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARIETTA ST NW@MCMILLAN ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp7tu92-mariettastnw~mcmillanstnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp7tu92-mariettastnw~mcmillanstnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.615+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/28 04:01:59.758+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;169925546&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">169925546</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.400000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp7tu92-mariettastnw~mcmillanstnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.4,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARIETTA ST NW @ NORTHSIDE DR NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp7tu92-mariettastnw~northsidedrnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp7tu92-mariettastnw~northsidedrnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.620+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/29 17:33:07.231+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;169925546&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">169925546</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.400000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp7tu92-mariettastnw~northsidedrnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.4,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARIETTA ST NW @ 881</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp7tu92-mariettastnw~881</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp7tu92-mariettastnw~881</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.627+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 23:32:45.851+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;169925546&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">169925546</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.400000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp7tu92-mariettastnw~881</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.4,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARIETTA ST @ HOWELL MILL RD</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bp7tu92-mariettast~howellmillrd</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bp7tu92-mariettast~howellmillrd</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.633+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 02:32:59.005+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;169925546&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">169925546</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.400000, 33.770000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bp7tu92-mariettast~howellmillrd</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.4,33.77</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOWELL MILL RD NW@9TH ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpjqwb2-howellmillrdnw~9thstnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpjqwb2-howellmillrdnw~9thstnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.638+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 12:07:27.060+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9254778&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9254778</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.410000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpjqwb2-howellmillrdnw~9thstnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.41,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOWELL MILL RD NW@10TH ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpjqwb2-howellmillrdnw~10thstnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpjqwb2-howellmillrdnw~10thstnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.645+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 17:34:19.640+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9254778&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9254778</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.410000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpjqwb2-howellmillrdnw~10thstnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.41,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOWELL MILL RD NW@BRADY AVE NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpjqwb2-howellmillrdnw~bradyavenw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpjqwb2-howellmillrdnw~bradyavenw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.651+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/31 00:04:01.954+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9254778&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9254778</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.410000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpjqwb2-howellmillrdnw~bradyavenw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.41,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOWELL MILL RD NW @ 14TH ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpjqwb2-howellmillrdnw~14thstnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpjqwb2-howellmillrdnw~14thstnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.657+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 02:32:58.448+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9254778&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9254778</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.410000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; }, { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;12&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5br-12&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpjqwb2-howellmillrdnw~14thstnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.41,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUFF RD@HOWELL MILL RD</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpjqwb2-huffrd~howellmillrd</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpjqwb2-huffrd~howellmillrd</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.662+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/28 18:08:59.458+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9254778&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9254778</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.410000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpjqwb2-huffrd~howellmillrd</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.41,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUFF RD NW@FOSTER ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpjqwb2-huffrdnw~fosterstnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpjqwb2-huffrdnw~fosterstnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.667+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 22:33:13.687+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9254778&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9254778</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.410000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpjqwb2-huffrdnw~fosterstnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.41,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUFF RD NW@EARNEST ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpjqwb2-huffrdnw~earneststnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpjqwb2-huffrdnw~earneststnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.673+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 23:32:39.185+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9254778&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9254778</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.410000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpjqwb2-huffrdnw~earneststnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.41,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUFF RD@BOOTH ST</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpjqwb2-huffrd~boothst</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpjqwb2-huffrd~boothst</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.678+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 23:32:39.191+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9254778&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9254778</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.410000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpjqwb2-huffrd~boothst</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.41,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUFF RD NW@BOYD AVE NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bpjqwb2-huffrdnw~boydavenw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bpjqwb2-huffrdnw~boydavenw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.684+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/31 00:07:22.460+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9254778&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9254778</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.410000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bpjqwb2-huffrdnw~boydavenw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.41,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUFF RD NW@ENGLISH ST NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bnvrnz2-huffrdnw~englishstnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bnvrnz2-huffrdnw~englishstnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.689+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 20:01:25.333+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9277474&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9277474</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bnvrnz2-huffrdnw~englishstnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUFF RD NW@FAIRMONT AVE NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bnvrnz2-huffrdnw~fairmontavenw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bnvrnz2-huffrdnw~fairmontavenw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.695+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 23:32:56.757+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9277474&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9277474</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bnvrnz2-huffrdnw~fairmontavenw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUFF RD NW@MENLO DR NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bnvrnz2-huffrdnw~menlodrnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bnvrnz2-huffrdnw~menlodrnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.701+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 20:01:25.346+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9277474&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9277474</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bnvrnz2-huffrdnw~menlodrnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUFF RD NW @ ELLSWORTH DR NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bnvrnz2-huffrdnw~ellsworthdrnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bnvrnz2-huffrdnw~ellsworthdrnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.707+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/31 00:04:50.773+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9277474&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9277474</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.780000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bnvrnz2-huffrdnw~ellsworthdrnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.78</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ELLSWORTH INDUSTRIAL BLVD @ 1320</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bnzr1p2-ellsworthindustrialblvd~1320</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bnzr1p2-ellsworthindustrialblvd~1320</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.713+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 23:33:02.374+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;200081625&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">200081625</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.790000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bnzr1p2-ellsworthindustrialblvd~1320</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.79</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ELLSWORTH INDUSTRIAL BLVD @ ELAINE AVE NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bnzr1p2-ellsworthindustrialblvd~elaineavenw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bnzr1p2-ellsworthindustrialblvd~elaineavenw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.719+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/30 23:31:08.756+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;200081625&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">200081625</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.790000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bnzr1p2-ellsworthindustrialblvd~elaineavenw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.79</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ELLSWORTH INDUSTRIAL BLVD @ 1425</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bnzr1p2-ellsworthindustrialblvd~1425</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bnzr1p2-ellsworthindustrialblvd~1425</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.725+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/31 00:04:48.034+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;200081625&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">200081625</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.790000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bnzr1p2-ellsworthindustrialblvd~1425</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.79</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ELLSWORTH INDUSTRIAL BLVD @ 1455</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bnzr1p2-ellsworthindustrialblvd~1455</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bnzr1p2-ellsworthindustrialblvd~1455</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.730+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/29 17:04:51.029+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;200081625&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">200081625</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.790000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bnzr1p2-ellsworthindustrialblvd~1455</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.79</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ELLSWORTH INDUSTRIAL BLVD @ 1530</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bnzr1p2-ellsworthindustrialblvd~1530</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bnzr1p2-ellsworthindustrialblvd~1530</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.737+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 23:31:05.316+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;200081625&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">200081625</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.790000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bnzr1p2-ellsworthindustrialblvd~1530</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.79</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ELLSWORTH INDUSTRIAL BLVD @ OLD CHATTAHOOCHEE AVE</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bqcp5r2-ellsworthindustrialblvd~oldchattahoocheeave</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bqcp5r2-ellsworthindustrialblvd~oldchattahoocheeave</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.743+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/28 14:50:46.124+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9278659&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9278659</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.800000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bqcp5r2-ellsworthindustrialblvd~oldchattahoocheeave</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.8</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHATTAHOOCHEE AVE NW@PERMALUME PL N</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bqcp5r2-chattahoocheeavenw~permalumepln</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bqcp5r2-chattahoocheeavenw~permalumepln</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.748+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/29 01:04:06.474+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9278659&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9278659</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.420000, 33.800000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bqcp5r2-chattahoocheeavenw~permalumepln</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.42,33.8</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHATTAHOOCHEE AVE@VAN HEUSEN BLVD</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bq9pgq2-chattahoocheeave~vanheusenblvd</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bq9pgq2-chattahoocheeave~vanheusenblvd</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.754+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 23:32:26.469+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9267161&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9267161</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.430000, 33.800000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bq9pgq2-chattahoocheeave~vanheusenblvd</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.43,33.8</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHATTAHOOCHEE AVE NW@CARROLL DR NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bq9pgq2-chattahoocheeavenw~carrolldrnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bq9pgq2-chattahoocheeavenw~carrolldrnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.760+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 23:32:03.271+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9267161&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9267161</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.430000, 33.800000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bq9pgq2-chattahoocheeavenw~carrolldrnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.43,33.8</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHATTAHOOCHEE AVE@1391</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bq9pgq2-chattahoocheeave~1391</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bq9pgq2-chattahoocheeave~1391</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.767+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 23:31:06.840+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9267161&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9267161</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.430000, 33.800000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bq9pgq2-chattahoocheeave~1391</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.43,33.8</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHATTAHOOCHEE AVE NW@LOGAN CIR NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bq9pgq2-chattahoocheeavenw~logancirnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bq9pgq2-chattahoocheeavenw~logancirnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.772+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/28 14:49:46.165+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9267161&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9267161</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.430000, 33.800000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bq9pgq2-chattahoocheeavenw~logancirnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.43,33.8</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHATTAHOOCHEE AVE NW@1417</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bq9pgq2-chattahoocheeavenw~1417</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bq9pgq2-chattahoocheeavenw~1417</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.778+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/31 00:06:51.251+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9267161&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9267161</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.430000, 33.800000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bq9pgq2-chattahoocheeavenw~1417</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.43,33.8</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHATTAHOOCHEE AVE NW@COLLIER RD NW</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bq9pgq2-chattahoocheeavenw~collierrdnw</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bq9pgq2-chattahoocheeavenw~collierrdnw</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.783+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/31 00:08:26.570+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9267161&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9267161</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.430000, 33.800000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bq9pgq2-chattahoocheeavenw~collierrdnw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.43,33.8</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHATTAHOOCHEE AVE@1495</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bq9pgq2-chattahoocheeave~1495</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bq9pgq2-chattahoocheeave~1495</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.789+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 12:02:30.218+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;9267161&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">9267161</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.430000, 33.800000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bq9pgq2-chattahoocheeave~1495</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.43,33.8</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHATTAHOOCHEE AVE NW@MARIETTA BLVD</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="id">s-dn5bqdzvw2-chattahoocheeavenw~mariettablvd</SimpleData>
+		<SimpleData name="onestop_id">s-dn5bqdzvw2-chattahoocheeavenw~mariettablvd</SimpleData>
+		<SimpleData name="created_at">2016/12/20 15:42:28.794+00</SimpleData>
+		<SimpleData name="updated_at">2017/12/27 12:07:27.066+00</SimpleData>
+		<SimpleData name="tags">{ &quot;osm_way_id&quot;: &quot;243357118&quot; }</SimpleData>
+		<SimpleData name="created_or_updated_in_changeset_id">3789</SimpleData>
+		<SimpleData name="timezone">America/New_York</SimpleData>
+		<SimpleData name="osm_way_id">243357118</SimpleData>
+		<SimpleData name="served_by_vehicle_types">(1:bus)</SimpleData>
+		<SimpleData name="geometry_centroid">{ &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -84.430000, 33.810000 ] }</SimpleData>
+		<SimpleData name="operators_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot; } ]</SimpleData>
+		<SimpleData name="routes_serving_stop">[ { &quot;operator_name&quot;: &quot;Metropolitan Atlanta Rapid Transit Authority&quot;, &quot;operator_onestop_id&quot;: &quot;o-dnh-metropolitanatlantarapidtransitauthority&quot;, &quot;route_name&quot;: &quot;1&quot;, &quot;route_onestop_id&quot;: &quot;r-dn5bp-1&quot; } ]</SimpleData>
+		<SimpleData name="title">s-dn5bqdzvw2-chattahoocheeavenw~mariettablvd</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.43,33.81</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

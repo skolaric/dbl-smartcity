@@ -1,0 +1,489 @@
+{
+	"features": [
+		{
+			"geometry": {
+				"type": "MultiLineString",
+				"coordinates": [
+					[
+						[
+							-74.0039,
+							40.75659
+						],
+						[
+							-74.00183,
+							40.75564
+						],
+						[
+							-73.99872,
+							40.7544
+						],
+						[
+							-73.9963,
+							40.75339
+						],
+						[
+							-73.99062,
+							40.75099
+						],
+						[
+							-73.98794,
+							40.74985
+						],
+						[
+							-73.98778,
+							40.74977
+						],
+						[
+							-73.98413,
+							40.74826
+						],
+						[
+							-73.97588,
+							40.74478
+						],
+						[
+							-73.97632,
+							40.74418
+						],
+						[
+							-73.97638,
+							40.74399
+						],
+						[
+							-73.97759,
+							40.74232
+						],
+						[
+							-73.97777,
+							40.74218
+						],
+						[
+							-73.9809,
+							40.73789
+						],
+						[
+							-73.97534,
+							40.73554
+						],
+						[
+							-73.97476,
+							40.73531
+						],
+						[
+							-73.9748,
+							40.73572
+						],
+						[
+							-73.9748,
+							40.73595
+						],
+						[
+							-73.9747,
+							40.73602
+						],
+						[
+							-73.97462,
+							40.73642
+						],
+						[
+							-73.9745,
+							40.73668
+						],
+						[
+							-73.97388,
+							40.73756
+						]
+					],
+					[
+						[
+							-74.0039,
+							40.75659
+						],
+						[
+							-74.00183,
+							40.75564
+						],
+						[
+							-73.99872,
+							40.7544
+						],
+						[
+							-73.9963,
+							40.75339
+						],
+						[
+							-73.99062,
+							40.75099
+						],
+						[
+							-73.98794,
+							40.74985
+						],
+						[
+							-73.98778,
+							40.74977
+						],
+						[
+							-73.98413,
+							40.74826
+						],
+						[
+							-73.97205,
+							40.74316
+						]
+					],
+					[
+						[
+							-73.97183,
+							40.74344
+						],
+						[
+							-73.97127,
+							40.74429
+						],
+						[
+							-73.97157,
+							40.74384
+						],
+						[
+							-73.9717,
+							40.74389
+						],
+						[
+							-73.97214,
+							40.74319
+						],
+						[
+							-73.97397,
+							40.74398
+						],
+						[
+							-73.98456,
+							40.74844
+						],
+						[
+							-73.98778,
+							40.74977
+						],
+						[
+							-73.9881,
+							40.74992
+						],
+						[
+							-73.99362,
+							40.75226
+						],
+						[
+							-74.00199,
+							40.75578
+						],
+						[
+							-74.00247,
+							40.75511
+						],
+						[
+							-74.00544,
+							40.75636
+						],
+						[
+							-74.00496,
+							40.75693
+						],
+						[
+							-74.00493,
+							40.75702
+						],
+						[
+							-74.00426,
+							40.75674
+						]
+					],
+					[
+						[
+							-73.97354,
+							40.73805
+						],
+						[
+							-73.97314,
+							40.73861
+						],
+						[
+							-73.97292,
+							40.73901
+						],
+						[
+							-73.97275,
+							40.73946
+						],
+						[
+							-73.97272,
+							40.7396
+						],
+						[
+							-73.97271,
+							40.73978
+						],
+						[
+							-73.97265,
+							40.7402
+						],
+						[
+							-73.97251,
+							40.74069
+						],
+						[
+							-73.97251,
+							40.74078
+						],
+						[
+							-73.97238,
+							40.74148
+						],
+						[
+							-73.97239,
+							40.74159
+						],
+						[
+							-73.97245,
+							40.74169
+						],
+						[
+							-73.97229,
+							40.74244
+						],
+						[
+							-73.97214,
+							40.74287
+						],
+						[
+							-73.97201,
+							40.74315
+						],
+						[
+							-73.97233,
+							40.74327
+						],
+						[
+							-73.97397,
+							40.74398
+						],
+						[
+							-73.98456,
+							40.74844
+						],
+						[
+							-73.98778,
+							40.74977
+						],
+						[
+							-73.9881,
+							40.74992
+						],
+						[
+							-73.99362,
+							40.75226
+						],
+						[
+							-74.00199,
+							40.75578
+						],
+						[
+							-74.00247,
+							40.75511
+						],
+						[
+							-74.00544,
+							40.75636
+						],
+						[
+							-74.00496,
+							40.75693
+						],
+						[
+							-74.00493,
+							40.75702
+						],
+						[
+							-74.00426,
+							40.75674
+						]
+					]
+				]
+			},
+			"properties": {
+				"onestop_id": "r-dr5ru-m34~sbs",
+				"created_at": "2016-02-08T05:03:55.495Z",
+				"updated_at": "2017-08-30T05:35:36.962Z",
+				"tags": {
+					"route_url": "http://web.mta.info/nyct/bus/schedule/manh/m034scur.pdf",
+					"route_desc": "Select Bus Service via 34th St Crosstown",
+					"route_color": "006CB7",
+					"route_long_name": "East Side - Javits Center",
+					"route_text_color": "FFFFFF"
+				},
+				"created_or_updated_in_changeset_id": 7511,
+				"name": "M34-SBS",
+				"vehicle_type": "bus",
+				"color": "006CB7",
+				"stops_served_by_route": [
+					{
+						"stop_onestop_id": "s-dr5ru8qdqn-waterside~waterside2",
+						"stop_name": "WATERSIDE/WATERSIDE 2"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru8nhnb-waterside~waterside1",
+						"stop_name": "WATERSIDE/WATERSIDE 1"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru8jckq-waterside~waterside",
+						"stop_name": "WATERSIDE/WATERSIDE"
+					},
+					{
+						"stop_onestop_id": "s-dr5rsxsv2z-e23st~avc",
+						"stop_name": "E 23 ST/AV C"
+					},
+					{
+						"stop_onestop_id": "s-dr5rsxfsw1-e23st~1av",
+						"stop_name": "E 23 ST/1 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru811b5-e23st~2av",
+						"stop_name": "E 23 ST/2 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru8dqhy-2av~e28st",
+						"stop_name": "2 AV/E 28 ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru9dd56-e34st~3av",
+						"stop_name": "E 34 ST/3 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru9p7ez-ferryterminal~fdrdrive",
+						"stop_name": "FERRY TERMINAL/FDR DRIVE"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru9jz6c-e34st~1av",
+						"stop_name": "E 34 ST/1 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru9kjh4-e34st~2av",
+						"stop_name": "E 34 ST/2 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru9b3c4-e34st~parkav",
+						"stop_name": "E 34 ST/PARK AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru6jf4x-w34st~5av",
+						"stop_name": "W 34 ST/5 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru679c7-w34st~broadway",
+						"stop_name": "W 34 ST/BROADWAY"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru693hp-w34st~7av",
+						"stop_name": "W 34 ST/7 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru4xx27-w34st~8av",
+						"stop_name": "W 34 ST/8 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru4vtx1-w34st~9av",
+						"stop_name": "W 34 ST/9 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru5h3xz-w34st~dyerav",
+						"stop_name": "W 34 ST/DYER AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru561pp-w34st~hudsonbl",
+						"stop_name": "W 34 ST/HUDSON BL"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru536bw-11av~w34st",
+						"stop_name": "11 AV/W 34 ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rggx8yd-w34st~12av",
+						"stop_name": "W 34 ST/12 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5rggxbp0-w34st~12av",
+						"stop_name": "W 34 ST/12 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru53db2-w34st~11av",
+						"stop_name": "W 34 ST/11 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru55epm-w34st~10av",
+						"stop_name": "W 34 ST/10 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru4vu59-w34st~9av",
+						"stop_name": "W 34 ST/9 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru4xtwb-w34st~8av",
+						"stop_name": "W 34 ST/8 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru6926n-w34st~7av",
+						"stop_name": "W 34 ST/7 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru65zg8-w34st~broadway",
+						"stop_name": "W 34 ST/BROADWAY"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru3yr7s-e34st~5av",
+						"stop_name": "E 34 ST/5 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru98z23-e34st~parkav",
+						"stop_name": "E 34 ST/PARK AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru97p6m-e34st~3av",
+						"stop_name": "E 34 ST/3 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru9k72p-e34st~2av",
+						"stop_name": "E 34 ST/2 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru9jvxj-e34st~1av",
+						"stop_name": "E 34 ST /1 AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5ru9p1vz-ferryterminal~fdrdr",
+						"stop_name": "FERRY TERMINAL/FDR DR"
+					}
+				],
+				"operated_by_onestop_id": "o-dr5r-nyct",
+				"operated_by_name": "MTA New York City Transit",
+				"wheelchair_accessible": "unknown",
+				"bikes_allowed": "unknown",
+				"route_stop_patterns_by_onestop_id": [
+					"r-dr5ru-m34~sbs-779274-9c1e5f",
+					"r-dr5ru-m34~sbs-3ce87c-33ea6a",
+					"r-dr5ru-m34~sbs-6d8a7f-3b976e",
+					"r-dr5ru-m34~sbs-564de6-696daa"
+				],
+				"title": "r-dr5ru-m34~sbs"
+			},
+			"type": "Feature",
+			"id": "r-dr5ru-m34~sbs"
+		}
+	],
+	"meta": {
+		"sort_key": "id",
+		"sort_order": "asc",
+		"per_page": 50,
+		"offset": 0
+	},
+	"type": "FeatureCollection"
+}

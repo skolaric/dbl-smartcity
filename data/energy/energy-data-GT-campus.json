@@ -1,0 +1,50 @@
+{
+  "energyData": [
+    {
+      "campus": {
+        "endUsePct": 
+        {
+          "timeInterval": {
+            "2017": [
+              "interiorEquipment": 0.30,
+              "heating": 0.20,
+              "interiorLighting": 0.20,
+              "cooling": 0.10, 
+              "fans": 0.05, 
+              "waterSystems": 0.05, 
+              "pumps": 0.05, 
+              "exteriorLighting": 0.05               
+            ]
+          }
+        }
+      }
+    "endUse": [
+      {
+        "timeInterval": 2017,
+        "endUsePct": [
+          {
+            "interiorEquipment": 0.30,
+            "heating": 0.20,
+            "interiorLighting": 0.20,
+            "cooling": 0.10, 
+            "fans": 0.05, 
+            "waterSystems": 0.05, 
+            "pumps": 0.05, 
+            "exteriorLighting": 0.05 
+          }
+        ],
+        "energyUsePct": [
+          {
+            "electricity": 0.72,
+            "naturalGas": 0.28,
+          }
+        ]
+      }
+    ],
+    "buildings": [
+      {
+        "name": "John and Joyce Caddell Building",        
+      },
+    ]
+  },
+}

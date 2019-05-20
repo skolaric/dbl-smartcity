@@ -1,0 +1,10 @@
+Route name: M34-SBS
+Onestop ID: r-dr5ru-m34~sbs 
+Vehicle type: bus
+URL: http://web.mta.info/nyct/bus/schedule/manh/m034scur.pdf
+Route description: Select Bus Service via 34th St Crosstown
+Long name: East Side - Javits Center
+Line color: 006CB7
+Text color: FFFFFF
+Operated by: MTA New York City Transit
+Operator Onestop ID: o-dr5r-nyct

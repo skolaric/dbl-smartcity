@@ -1,0 +1,17 @@
+ERROR 1: DXF layer does not support arbitrary field creation, field 'id' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'onestop_id' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'created_at' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'updated_at' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'tags' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'created_or_updated_in_changeset_id' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'name' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'timezone' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'osm_way_id' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'served_by_vehicle_types' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'parent_stop_onestop_id' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'wheelchair_boarding' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'geometry_reversegeo' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'geometry_centroid' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'operators_serving_stop' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'routes_serving_stop' not created.
+ERROR 1: DXF layer does not support arbitrary field creation, field 'title' not created.

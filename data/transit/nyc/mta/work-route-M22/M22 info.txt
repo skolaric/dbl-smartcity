@@ -1,0 +1,10 @@
+Route name: M22
+Onestop ID: r-dr5rs-m22 
+Vehicle type: bus
+URL: http://web.mta.info/nyct/bus/schedule/manh/m022cur.pdf
+Route description: via Madison St / Chambers St
+Long name: Lower East Side - Battery Park City
+Line color: 00AEEF
+Text color: FFFFFF
+Operated by: MTA New York City Transit
+Operator Onestop ID: o-dr5r-nyct

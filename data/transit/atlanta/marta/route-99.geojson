@@ -1,0 +1,525 @@
+{
+	"features": [
+		{
+			"geometry": {
+				"type": "MultiLineString",
+				"coordinates": [
+					[
+						[
+							-84.3851,
+							33.74978
+						],
+						[
+							-84.38629,
+							33.74867
+						],
+						[
+							-84.38682,
+							33.74905
+						],
+						[
+							-84.38725,
+							33.74939
+						],
+						[
+							-84.38707,
+							33.74972
+						],
+						[
+							-84.38685,
+							33.75001
+						],
+						[
+							-84.38244,
+							33.75424
+						],
+						[
+							-84.38229,
+							33.75443
+						],
+						[
+							-84.38203,
+							33.75443
+						],
+						[
+							-84.38102,
+							33.75367
+						],
+						[
+							-84.38198,
+							33.75277
+						],
+						[
+							-84.38362,
+							33.75119
+						],
+						[
+							-84.3842,
+							33.75059
+						],
+						[
+							-84.38337,
+							33.75003
+						],
+						[
+							-84.38319,
+							33.74994
+						],
+						[
+							-84.38302,
+							33.74988
+						],
+						[
+							-84.38278,
+							33.74983
+						],
+						[
+							-84.38251,
+							33.74981
+						],
+						[
+							-84.37952,
+							33.74976
+						],
+						[
+							-84.37949,
+							33.75125
+						],
+						[
+							-84.37667,
+							33.75123
+						],
+						[
+							-84.37664,
+							33.75018
+						],
+						[
+							-84.37576,
+							33.75032
+						],
+						[
+							-84.37581,
+							33.75009
+						],
+						[
+							-84.37663,
+							33.74997
+						],
+						[
+							-84.37664,
+							33.75018
+						],
+						[
+							-84.37387,
+							33.75062
+						],
+						[
+							-84.37357,
+							33.75068
+						],
+						[
+							-84.37377,
+							33.75147
+						],
+						[
+							-84.37425,
+							33.75279
+						],
+						[
+							-84.37435,
+							33.7538
+						],
+						[
+							-84.37436,
+							33.75549
+						],
+						[
+							-84.37213,
+							33.75547
+						],
+						[
+							-84.37207,
+							33.75934
+						],
+						[
+							-84.37196,
+							33.76323
+						],
+						[
+							-84.37186,
+							33.76873
+						],
+						[
+							-84.37176,
+							33.77118
+						],
+						[
+							-84.37276,
+							33.77117
+						],
+						[
+							-84.37651,
+							33.77123
+						],
+						[
+							-84.38168,
+							33.77128
+						],
+						[
+							-84.38677,
+							33.77129
+						],
+						[
+							-84.38675,
+							33.77156
+						],
+						[
+							-84.38691,
+							33.77162
+						],
+						[
+							-84.38697,
+							33.77172
+						],
+						[
+							-84.38696,
+							33.77189
+						]
+					],
+					[
+						[
+							-84.38696,
+							33.77189
+						],
+						[
+							-84.38689,
+							33.77197
+						],
+						[
+							-84.3867,
+							33.77203
+						],
+						[
+							-84.38669,
+							33.77229
+						],
+						[
+							-84.38469,
+							33.77224
+						],
+						[
+							-84.38398,
+							33.77238
+						],
+						[
+							-84.3833,
+							33.77242
+						],
+						[
+							-84.38342,
+							33.77129
+						],
+						[
+							-84.37176,
+							33.77118
+						],
+						[
+							-84.37182,
+							33.76993
+						],
+						[
+							-84.37189,
+							33.7679
+						],
+						[
+							-84.37199,
+							33.76186
+						],
+						[
+							-84.37206,
+							33.75982
+						],
+						[
+							-84.37213,
+							33.75547
+						],
+						[
+							-84.37436,
+							33.75549
+						],
+						[
+							-84.37433,
+							33.75337
+						],
+						[
+							-84.37429,
+							33.75286
+						],
+						[
+							-84.37377,
+							33.75147
+						],
+						[
+							-84.37357,
+							33.75068
+						],
+						[
+							-84.37387,
+							33.75062
+						],
+						[
+							-84.37576,
+							33.75032
+						],
+						[
+							-84.37581,
+							33.75009
+						],
+						[
+							-84.37663,
+							33.74997
+						],
+						[
+							-84.37667,
+							33.75123
+						],
+						[
+							-84.37796,
+							33.75125
+						],
+						[
+							-84.37949,
+							33.75125
+						],
+						[
+							-84.37952,
+							33.75229
+						],
+						[
+							-84.37956,
+							33.75247
+						],
+						[
+							-84.37963,
+							33.75259
+						],
+						[
+							-84.37969,
+							33.75267
+						],
+						[
+							-84.37982,
+							33.75279
+						],
+						[
+							-84.38102,
+							33.75367
+						],
+						[
+							-84.38198,
+							33.75277
+						],
+						[
+							-84.3851,
+							33.74978
+						]
+					]
+				]
+			},
+			"properties": {
+				"onestop_id": "r-dnh00-99",
+				"created_at": "2016-12-20T15:43:58.733Z",
+				"updated_at": "2016-12-20T15:43:58.733Z",
+				"tags": {
+					"route_color": "819FF7",
+					"route_long_name": "Boulevard/Monroe Drive"
+				},
+				"created_or_updated_in_changeset_id": 3789,
+				"name": "99",
+				"vehicle_type": "bus",
+				"color": "819FF7",
+				"stops_served_by_route": [
+					{
+						"stop_onestop_id": "s-djgzzzurgr-jessehilljrdrse~gilmerst",
+						"stop_name": "JESSE HILL JR DR SE @ GILMER ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-jessehilljrdrse~armstrongst",
+						"stop_name": "JESSE HILL JR DR SE @ ARMSTRONG ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-jessehilljrdrse~cocacolapl",
+						"stop_name": "JESSE HILL JR DR SE @ COCA COLA PL"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-bellstse~prattstse",
+						"stop_name": "BELL ST SE @ PRATT ST SE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-jacksonstse~decaturstse",
+						"stop_name": "JACKSON ST SE @ DECATUR ST SE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-boulevardne~cainstne",
+						"stop_name": "BOULEVARD NE @ CAIN ST NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh005ess8-northavene~boulevardne",
+						"stop_name": "NORTH AVE NE @ BOULEVARD NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh005ess8-northave~huntst",
+						"stop_name": "NORTH AVE @ HUNT ST"
+					},
+					{
+						"stop_onestop_id": "s-dnh005ess8-northave~centralparkplne",
+						"stop_name": "NORTH AVE @ CENTRAL PARK PL NE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpgske2-northavestation",
+						"stop_name": "NORTH AVE STATION"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpgske2-northavene~peachtreestne",
+						"stop_name": "NORTH AVE NE @ PEACHTREE ST NE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpgske2-northavene~juniperstne",
+						"stop_name": "NORTH AVE NE @ JUNIPER ST NE"
+					},
+					{
+						"stop_onestop_id": "s-dn5bpgske2-northave~piedmontave",
+						"stop_name": "NORTH AVE @ PIEDMONT AVE"
+					},
+					{
+						"stop_onestop_id": "s-dnh005ess8-northave~pennave",
+						"stop_name": "NORTH AVE @ PENN AVE"
+					},
+					{
+						"stop_onestop_id": "s-dnh005ess8-northavene~argonneavene",
+						"stop_name": "NORTH AVE NE @ ARGONNE AVE NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh005ess8-northavene~huntstne",
+						"stop_name": "NORTH AVE NE @ HUNT ST NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh005ess8-northavene~parkwaydrne",
+						"stop_name": "NORTH AVE NE @ PARKWAY DR NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh005ess8-boulevardne~northavene",
+						"stop_name": "BOULEVARD NE @ NORTH AVE NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh001gdk8-boulevardne~boulevardplne",
+						"stop_name": "BOULEVARD NE @ BOULEVARD PL NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh001gdk8-boulevardne~morganstne",
+						"stop_name": "BOULEVARD NE @ MORGAN ST NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh001gdk8-boulevardne~rankinstne",
+						"stop_name": "BOULEVARD NE @ RANKIN ST NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh001gdk8-boulevardne~angieravene",
+						"stop_name": "BOULEVARD NE @ ANGIER AVE NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh001gdk8-boulevardne~wabashavene",
+						"stop_name": "BOULEVARD NE @ WABASH AVE NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh001gdk8-boulevardne~ralphmcgillblvdne",
+						"stop_name": "BOULEVARD NE @ RALPH MCGILL BLVD NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh001gdk8-boulevardne~eastavene",
+						"stop_name": "BOULEVARD NE @ EAST AVE NE"
+					},
+					{
+						"stop_onestop_id": "s-dnh001gdk8-boulevardne~highlandavene",
+						"stop_name": "BOULEVARD NE @ HIGHLAND AVE NE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-boulevardne~freedompkwyne",
+						"stop_name": "BOULEVARD NE @ FREEDOM PKWY NE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-boulevardne~irwinstne",
+						"stop_name": "BOULEVARD NE @ IRWIN ST NE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-boulevardne~oldwheatstne",
+						"stop_name": "BOULEVARD NE @ OLD WHEAT ST NE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-jacksonstse~chamberlainstse",
+						"stop_name": "JACKSON ST SE @ CHAMBERLAIN ST SE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-jacksonstse~gartrellstse",
+						"stop_name": "JACKSON ST SE @ GARTRELL ST SE"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-jacksonstse~toddstse",
+						"stop_name": "JACKSON ST SE @ TODD ST SE"
+					},
+					{
+						"stop_onestop_id": "s-djupbn5tsx-kingmemorialstation",
+						"stop_name": "KING MEMORIAL STATION"
+					},
+					{
+						"stop_onestop_id": "s-djupbpgxux-auburnpointedr~verandacir",
+						"stop_name": "AUBURN POINTE DR @ VERANDA CIR"
+					},
+					{
+						"stop_onestop_id": "s-djupbn5tsx-bellstse~decaturstse",
+						"stop_name": "BELL ST SE @ DECATUR ST SE"
+					},
+					{
+						"stop_onestop_id": "s-djupbn5tsx-decaturstse~hillst",
+						"stop_name": "DECATUR ST SE @ HILL ST"
+					},
+					{
+						"stop_onestop_id": "s-djgzzyhmer-decaturst~263",
+						"stop_name": "DECATUR ST @ 263"
+					},
+					{
+						"stop_onestop_id": "s-djgzzyhmer-decaturst~prattstse",
+						"stop_name": "DECATUR ST @ PRATT ST SE"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-jessehilljrdrse~decaturstse",
+						"stop_name": "JESSE HILL JR DR SE @ DECATUR ST SE"
+					},
+					{
+						"stop_onestop_id": "s-djgzzzurgr-piedmontavese~gilmerstse",
+						"stop_name": "PIEDMONT AVE  SE @ GILMER ST SE"
+					},
+					{
+						"stop_onestop_id": "s-djgzzyhmer-gastatestation~jessehilljrdr",
+						"stop_name": "GA STATE STATION - JESSE HILL JR DR"
+					}
+				],
+				"operated_by_onestop_id": "o-dnh-metropolitanatlantarapidtransitauthority",
+				"operated_by_name": "Metropolitan Atlanta Rapid Transit Authority",
+				"wheelchair_accessible": "unknown",
+				"bikes_allowed": "unknown",
+				"route_stop_patterns_by_onestop_id": [],
+				"title": "r-dnh00-99"
+			},
+			"type": "Feature",
+			"id": "r-dnh00-99"
+		}
+	],
+	"meta": {
+		"sort_key": "id",
+		"sort_order": "asc",
+		"per_page": 50,
+		"offset": 0
+	},
+	"type": "FeatureCollection"
+}

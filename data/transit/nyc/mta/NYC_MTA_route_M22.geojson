@@ -1,0 +1,591 @@
+{
+	"features": [
+		{
+			"geometry": {
+				"type": "MultiLineString",
+				"coordinates": [
+					[
+						[
+							-73.97793,
+							40.71335
+						],
+						[
+							-73.97759,
+							40.71325
+						],
+						[
+							-73.97803,
+							40.71239
+						],
+						[
+							-73.98052,
+							40.71222
+						],
+						[
+							-73.98071,
+							40.71221
+						],
+						[
+							-73.98085,
+							40.71335
+						],
+						[
+							-73.98086,
+							40.71345
+						],
+						[
+							-73.98085,
+							40.71355
+						],
+						[
+							-73.98488,
+							40.71308
+						],
+						[
+							-73.9854,
+							40.71306
+						],
+						[
+							-73.98583,
+							40.71299
+						],
+						[
+							-73.99229,
+							40.71246
+						],
+						[
+							-73.99249,
+							40.71386
+						],
+						[
+							-73.99274,
+							40.71385
+						],
+						[
+							-73.99762,
+							40.71344
+						],
+						[
+							-73.99769,
+							40.71344
+						],
+						[
+							-73.99776,
+							40.71347
+						],
+						[
+							-73.99809,
+							40.71379
+						],
+						[
+							-73.99869,
+							40.71352
+						],
+						[
+							-74.00046,
+							40.71436
+						],
+						[
+							-74.00131,
+							40.71479
+						],
+						[
+							-74.00303,
+							40.71558
+						],
+						[
+							-74.00313,
+							40.71484
+						],
+						[
+							-74.0032,
+							40.71459
+						],
+						[
+							-74.00341,
+							40.71415
+						],
+						[
+							-74.0036,
+							40.71365
+						],
+						[
+							-74.00393,
+							40.71325
+						],
+						[
+							-74.00406,
+							40.71313
+						],
+						[
+							-74.0063,
+							40.71415
+						],
+						[
+							-74.00631,
+							40.71418
+						],
+						[
+							-74.00794,
+							40.71493
+						],
+						[
+							-74.01095,
+							40.71629
+						],
+						[
+							-74.01406,
+							40.71772
+						],
+						[
+							-74.01527,
+							40.71618
+						],
+						[
+							-74.01528,
+							40.71608
+						],
+						[
+							-74.01522,
+							40.71601
+						],
+						[
+							-74.01533,
+							40.7159
+						],
+						[
+							-74.0156,
+							40.71555
+						],
+						[
+							-74.01508,
+							40.71546
+						],
+						[
+							-74.01429,
+							40.71538
+						],
+						[
+							-74.01352,
+							40.71526
+						],
+						[
+							-74.01367,
+							40.71466
+						],
+						[
+							-74.01383,
+							40.71415
+						],
+						[
+							-74.01392,
+							40.71377
+						],
+						[
+							-74.01542,
+							40.71444
+						]
+					],
+					[
+						[
+							-74.01573,
+							40.71458
+						],
+						[
+							-74.01602,
+							40.71471
+						],
+						[
+							-74.0162,
+							40.71477
+						],
+						[
+							-74.01533,
+							40.7159
+						],
+						[
+							-74.01522,
+							40.71601
+						],
+						[
+							-74.01504,
+							40.71605
+						],
+						[
+							-74.01381,
+							40.71761
+						],
+						[
+							-74.01095,
+							40.71629
+						],
+						[
+							-74.00794,
+							40.71493
+						],
+						[
+							-74.00631,
+							40.71418
+						],
+						[
+							-74.0063,
+							40.71415
+						],
+						[
+							-74.00585,
+							40.71394
+						],
+						[
+							-74.00406,
+							40.71313
+						],
+						[
+							-74.00468,
+							40.7126
+						],
+						[
+							-74.0049,
+							40.71243
+						],
+						[
+							-74.00521,
+							40.71229
+						],
+						[
+							-74.00552,
+							40.71218
+						],
+						[
+							-74.00615,
+							40.71202
+						],
+						[
+							-74.00606,
+							40.71191
+						],
+						[
+							-74.00565,
+							40.71194
+						],
+						[
+							-74.00532,
+							40.71199
+						],
+						[
+							-74.00517,
+							40.71197
+						],
+						[
+							-74.00503,
+							40.71191
+						],
+						[
+							-74.00452,
+							40.71152
+						],
+						[
+							-74.00432,
+							40.71143
+						],
+						[
+							-74.00396,
+							40.7112
+						],
+						[
+							-74.00389,
+							40.71111
+						],
+						[
+							-74.0035,
+							40.71088
+						],
+						[
+							-74.00345,
+							40.71082
+						],
+						[
+							-74.00324,
+							40.71068
+						],
+						[
+							-74.00309,
+							40.71061
+						],
+						[
+							-74.00167,
+							40.70951
+						],
+						[
+							-74.00126,
+							40.71003
+						],
+						[
+							-74.00123,
+							40.71005
+						],
+						[
+							-74.00067,
+							40.71081
+						],
+						[
+							-73.99986,
+							40.7116
+						],
+						[
+							-73.9997,
+							40.71178
+						],
+						[
+							-73.99711,
+							40.71204
+						],
+						[
+							-73.99678,
+							40.7121
+						],
+						[
+							-73.99327,
+							40.7124
+						],
+						[
+							-73.99229,
+							40.71246
+						],
+						[
+							-73.98583,
+							40.71299
+						],
+						[
+							-73.9854,
+							40.71306
+						],
+						[
+							-73.98488,
+							40.71308
+						],
+						[
+							-73.97973,
+							40.71368
+						],
+						[
+							-73.97929,
+							40.71376
+						],
+						[
+							-73.97823,
+							40.71344
+						]
+					]
+				]
+			},
+			"properties": {
+				"onestop_id": "r-dr5rs-m22",
+				"created_at": "2016-02-08T05:03:50.165Z",
+				"updated_at": "2017-08-30T05:35:35.459Z",
+				"tags": {
+					"route_url": "http://web.mta.info/nyct/bus/schedule/manh/m022cur.pdf",
+					"route_desc": "via Madison St / Chambers St",
+					"route_color": "00AEEF",
+					"route_long_name": "Lower East Side - Battery Park City",
+					"route_text_color": "FFFFFF"
+				},
+				"created_or_updated_in_changeset_id": 7511,
+				"name": "M22",
+				"vehicle_type": "bus",
+				"color": "00AEEF",
+				"stops_served_by_route": [
+					{
+						"stop_onestop_id": "s-dr5rsedgun-grandst~fdrdr",
+						"stop_name": "GRAND ST/FDR DR"
+					},
+					{
+						"stop_onestop_id": "s-dr5rse3n2f-cherryst~jacksonst",
+						"stop_name": "CHERRY ST/JACKSON ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rse8us8-jacksonst~madisonst",
+						"stop_name": "JACKSON ST/MADISON ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rse8mv6-madisonst~jacksonst",
+						"stop_name": "MADISON ST/JACKSON ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs7w5xy-madisonst~gouverneurst",
+						"stop_name": "MADISON ST/GOUVERNEUR ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs7t6gw-madisonst~montgomeryst",
+						"stop_name": "MADISON ST/MONTGOMERY ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs7efp8-madisonst~clintonst",
+						"stop_name": "MADISON ST/CLINTON ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs7dcq1-madisonst~jeffersonst",
+						"stop_name": "MADISON ST/JEFFERSON ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs79bd6-madisonst~rutgersst",
+						"stop_name": "MADISON ST/RUTGERS ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs72x9z-madisonst~pikest",
+						"stop_name": "MADISON ST/PIKE ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs5wqxm-ebroadway~marketst",
+						"stop_name": "E BROADWAY/MARKET ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs5st6k-ebroadway~catherinest",
+						"stop_name": "E BROADWAY/CATHERINE ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs5ewc6-worthst~mottst",
+						"stop_name": "WORTH ST/MOTT ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rsh1034-worthst~centrest",
+						"stop_name": "WORTH ST/CENTRE ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5regxgvp-centrest~chambersst",
+						"stop_name": "CENTRE ST/CHAMBERS ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5regy35y-chambersst~broadway",
+						"stop_name": "CHAMBERS ST/BROADWAY"
+					},
+					{
+						"stop_onestop_id": "s-dr5regvjwv-chambersst~churchst",
+						"stop_name": "CHAMBERS ST/CHURCH ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5reu5cz5-chambersst~hudsonst",
+						"stop_name": "CHAMBERS ST/HUDSON ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5reu3dmx-chambersst~westst",
+						"stop_name": "CHAMBERS ST/WEST ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5reu271j-northendav~warrenst",
+						"stop_name": "NORTH END AV/WARREN ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5resp8ug-murrayst~northendav",
+						"stop_name": "MURRAY ST/NORTH END AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5reezem4-veseyst~northendav",
+						"stop_name": "VESEY ST/NORTH END AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5reez7vm-veseyst~northendav",
+						"stop_name": "VESEY ST/NORTH END AV"
+					},
+					{
+						"stop_onestop_id": "s-dr5reu2d4u-northendav~warrenst",
+						"stop_name": "NORTH END AV/WARREN ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5reu5h7d-chambersst~greenwichst",
+						"stop_name": "CHAMBERS ST/GREENWICH ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5reuh0qb-chambersst~wbroadway",
+						"stop_name": "CHAMBERS ST/W BROADWAY"
+					},
+					{
+						"stop_onestop_id": "s-dr5regvhrk-chambersst~churchst",
+						"stop_name": "CHAMBERS ST/CHURCH ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5regwx92-chambersst~broadway",
+						"stop_name": "CHAMBERS ST/BROADWAY"
+					},
+					{
+						"stop_onestop_id": "s-dr5regqebc-parkrow~sprucest",
+						"stop_name": "PARK ROW/SPRUCE ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5regr8vn-frankfortst~williamst",
+						"stop_name": "FRANKFORT ST/WILLIAM ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs4cqr7-frankfortst~pearlst",
+						"stop_name": "FRANKFORT ST/PEARL ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs544tt-pearlst~rfwagnersrpl",
+						"stop_name": "PEARL ST/R F WAGNER SR PL"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs5k7g7-madisonst~oliverst",
+						"stop_name": "MADISON ST/OLIVER ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs5rju9-madisonst~marketst",
+						"stop_name": "MADISON ST/MARKET ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs72wus-madisonst~pikest",
+						"stop_name": "MADISON ST/PIKE ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs7d2n4-madisonst~rutgersst",
+						"stop_name": "MADISON ST/RUTGERS ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs7e29k-madisonst~jeffersonst",
+						"stop_name": "MADISON ST/JEFFERSON ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs7s9we-madisonst~clintonst",
+						"stop_name": "MADISON ST/CLINTON ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs7w4dm-madisonst~montgomeryst",
+						"stop_name": "MADISON ST/MONTGOMERY ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rs7wg61-madisonst~gouverneurst",
+						"stop_name": "MADISON ST/GOUVERNEUR ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rse8h7f-madisonst~gouverneurst",
+						"stop_name": "MADISON ST/GOUVERNEUR ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rse9j77-madisonst~grandst",
+						"stop_name": "MADISON ST/GRAND ST"
+					},
+					{
+						"stop_onestop_id": "s-dr5rsedsmp-grandst~fdrdr",
+						"stop_name": "GRAND ST/FDR DR"
+					}
+				],
+				"operated_by_onestop_id": "o-dr5r-nyct",
+				"operated_by_name": "MTA New York City Transit",
+				"wheelchair_accessible": "unknown",
+				"bikes_allowed": "unknown",
+				"route_stop_patterns_by_onestop_id": [
+					"r-dr5rs-m22-8f1e1b-ae7c5b",
+					"r-dr5rs-m22-d3120a-14dd28"
+				],
+				"title": "r-dr5rs-m22"
+			},
+			"type": "Feature",
+			"id": "r-dr5rs-m22"
+		}
+	],
+	"meta": {
+		"sort_key": "id",
+		"sort_order": "asc",
+		"per_page": 50,
+		"offset": 0
+	},
+	"type": "FeatureCollection"
+}
