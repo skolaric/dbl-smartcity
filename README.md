@@ -22,19 +22,16 @@ Many thanks to the following individuals whose efforts and specialized knowledge
 
 **GT Energy Modeling App**
 
-Godfried L. Augenbroe, Director, High Performance Building Lab, Professor, Georgia Tech
-
-Yun Joon Jung, Research Assistant, High Performance Building Lab, PhD Student, Georgia Tech
+* Godfried L. Augenbroe, Director, High Performance Building Lab, Professor, Georgia Tech
+* Yun Joon Jung, Research Assistant, High Performance Building Lab, PhD Student, Georgia Tech
 
 **GT Sensor Data Analytics App**
 
-Steve Sywak, Director, Facilities Information Technology, Georgia Tech
-
-Pardis Pishdad-Bozorgi, PhD, School of Building Construction, Assistant Professor, Georgia Tech
-
-Xinghua Gao, School of Building Construction, PhD Student, Georgia Tech
+* Steve Sywak, Director, Facilities Information Technology, Georgia Tech
+* Pardis Pishdad-Bozorgi, PhD, School of Building Construction, Assistant Professor, Georgia Tech
+* Xinghua Gao, School of Building Construction, PhD Student, Georgia Tech
 
 
 # IT Infrastructure &amp; Support
 
-Perry Minyard, Director of Information Technology, College of Design, Georgia Tech
+* Perry Minyard, Director of Information Technology, College of Design, Georgia Tech
