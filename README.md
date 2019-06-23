@@ -42,4 +42,4 @@ Many thanks to the following individuals whose efforts and specialized knowledge
 
 ## License
 
-MIT license.
+The platform is released under MIT license.
