@@ -6,6 +6,8 @@
 
 ![DBL SmartCity](/images/screenshots/DBL-SmartCity-screenshot.jpg)
 
+The initial conference paper on the DBL SmartCity platform, titled *DBL SmartCity: An Open-Source IoT Platform for Managing Large BIM and 3D Geo-Referenced Datasets*, can be downloaded from [http://hdl.handle.net/10125/59636](http://hdl.handle.net/10125/59636).
+
 ## Platform/System Credits
 
 **Principal Investigator**
