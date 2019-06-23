@@ -22,7 +22,14 @@ Georgia Tech
 
 ## Additional Credits
 
-Many thanks to the following individuals whose efforts and specialized knowledge contributed to the development of apps, and to the deployment of the platform.
+Many thanks to the following individuals whose efforts and specialized knowledge contributed to the development and deployment of the platform.
+
+**Building Information Modeling (BIM) and Autodesk Revit Modeling**
+
+* Bill Oswell, Architect, Facilities Management, Georgia Tech
+* Xinyi Du, Graduate Student, Georgia Tech
+* Sounok Sarkar, Graduate Student, Georgia Tech
+* Wentian Suo, Graduate Student, Georgia Tech
 
 **GT Energy Modeling App**
 
@@ -31,7 +38,7 @@ Many thanks to the following individuals whose efforts and specialized knowledge
 
 **GT Sensor Data Analytics App**
 
-* Steve Sywak, Director, Facilities Information Technology, Georgia Tech
+* Steve Sywak, Director of Facilities Information Technology, Facilities Management, Georgia Tech
 * Pardis Pishdad-Bozorgi, PhD, School of Building Construction, Assistant Professor, Georgia Tech
 * Xinghua Gao, School of Building Construction, PhD Student, Georgia Tech
 
