@@ -10,15 +10,8 @@ The initial paper on the DBL SmartCity platform, titled *DBL SmartCity: An Open-
 
 ## Platform/System Credits
 
-**Principal Investigator**
-Dennis Shelden, AIA PhD
-Director, Digital Building Laboratory
-Associate Professor, Georgia Tech
-
-**Project Lead, System Architect, Developer**
-Siniša Kolarić, PhD
-Postdoctoral Fellow, Digital Building Laboratory
-Georgia Tech
+* **Principal investigator**: Dennis Shelden, AIA PhD, Director, Digital Building Laboratory, Associate Professor, Georgia Tech
+* **Project lead, system architect, developer**: Siniša Kolarić, PhD, Postdoctoral Fellow, Digital Building Laboratory, Georgia Tech
 
 ## Additional Credits
 
