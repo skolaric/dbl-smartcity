@@ -4,7 +4,7 @@
 
 *Keywords:* SmartCity &bull; Internet of Things (IoT) &bull; Building Information Model (BIM) &bull; Big Data
 
-# Platform/System Credits
+## Platform/System Credits
 
 **Principal Investigator**
 Dennis Shelden, AIA PhD
@@ -16,7 +16,7 @@ Siniša Kolarić, PhD
 Postdoctoral Fellow, Digital Building Laboratory
 Georgia Tech
 
-# Additional Credits
+## Additional Credits
 
 Many thanks to the following individuals whose efforts and specialized knowledge contributed to the development of apps, and to the deployment of the platform.
 
@@ -32,6 +32,6 @@ Many thanks to the following individuals whose efforts and specialized knowledge
 * Xinghua Gao, School of Building Construction, PhD Student, Georgia Tech
 
 
-# IT Infrastructure &amp; Support
+**IT Infrastructure &amp; Support**
 
 * Perry Minyard, Director of Information Technology, College of Design, Georgia Tech
