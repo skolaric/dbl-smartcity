@@ -39,3 +39,7 @@ Many thanks to the following individuals whose efforts and specialized knowledge
 **IT Infrastructure &amp; Support**
 
 * Perry Minyard, Director of Information Technology, College of Design, Georgia Tech
+
+## License
+
+MIT license.
