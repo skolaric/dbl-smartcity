@@ -4,6 +4,8 @@
 
 *Keywords:* SmartCity &bull; Internet of Things (IoT) &bull; Building Information Model (BIM) &bull; Big Data
 
+![DBL SmartCity](/images/screenshots/DBL-SmartCity-screenshot.jpg)
+
 ## Platform/System Credits
 
 **Principal Investigator**
