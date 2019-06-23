@@ -22,17 +22,9 @@ Many thanks to the following individuals whose efforts and specialized knowledge
 
 **GT Energy Modeling App**
 
-<p>
-  Godfried L. Augenbroe<br>
-  Director, High Performance Building Lab<br>
-  Professor, Georgia Tech
-</p>
+Godfried L. Augenbroe, Director, High Performance Building Lab, Professor, Georgia Tech
 
-<p>
-  Yun Joon Jung<br>
-  Research Assistant, High Performance Building Lab<br>
-  PhD Student, Georgia Tech
-</p>
+Yun Joon Jung, Research Assistant, High Performance Building Lab, PhD Student, Georgia Tech
 
 **GT Sensor Data Analytics App**
 
